@@ -1,3 +1,10 @@
-This is the project under the university course in Data Engineering, Fall 2021.
+### Meme entry structure
 
-Team: Robert Altmäe, Raul Niit, Fedor Stomakhin, Aleksandr Krylov
+(coming up)
+
+---
+### Data Cleansing steps
+
+* ...
+
+(coming up)
