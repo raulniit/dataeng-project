@@ -1,0 +1,139 @@
+Total number of memes: 28,799
+{
+	'title':	duplicates -  16,713 unique
+
+	'url': 
+
+	'last_update_source':	delete ?
+
+	'category': {'Culture', 'Event', 'Meme', 'Person', 'Site', 'Subculture'}
+
+	'template_image_url': 
+
+	'meta':
+
+		'og:title': 
+
+		'og:site_name': {'Know Your Meme'}
+
+		'og:image': 
+
+		'og:image:width':	delete ?
+
+		'og:image:height':	delete ?
+
+		'og:type': {'article'}
+
+		'fb:app_id':	delete ?
+
+		'fb:pages':		delete ?
+
+		'article:publisher': {'https://www.facebook.com/knowyourmeme'}
+
+		'twitter:card':
+
+		'twitter:site': {'@knowyourmeme'}
+
+		'twitter:creator': {'@knowyourmeme'}
+
+		'twitter:title':	same as og:title
+
+		'twitter:description':
+
+		'twitter:image':	same as og:image
+
+		'description':
+
+		'og:url':
+
+		'og:description':	same as description, twitter:description
+
+
+	'ld': 1 missing
+
+		'@context': {'http://schema.org'}
+
+		'@type': {'BreadcrumbList'}
+
+		'itemListElement': [
+
+			{
+				'@type': {'ListItem'}
+
+				'position': {1}
+
+				'item': 
+
+					'@id': {'https://knowyourmeme.com/categories/culture',
+						    'https://knowyourmeme.com/categories/event',
+							'https://knowyourmeme.com/categories/meme',
+							'https://knowyourmeme.com/categories/person',
+							'https://knowyourmeme.com/categories/site',
+							'https://knowyourmeme.com/categories/subculture'
+					}
+
+					'name': {'Culture', 'Event', 'Meme', 'Person', 'Site', 'Subculture'}
+			},
+			{
+				'@type': {'ListItem'}
+
+				'position': {2}
+
+				'item':
+
+					'@id': same as 'og:url'
+
+					'name':
+
+			}
+
+		]
+
+
+	'added': 193 missing		delete ?
+
+	'details':
+
+		'status': {'confirmed', 'deadpool', 'submission', 'unlisted'}
+
+		'origin':
+
+		'year':
+
+		'type':
+
+
+	'content': 13,393 missing
+
+		// most frequent
+
+		'about': 10,332
+
+		'origin': 9,368
+
+		'external references': 8,862	
+
+		'spread': 8,802
+
+		'search interest': 8,330
+
+		'various examples': 2,802
+
+		'notable examples': 2,674
+
+		'related memes': 913
+
+
+	'tags': 13,393 missing
+
+	'additional_references': 13,393 missing
+
+	'search_keywords': 9,260 missing
+
+	'parent': 16,596 missing
+
+	'siblings': 6,596 missing
+
+	'children': 14,638 missing
+
+}

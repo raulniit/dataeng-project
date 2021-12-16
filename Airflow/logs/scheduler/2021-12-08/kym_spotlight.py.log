@@ -1,0 +1,142 @@
+[2021-12-08 18:58:59,483] {scheduler_job.py:182} INFO - Started process (PID=78) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 18:58:59,484] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 18:58:59,484] {logging_mixin.py:104} INFO - [2021-12-08 18:58:59,484] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 18:58:59,831] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 18:58:59,853] {logging_mixin.py:104} INFO - [2021-12-08 18:58:59,851] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 18:58:59,902] {logging_mixin.py:104} INFO - [2021-12-08 18:58:59,902] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 18:58:59,912] {scheduler_job.py:193} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(first_dag) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/jobs/scheduler_job.py", line 187, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/jobs/scheduler_job.py", line 648, in process_file
+    dagbag.sync_to_db()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 552, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.6/site-packages/tenacity/__init__.py", line 390, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.6/site-packages/tenacity/__init__.py", line 356, in iter
+    return fut.result()
+  File "/usr/local/lib/python3.6/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 566, in sync_to_db
+    DAG.bulk_write_to_db(self.dags.values(), session=session)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dag.py", line 1904, in bulk_write_to_db
+    DagCode.bulk_sync_to_db([dag.fileloc for dag in orm_dags])
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 88, in __exit__
+    next(self.gen)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 32, in create_session
+    session.commit()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1046, in commit
+    self.transaction.commit()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 504, in commit
+    self._prepare_impl()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 483, in _prepare_impl
+    self.session.flush()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2540, in flush
+    self._flush(objects)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2682, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2642, in _flush
+    flush_context.execute()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1083, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "serialized_dag_pkey"
+DETAIL:  Key (dag_id)=(first_dag) already exists.
+
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, last_updated, dag_hash) VALUES (%(dag_id)s, %(fileloc)s, %(fileloc_hash)s, %(data)s, %(last_updated)s, %(dag_hash)s)]
+[parameters: {'dag_id': 'first_dag', 'fileloc': '/opt/airflow/dags/kym_spotlight.py', 'fileloc_hash': 17946266265828298, 'data': '{"__version": 1, "dag": {"_dag_id": "first_dag", "fileloc": "/opt/airflow/dags/kym_spotlight.py", "catchup": false, "timezone": "UTC", "default_args" ... (2561 characters truncated) ... task_module": "airflow.operators.python", "_is_dummy": false, "op_args": [], "op_kwargs": {"path": "/opt/airflow/dags/kym_vision_processed.json"}}]}}', 'last_updated': datetime.datetime(2021, 12, 8, 18, 58, 59, 847822, tzinfo=Timezone('UTC')), 'dag_hash': '8ec601a15c5019a8ab490d96bf895a50'}]
+(Background on this error at: http://sqlalche.me/e/13/gkpj)
+[2021-12-08 18:59:30,025] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 18:59:30,026] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 18:59:30,027] {logging_mixin.py:104} INFO - [2021-12-08 18:59:30,027] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 18:59:30,309] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 18:59:30,328] {logging_mixin.py:104} INFO - [2021-12-08 18:59:30,327] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 18:59:30,390] {logging_mixin.py:104} INFO - [2021-12-08 18:59:30,390] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 18:59:30,408] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_spotlight.py took 0.385 seconds
+[2021-12-08 19:00:00,492] {scheduler_job.py:182} INFO - Started process (PID=86) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:00:00,493] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 19:00:00,494] {logging_mixin.py:104} INFO - [2021-12-08 19:00:00,494] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:00:00,495] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:00:00,495] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_spotlight.py took 0.006 seconds
+[2021-12-08 19:00:30,590] {scheduler_job.py:182} INFO - Started process (PID=89) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:00:30,592] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 19:00:30,593] {logging_mixin.py:104} INFO - [2021-12-08 19:00:30,593] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:00:30,594] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:00:30,594] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_spotlight.py took 0.006 seconds
+[2021-12-08 19:01:00,694] {scheduler_job.py:182} INFO - Started process (PID=92) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:01:00,695] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 19:01:00,696] {logging_mixin.py:104} INFO - [2021-12-08 19:01:00,696] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:01:00,697] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:01:00,698] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_spotlight.py took 0.005 seconds
+[2021-12-08 19:01:30,790] {scheduler_job.py:182} INFO - Started process (PID=95) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:01:30,792] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 19:01:30,793] {logging_mixin.py:104} INFO - [2021-12-08 19:01:30,793] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:01:30,794] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:01:30,795] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_spotlight.py took 0.006 seconds
+[2021-12-08 19:02:00,891] {scheduler_job.py:182} INFO - Started process (PID=98) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:02:00,892] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 19:02:00,893] {logging_mixin.py:104} INFO - [2021-12-08 19:02:00,893] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:02:00,893] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:02:00,894] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_spotlight.py took 0.005 seconds
+[2021-12-08 19:02:30,986] {scheduler_job.py:182} INFO - Started process (PID=101) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:02:30,987] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 19:02:30,988] {logging_mixin.py:104} INFO - [2021-12-08 19:02:30,988] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:02:30,989] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:02:30,990] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_spotlight.py took 0.006 seconds
+[2021-12-08 19:03:01,077] {scheduler_job.py:182} INFO - Started process (PID=104) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:03:01,078] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 19:03:01,079] {logging_mixin.py:104} INFO - [2021-12-08 19:03:01,079] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:03:01,080] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:03:01,081] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_spotlight.py took 0.006 seconds
+[2021-12-08 19:03:31,173] {scheduler_job.py:182} INFO - Started process (PID=107) to work on /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:03:31,174] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_spotlight.py for tasks to queue
+[2021-12-08 19:03:31,175] {logging_mixin.py:104} INFO - [2021-12-08 19:03:31,175] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:03:31,177] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_spotlight.py
+[2021-12-08 19:03:31,177] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_spotlight.py took 0.006 seconds

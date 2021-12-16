@@ -1,0 +1,21 @@
+[2021-12-13 15:13:40,525] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.writeOut 2021-12-12T15:12:09.901226+00:00 [queued]>
+[2021-12-13 15:13:40,545] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.writeOut 2021-12-12T15:12:09.901226+00:00 [queued]>
+[2021-12-13 15:13:40,545] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 15:13:40,546] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-13 15:13:40,546] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 15:13:40,558] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): writeOut> on 2021-12-12T15:12:09.901226+00:00
+[2021-12-13 15:13:40,562] {standard_task_runner.py:52} INFO - Started process 2985 to run task
+[2021-12-13 15:13:40,565] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'writeOut', '2021-12-12T15:12:09.901226+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_vision.py', '--cfg-path', '/tmp/tmpgo7me28m', '--error-file', '/tmp/tmp66mb1kas']
+[2021-12-13 15:13:40,566] {standard_task_runner.py:77} INFO - Job 4: Subtask writeOut
+[2021-12-13 15:13:40,608] {logging_mixin.py:104} INFO - Running <TaskInstance: first_dag.writeOut 2021-12-12T15:12:09.901226+00:00 [running]> on host e888e487975c
+[2021-12-13 15:13:40,647] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=writeOut
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-12T15:12:09.901226+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-12T15:12:09.901226+00:00
+[2021-12-13 15:13:48,821] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-13 15:13:48,981] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=writeOut, execution_date=20211212T151209, start_date=20211213T151340, end_date=20211213T151348
+[2021-12-13 15:13:49,130] {local_task_job.py:146} INFO - Task exited with return code 0

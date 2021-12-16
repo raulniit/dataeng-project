@@ -1,0 +1,22 @@
+[2021-11-07 15:50:41,931] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: second_dag.get_spreadsheet 2021-11-07T15:50:28.294323+00:00 [None]>
+[2021-11-07 15:50:41,949] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: second_dag.get_spreadsheet 2021-11-07T15:50:28.294323+00:00 [None]>
+[2021-11-07 15:50:41,949] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-07 15:50:41,950] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-11-07 15:50:41,950] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-07 15:50:41,964] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): get_spreadsheet> on 2021-11-07T15:50:28.294323+00:00
+[2021-11-07 15:50:41,969] {standard_task_runner.py:52} INFO - Started process 51 to run task
+[2021-11-07 15:50:41,972] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'second_dag', 'get_spreadsheet', '2021-11-07T15:50:28.294323+00:00', '--job-id', '7', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/second_dag.py', '--cfg-path', '/tmp/tmpkcy14_xr', '--error-file', '/tmp/tmp_dk8ezqk']
+[2021-11-07 15:50:41,972] {standard_task_runner.py:77} INFO - Job 7: Subtask get_spreadsheet
+[2021-11-07 15:50:42,011] {logging_mixin.py:104} INFO - Running <TaskInstance: second_dag.get_spreadsheet 2021-11-07T15:50:28.294323+00:00 [running]> on host c6854056e93d
+[2021-11-07 15:50:42,049] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=second_dag
+AIRFLOW_CTX_TASK_ID=get_spreadsheet
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-07T15:50:28.294323+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-11-07T15:50:28.294323+00:00
+[2021-11-07 15:50:47,774] {python.py:118} INFO - Done. Returned value was: None
+[2021-11-07 15:50:47,785] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=second_dag, task_id=get_spreadsheet, execution_date=20211107T155028, start_date=20211107T155041, end_date=20211107T155047
+[2021-11-07 15:50:47,816] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-11-07 15:50:47,823] {local_task_job.py:146} INFO - Task exited with return code 0

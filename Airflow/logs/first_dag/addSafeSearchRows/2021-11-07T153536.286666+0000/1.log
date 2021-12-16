@@ -1,0 +1,49 @@
+[2021-11-07 15:36:00,822] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-07T15:35:36.286666+00:00 [None]>
+[2021-11-07 15:36:00,834] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-07T15:35:36.286666+00:00 [None]>
+[2021-11-07 15:36:00,835] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-07 15:36:00,836] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-11-07 15:36:00,836] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-07 15:36:00,851] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): addSafeSearchRows> on 2021-11-07T15:35:36.286666+00:00
+[2021-11-07 15:36:00,856] {standard_task_runner.py:52} INFO - Started process 53 to run task
+[2021-11-07 15:36:00,858] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'addSafeSearchRows', '2021-11-07T15:35:36.286666+00:00', '--job-id', '4', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmp2dqha88x', '--error-file', '/tmp/tmpetd8bk7h']
+[2021-11-07 15:36:00,859] {standard_task_runner.py:77} INFO - Job 4: Subtask addSafeSearchRows
+[2021-11-07 15:36:00,898] {logging_mixin.py:104} INFO - Running <TaskInstance: first_dag.addSafeSearchRows 2021-11-07T15:35:36.286666+00:00 [running]> on host 545f1b0a58b4
+[2021-11-07 15:36:00,936] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=addSafeSearchRows
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-07T15:35:36.286666+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-11-07T15:35:36.286666+00:00
+[2021-11-07 15:36:00,937] {taskinstance.py:1455} ERROR - Expected object or value
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/first_dag.py", line 27, in addSafeSearchRows
+    df = pd.read_json(path, orient="index")
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/util/_decorators.py", line 199, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/util/_decorators.py", line 296, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/json/_json.py", line 618, in read_json
+    result = json_reader.read()
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/json/_json.py", line 755, in read
+    obj = self._get_object_parser(self.data)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/json/_json.py", line 777, in _get_object_parser
+    obj = FrameParser(json, **kwargs).parse()
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/json/_json.py", line 886, in parse
+    self._parse_no_numpy()
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/io/json/_json.py", line 1130, in _parse_no_numpy
+    loads(json, precise_float=self.precise_float),
+ValueError: Expected object or value
+[2021-11-07 15:36:00,943] {taskinstance.py:1503} INFO - Marking task as UP_FOR_RETRY. dag_id=first_dag, task_id=addSafeSearchRows, execution_date=20211107T153536, start_date=20211107T153600, end_date=20211107T153600
+[2021-11-07 15:36:00,991] {local_task_job.py:146} INFO - Task exited with return code 1

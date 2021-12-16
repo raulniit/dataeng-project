@@ -1,0 +1,21 @@
+[2021-12-16 13:08:47,205] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_kym 2021-12-16T13:08:46.379904+00:00 [queued]>
+[2021-12-16 13:08:47,221] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_kym 2021-12-16T13:08:46.379904+00:00 [queued]>
+[2021-12-16 13:08:47,222] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-16 13:08:47,222] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-16 13:08:47,222] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-16 13:08:47,232] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): cleanse_kym> on 2021-12-16T13:08:46.379904+00:00
+[2021-12-16 13:08:47,237] {standard_task_runner.py:52} INFO - Started process 27612 to run task
+[2021-12-16 13:08:47,239] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'cleanse_kym', '2021-12-16T13:08:46.379904+00:00', '--job-id', '38', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmpyp5552mh', '--error-file', '/tmp/tmp9ax1202s']
+[2021-12-16 13:08:47,240] {standard_task_runner.py:77} INFO - Job 38: Subtask cleanse_kym
+[2021-12-16 13:08:47,275] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.cleanse_kym 2021-12-16T13:08:46.379904+00:00 [running]> on host f46d95c5a5d9
+[2021-12-16 13:08:47,310] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=cleanse_kym
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-16T13:08:46.379904+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-16T13:08:46.379904+00:00
+[2021-12-16 13:11:36,853] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-16 13:11:36,904] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=cleanse_kym, execution_date=20211216T130846, start_date=20211216T130847, end_date=20211216T131136
+[2021-12-16 13:11:36,963] {local_task_job.py:146} INFO - Task exited with return code 0

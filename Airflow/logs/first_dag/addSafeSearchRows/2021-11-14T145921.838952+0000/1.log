@@ -1,0 +1,21 @@
+[2021-11-14 14:59:24,148] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-14T14:59:21.838952+00:00 [queued]>
+[2021-11-14 14:59:24,175] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-14T14:59:21.838952+00:00 [queued]>
+[2021-11-14 14:59:24,175] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-14 14:59:24,176] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-11-14 14:59:24,176] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-14 14:59:24,188] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): addSafeSearchRows> on 2021-11-14T14:59:21.838952+00:00
+[2021-11-14 14:59:24,194] {standard_task_runner.py:52} INFO - Started process 57 to run task
+[2021-11-14 14:59:24,196] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'addSafeSearchRows', '2021-11-14T14:59:21.838952+00:00', '--job-id', '22', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpf4phvkx7', '--error-file', '/tmp/tmpp35v1o0z']
+[2021-11-14 14:59:24,197] {standard_task_runner.py:77} INFO - Job 22: Subtask addSafeSearchRows
+[2021-11-14 14:59:24,237] {logging_mixin.py:104} INFO - Running <TaskInstance: first_dag.addSafeSearchRows 2021-11-14T14:59:21.838952+00:00 [running]> on host f65740cbacf4
+[2021-11-14 14:59:24,306] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=addSafeSearchRows
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-14T14:59:21.838952+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-11-14T14:59:21.838952+00:00
+[2021-11-14 15:01:42,926] {python.py:118} INFO - Done. Returned value was: None
+[2021-11-14 15:01:46,563] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=addSafeSearchRows, execution_date=20211114T145921, start_date=20211114T145924, end_date=20211114T150146
+[2021-11-14 15:01:46,715] {local_task_job.py:146} INFO - Task exited with return code 1

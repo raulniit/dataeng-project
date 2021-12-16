@@ -1,0 +1,24 @@
+[2021-11-14 14:59:19,766] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-13T14:59:05.840470+00:00 [queued]>
+[2021-11-14 14:59:19,788] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-13T14:59:05.840470+00:00 [queued]>
+[2021-11-14 14:59:19,788] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-14 14:59:19,789] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-11-14 14:59:19,789] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-14 14:59:19,804] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): addSafeSearchRows> on 2021-11-13T14:59:05.840470+00:00
+[2021-11-14 14:59:19,809] {standard_task_runner.py:52} INFO - Started process 55 to run task
+[2021-11-14 14:59:19,812] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'addSafeSearchRows', '2021-11-13T14:59:05.840470+00:00', '--job-id', '21', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpjc68asub', '--error-file', '/tmp/tmpj7ptt123']
+[2021-11-14 14:59:19,813] {standard_task_runner.py:77} INFO - Job 21: Subtask addSafeSearchRows
+[2021-11-14 14:59:19,852] {logging_mixin.py:104} INFO - Running <TaskInstance: first_dag.addSafeSearchRows 2021-11-13T14:59:05.840470+00:00 [running]> on host f65740cbacf4
+[2021-11-14 14:59:19,907] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=addSafeSearchRows
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-13T14:59:05.840470+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-11-13T14:59:05.840470+00:00
+[2021-11-14 15:02:24,114] {python.py:118} INFO - Done. Returned value was: None
+[2021-11-14 15:02:25,313] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=addSafeSearchRows, execution_date=20211113T145905, start_date=20211114T145919, end_date=20211114T150225
+[2021-11-14 15:02:27,886] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-11-14 15:02:27,843] {local_task_job.py:188} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2021-11-14 15:02:27,943] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 55
+[2021-11-14 15:02:27,950] {process_utils.py:66} INFO - Process psutil.Process(pid=55, status='terminated', exitcode=0, started='14:59:18') (55) terminated with exit code 0

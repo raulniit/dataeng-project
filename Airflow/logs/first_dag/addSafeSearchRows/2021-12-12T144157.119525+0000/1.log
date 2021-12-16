@@ -1,0 +1,75 @@
+[2021-12-13 14:42:22,608] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-12-12T14:41:57.119525+00:00 [queued]>
+[2021-12-13 14:42:22,672] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-12-12T14:41:57.119525+00:00 [queued]>
+[2021-12-13 14:42:22,673] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 14:42:22,673] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-13 14:42:22,674] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 14:42:22,693] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): addSafeSearchRows> on 2021-12-12T14:41:57.119525+00:00
+[2021-12-13 14:42:22,698] {standard_task_runner.py:52} INFO - Started process 2855 to run task
+[2021-12-13 14:42:22,701] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'addSafeSearchRows', '2021-12-12T14:41:57.119525+00:00', '--job-id', '24', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_vision.py', '--cfg-path', '/tmp/tmp4dzbqq7b', '--error-file', '/tmp/tmpi4f9eqho']
+[2021-12-13 14:42:22,702] {standard_task_runner.py:77} INFO - Job 24: Subtask addSafeSearchRows
+[2021-12-13 14:42:22,741] {logging_mixin.py:104} INFO - Running <TaskInstance: first_dag.addSafeSearchRows 2021-12-12T14:41:57.119525+00:00 [running]> on host c2664a5050de
+[2021-12-13 14:42:22,783] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=addSafeSearchRows
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-12T14:41:57.119525+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-12T14:41:57.119525+00:00
+[2021-12-13 14:49:55,497] {local_task_job.py:187} WARNING - State of this instance has been externally set to up_for_retry. Terminating instance.
+[2021-12-13 14:49:55,499] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 2855
+[2021-12-13 14:49:55,500] {taskinstance.py:1239} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-12-13 14:49:55,507] {taskinstance.py:1455} ERROR - Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/series.py", line 970, in __setitem__
+    self._set_with_engine(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/series.py", line 1003, in _set_with_engine
+    loc = self.index._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'safeSearch_spoof'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kym_vision.py", line 31, in addSafeSearchRows
+    df.apply(getSafeSearch, axis=1)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 7765, in apply
+    return op.get_result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/apply.py", line 185, in get_result
+    return self.apply_standard()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/apply.py", line 276, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/apply.py", line 290, in apply_series_generator
+    results[i] = self.f(v)
+  File "/opt/airflow/dags/kym_vision.py", line 23, in getSafeSearch
+    row["safeSearch_"+key] = safeSearchToNumberCode[row.safeSearchAnnotation[key]]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/series.py", line 978, in __setitem__
+    self.loc[key] = value
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 692, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1629, in _setitem_with_indexer
+    self._setitem_with_indexer_missing(indexer, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexing.py", line 1889, in _setitem_with_indexer_missing
+    new_values = Series([value])._values
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/series.py", line 315, in __init__
+    elif is_dict_like(data):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/dtypes/inference.py", line 289, in is_dict_like
+    all(hasattr(obj, attr) for attr in dict_like_attrs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1241, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-12-13 14:49:55,516] {taskinstance.py:1496} INFO - Marking task as FAILED. dag_id=first_dag, task_id=addSafeSearchRows, execution_date=20211212T144157, start_date=20211213T144222, end_date=20211213T144955
+[2021-12-13 14:49:55,633] {process_utils.py:66} INFO - Process psutil.Process(pid=2855, status='terminated', exitcode=1, started='14:42:22') (2855) terminated with exit code 1
