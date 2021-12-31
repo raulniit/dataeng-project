@@ -1,0 +1,43 @@
+[2021-12-13 14:34:42,597] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.writeOut 2021-12-12T14:34:41.228908+00:00 [queued]>
+[2021-12-13 14:34:42,616] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.writeOut 2021-12-12T14:34:41.228908+00:00 [queued]>
+[2021-12-13 14:34:42,617] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 14:34:42,617] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-13 14:34:42,617] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 14:34:42,631] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): writeOut> on 2021-12-12T14:34:41.228908+00:00
+[2021-12-13 14:34:42,635] {standard_task_runner.py:52} INFO - Started process 58 to run task
+[2021-12-13 14:34:42,638] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'writeOut', '2021-12-12T14:34:41.228908+00:00', '--job-id', '13', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmpepwl_4yx', '--error-file', '/tmp/tmpkadbzb8c']
+[2021-12-13 14:34:42,639] {standard_task_runner.py:77} INFO - Job 13: Subtask writeOut
+[2021-12-13 14:34:42,674] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.writeOut 2021-12-12T14:34:41.228908+00:00 [running]> on host c2664a5050de
+[2021-12-13 14:34:42,709] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=writeOut
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-12T14:34:41.228908+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-12T14:34:41.228908+00:00
+[2021-12-13 14:34:42,734] {taskinstance.py:1455} ERROR - [Errno 2] No such file or directory: 'kym_vision_processed.parquet'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kym_cleansing.py", line 170, in writeOutToParquet
+    df = pd.read_parquet('kym_vision_processed.parquet', engine='pyarrow')
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 459, in read_parquet
+    return impl.read(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 214, in read
+    path_or_handle, handles, kwargs["filesystem"] = _get_path_or_handle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 82, in _get_path_or_handle
+    handles = get_handle(path_or_handle, mode, is_text=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/common.py", line 651, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'kym_vision_processed.parquet'
+[2021-12-13 14:34:42,740] {taskinstance.py:1496} INFO - Marking task as UP_FOR_RETRY. dag_id=cleansing_dag, task_id=writeOut, execution_date=20211212T143441, start_date=20211213T143442, end_date=20211213T143442
+[2021-12-13 14:34:42,770] {local_task_job.py:146} INFO - Task exited with return code 1

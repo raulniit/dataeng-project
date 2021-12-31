@@ -1,0 +1,24 @@
+[2021-12-30 16:28:25,175] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.request2 2021-12-29T16:24:18.694921+00:00 [queued]>
+[2021-12-30 16:28:25,194] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.request2 2021-12-29T16:24:18.694921+00:00 [queued]>
+[2021-12-30 16:28:25,194] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-30 16:28:25,195] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-12-30 16:28:25,195] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-30 16:28:25,207] {taskinstance.py:1114} INFO - Executing <Task(PostgresOperator): request2> on 2021-12-29T16:24:18.694921+00:00
+[2021-12-30 16:28:25,213] {standard_task_runner.py:52} INFO - Started process 27910 to run task
+[2021-12-30 16:28:25,216] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'cleansing_dag', 'request2', '2021-12-29T16:24:18.694921+00:00', '--job-id', '40', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmp1tf85kt_', '--error-file', '/tmp/tmp_icma9x3']
+[2021-12-30 16:28:25,217] {standard_task_runner.py:77} INFO - Job 40: Subtask request2
+[2021-12-30 16:28:25,254] {logging_mixin.py:109} INFO - Running <TaskInstance: cleansing_dag.request2 2021-12-29T16:24:18.694921+00:00 [running]> on host 71257c6b2a25
+[2021-12-30 16:28:25,304] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=request2
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-29T16:24:18.694921+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-29T16:24:18.694921+00:00
+[2021-12-30 16:28:25,305] {postgres.py:68} INFO - Executing: SELECT * FROM additional_analysis_table;
+[2021-12-30 16:28:25,313] {base.py:70} INFO - Using connection to: id: postgres_default. Host: postgres, Port: 5432, Schema: postgres, Login: ***, Password: ***, extra: {}
+[2021-12-30 16:28:25,317] {dbapi.py:204} INFO - Running statement: SELECT * FROM additional_analysis_table;, parameters: None
+[2021-12-30 16:28:25,338] {dbapi.py:212} INFO - Rows affected: 3102
+[2021-12-30 16:28:25,349] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=request2, execution_date=20211229T162418, start_date=20211230T162825, end_date=20211230T162825
+[2021-12-30 16:28:25,388] {local_task_job.py:151} INFO - Task exited with return code 0

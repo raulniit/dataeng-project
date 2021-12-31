@@ -1,0 +1,31 @@
+[2021-12-28 14:43:29,694] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.create_relational_db 2021-12-27T14:40:38.307959+00:00 [queued]>
+[2021-12-28 14:43:29,712] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.create_relational_db 2021-12-27T14:40:38.307959+00:00 [queued]>
+[2021-12-28 14:43:29,712] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 14:43:29,713] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-28 14:43:29,713] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 14:43:29,724] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): create_relational_db> on 2021-12-27T14:40:38.307959+00:00
+[2021-12-28 14:43:29,729] {standard_task_runner.py:52} INFO - Started process 14238 to run task
+[2021-12-28 14:43:29,732] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'create_relational_db', '2021-12-27T14:40:38.307959+00:00', '--job-id', '88', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmp_7y0ujc0', '--error-file', '/tmp/tmp13c3573l']
+[2021-12-28 14:43:29,732] {standard_task_runner.py:77} INFO - Job 88: Subtask create_relational_db
+[2021-12-28 14:43:29,771] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.create_relational_db 2021-12-27T14:40:38.307959+00:00 [running]> on host 78fdbf5e507e
+[2021-12-28 14:43:29,810] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=create_relational_db
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-27T14:40:38.307959+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-27T14:40:38.307959+00:00
+[2021-12-28 14:43:29,907] {logging_mixin.py:104} WARNING - /opt/airflow/dags/kym_cleansing.py:230 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2021-12-28 14:43:29,915] {logging_mixin.py:104} WARNING - /opt/airflow/dags/kym_cleansing.py:233 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2021-12-28 14:43:30,326] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-28 14:43:30,338] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=create_relational_db, execution_date=20211227T144038, start_date=20211228T144329, end_date=20211228T144330
+[2021-12-28 14:43:30,388] {local_task_job.py:146} INFO - Task exited with return code 0

@@ -1,0 +1,21 @@
+[2021-12-31 14:29:48,977] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: main_dag.create_type_dimension_query 2021-12-30T14:24:46.319481+00:00 [queued]>
+[2021-12-31 14:29:48,990] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: main_dag.create_type_dimension_query 2021-12-30T14:24:46.319481+00:00 [queued]>
+[2021-12-31 14:29:48,990] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-31 14:29:48,991] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-12-31 14:29:48,991] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-31 14:29:49,008] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): create_type_dimension_query> on 2021-12-30T14:24:46.319481+00:00
+[2021-12-31 14:29:49,013] {standard_task_runner.py:52} INFO - Started process 7105 to run task
+[2021-12-31 14:29:49,016] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'main_dag', 'create_type_dimension_query', '2021-12-30T14:24:46.319481+00:00', '--job-id', '17', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/main_dag.py', '--cfg-path', '/tmp/tmpi4vmzzxh', '--error-file', '/tmp/tmpalhcpoev']
+[2021-12-31 14:29:49,017] {standard_task_runner.py:77} INFO - Job 17: Subtask create_type_dimension_query
+[2021-12-31 14:29:49,062] {logging_mixin.py:109} INFO - Running <TaskInstance: main_dag.create_type_dimension_query 2021-12-30T14:24:46.319481+00:00 [running]> on host 8e99a5d40b8f
+[2021-12-31 14:29:49,117] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=main_dag
+AIRFLOW_CTX_TASK_ID=create_type_dimension_query
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-30T14:24:46.319481+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-30T14:24:46.319481+00:00
+[2021-12-31 14:29:49,154] {python.py:151} INFO - Done. Returned value was: None
+[2021-12-31 14:29:49,164] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=main_dag, task_id=create_type_dimension_query, execution_date=20211230T142446, start_date=20211231T142948, end_date=20211231T142949
+[2021-12-31 14:29:49,229] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,79 @@
+[2021-11-07 15:53:31,969] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-07T15:53:19.520536+00:00 [None]>
+[2021-11-07 15:53:31,987] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-07T15:53:19.520536+00:00 [None]>
+[2021-11-07 15:53:31,988] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-07 15:53:31,988] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-11-07 15:53:31,989] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-07 15:53:31,999] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): addSafeSearchRows> on 2021-11-07T15:53:19.520536+00:00
+[2021-11-07 15:53:32,004] {standard_task_runner.py:52} INFO - Started process 55 to run task
+[2021-11-07 15:53:32,006] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'addSafeSearchRows', '2021-11-07T15:53:19.520536+00:00', '--job-id', '9', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpemsgwjyl', '--error-file', '/tmp/tmpuyd6u6nh']
+[2021-11-07 15:53:32,007] {standard_task_runner.py:77} INFO - Job 9: Subtask addSafeSearchRows
+[2021-11-07 15:53:32,047] {logging_mixin.py:104} INFO - Running <TaskInstance: first_dag.addSafeSearchRows 2021-11-07T15:53:19.520536+00:00 [running]> on host c6854056e93d
+[2021-11-07 15:53:32,085] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=addSafeSearchRows
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-07T15:53:19.520536+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-11-07T15:53:19.520536+00:00
+[2021-11-07 15:54:12,643] {local_task_job.py:188} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2021-11-07 15:54:12,647] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 55
+[2021-11-07 15:54:12,647] {taskinstance.py:1239} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-11-07 15:54:12,655] {taskinstance.py:1455} ERROR - Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/series.py", line 1001, in __setitem__
+    self._set_with_engine(key, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/series.py", line 1034, in _set_with_engine
+    loc = self.index._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1675, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1683, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'safeSearch_spoof'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/first_dag.py", line 31, in addSafeSearchRows
+    df.apply(getSafeSearch, axis=1)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/frame.py", line 7552, in apply
+    return op.get_result()
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/apply.py", line 185, in get_result
+    return self.apply_standard()
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/apply.py", line 276, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/apply.py", line 305, in apply_series_generator
+    results[i] = self.f(v)
+  File "/opt/airflow/dags/first_dag.py", line 23, in getSafeSearch
+    row["safeSearch_"+key] = safeSearchToNumberCode[row.safeSearchAnnotation[key]]
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/series.py", line 1009, in __setitem__
+    self.loc[key] = value
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 670, in __setitem__
+    iloc._setitem_with_indexer(indexer, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1626, in _setitem_with_indexer
+    self._setitem_with_indexer_missing(indexer, value)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexing.py", line 1822, in _setitem_with_indexer_missing
+    new_indexer = index.get_indexer([new_index[-1]])
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 2965, in get_indexer
+    target = ensure_index(target)
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 5609, in ensure_index
+    converted, all_arrays = lib.clean_index_list(index_like)
+  File "pandas/_libs/lib.pyx", line 695, in pandas._libs.lib.clean_index_list
+  File "pandas/_libs/lib.pyx", line 1337, in pandas._libs.lib.infer_dtype
+  File "/home/airflow/.local/lib/python3.6/site-packages/pandas/core/dtypes/cast.py", line 1570, in construct_1d_object_array_from_listlike
+    def construct_1d_object_array_from_listlike(values) -> np.ndarray:
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1241, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-11-07 15:54:12,665] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=first_dag, task_id=addSafeSearchRows, execution_date=20211107T155319, start_date=20211107T155331, end_date=20211107T155412
+[2021-11-07 15:54:12,780] {process_utils.py:66} INFO - Process psutil.Process(pid=55, status='terminated', exitcode=1, started='15:53:31') (55) terminated with exit code 1

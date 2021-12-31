@@ -1,0 +1,21 @@
+[2021-12-16 13:01:06,448] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_vision 2021-12-16T13:01:04.961857+00:00 [queued]>
+[2021-12-16 13:01:06,468] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_vision 2021-12-16T13:01:04.961857+00:00 [queued]>
+[2021-12-16 13:01:06,468] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-16 13:01:06,469] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-16 13:01:06,469] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-16 13:01:06,481] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): cleanse_vision> on 2021-12-16T13:01:04.961857+00:00
+[2021-12-16 13:01:06,489] {standard_task_runner.py:52} INFO - Started process 13794 to run task
+[2021-12-16 13:01:06,492] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'cleanse_vision', '2021-12-16T13:01:04.961857+00:00', '--job-id', '32', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmpvou3it9b', '--error-file', '/tmp/tmpdpvk_bhs']
+[2021-12-16 13:01:06,493] {standard_task_runner.py:77} INFO - Job 32: Subtask cleanse_vision
+[2021-12-16 13:01:06,534] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.cleanse_vision 2021-12-16T13:01:04.961857+00:00 [running]> on host f46d95c5a5d9
+[2021-12-16 13:01:06,586] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=cleanse_vision
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-16T13:01:04.961857+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-16T13:01:04.961857+00:00
+[2021-12-16 13:02:47,750] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-16 13:02:47,764] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=cleanse_vision, execution_date=20211216T130104, start_date=20211216T130106, end_date=20211216T130247
+[2021-12-16 13:02:47,803] {local_task_job.py:146} INFO - Task exited with return code 0

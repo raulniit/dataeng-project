@@ -1,0 +1,2 @@
+[2021-12-13 14:34:42,598] {taskinstance.py:841} INFO - Dependencies not met for <TaskInstance: cleansing_dag.writeOut 2021-12-13T14:34:40.356629+00:00 [queued]>, dependency 'Previous Dagrun State' FAILED: depends_on_past is true for this task, but the previous task instance <TaskInstance: cleansing_dag.writeOut 2021-12-12 14:34:41.228908+00:00 [queued]> is in the state 'queued' which is not a successful state.
+[2021-12-13 14:34:42,606] {local_task_job.py:93} INFO - Task is not able to be run

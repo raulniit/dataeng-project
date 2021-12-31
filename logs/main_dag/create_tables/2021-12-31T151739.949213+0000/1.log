@@ -1,0 +1,36 @@
+[2021-12-31 15:22:38,478] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: main_dag.create_tables 2021-12-31T15:17:39.949213+00:00 [queued]>
+[2021-12-31 15:22:38,492] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: main_dag.create_tables 2021-12-31T15:17:39.949213+00:00 [queued]>
+[2021-12-31 15:22:38,492] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-31 15:22:38,493] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-12-31 15:22:38,493] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-31 15:22:38,508] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): create_tables> on 2021-12-31T15:17:39.949213+00:00
+[2021-12-31 15:22:38,514] {standard_task_runner.py:52} INFO - Started process 21124 to run task
+[2021-12-31 15:22:38,516] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'main_dag', 'create_tables', '2021-12-31T15:17:39.949213+00:00', '--job-id', '54', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/main_dag.py', '--cfg-path', '/tmp/tmprpcxdvaa', '--error-file', '/tmp/tmpnb_ozyoe']
+[2021-12-31 15:22:38,517] {standard_task_runner.py:77} INFO - Job 54: Subtask create_tables
+[2021-12-31 15:22:38,553] {logging_mixin.py:109} INFO - Running <TaskInstance: main_dag.create_tables 2021-12-31T15:17:39.949213+00:00 [running]> on host 8e99a5d40b8f
+[2021-12-31 15:22:38,603] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=main_dag
+AIRFLOW_CTX_TASK_ID=create_tables
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-31T15:17:39.949213+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-31T15:17:39.949213+00:00
+[2021-12-31 15:22:38,762] {logging_mixin.py:109} WARNING - /opt/***/dags/main_dag.py:248 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2021-12-31 15:22:38,765] {logging_mixin.py:109} WARNING - /opt/***/dags/main_dag.py:249 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2021-12-31 15:22:38,772] {logging_mixin.py:109} WARNING - /opt/***/dags/main_dag.py:252 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2021-12-31 15:22:39,175] {python.py:151} INFO - Done. Returned value was: None
+[2021-12-31 15:22:39,186] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=main_dag, task_id=create_tables, execution_date=20211231T151739, start_date=20211231T152238, end_date=20211231T152239
+[2021-12-31 15:22:39,220] {local_task_job.py:151} INFO - Task exited with return code 0

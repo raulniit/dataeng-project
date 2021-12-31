@@ -1,0 +1,21 @@
+[2021-12-30 16:23:14,431] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_spotlight 2021-12-29T16:23:13.194411+00:00 [queued]>
+[2021-12-30 16:23:14,450] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_spotlight 2021-12-29T16:23:13.194411+00:00 [queued]>
+[2021-12-30 16:23:14,451] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-30 16:23:14,451] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-12-30 16:23:14,451] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-30 16:23:14,461] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): cleanse_spotlight> on 2021-12-29T16:23:13.194411+00:00
+[2021-12-30 16:23:14,465] {standard_task_runner.py:52} INFO - Started process 7044 to run task
+[2021-12-30 16:23:14,468] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'cleansing_dag', 'cleanse_spotlight', '2021-12-29T16:23:13.194411+00:00', '--job-id', '18', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmpbaszvc3z', '--error-file', '/tmp/tmpjmnul4lh']
+[2021-12-30 16:23:14,469] {standard_task_runner.py:77} INFO - Job 18: Subtask cleanse_spotlight
+[2021-12-30 16:23:14,510] {logging_mixin.py:109} INFO - Running <TaskInstance: cleansing_dag.cleanse_spotlight 2021-12-29T16:23:13.194411+00:00 [running]> on host 71257c6b2a25
+[2021-12-30 16:23:14,557] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=cleanse_spotlight
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-29T16:23:13.194411+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-29T16:23:13.194411+00:00
+[2021-12-30 16:23:23,091] {python.py:151} INFO - Done. Returned value was: None
+[2021-12-30 16:23:23,102] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=cleanse_spotlight, execution_date=20211229T162313, start_date=20211230T162314, end_date=20211230T162323
+[2021-12-30 16:23:23,151] {local_task_job.py:151} INFO - Task exited with return code 0

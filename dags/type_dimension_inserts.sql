@@ -1,0 +1,36 @@
+CREATE TABLE IF NOT EXISTS type_dimension (
+type_id INT PRIMARY KEY,
+meme_type TEXT);INSERT INTO type_dimension VALUES ('0', 'No type') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('1', 'snowclone') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('2', 'pop-culture-reference') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('3', 'song') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('4', 'viral-video') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('5', 'dance') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('6', 'catchphrase') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('7', 'image-macro') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('8', 'slang') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('9', 'participatory-media') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('10', 'shock-media') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('11', 'visual-effect') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('12', 'parody') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('13', 'remix') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('14', 'character') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('15', 'hoax') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('16', 'advertisement') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('17', 'reaction') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('18', 'copypasta') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('19', 'social-game') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('20', 'axiom') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('21', 'optical-illusion') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('22', 'photoshop') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('23', 'emoticon') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('24', 'animal') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('25', 'creepypasta') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('26', 'sound-effect') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('27', 'lip-dub') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('28', 'fan-labor') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('29', 'fan-art') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('30', 'conspiracy-theory') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('31', 'viral-debate') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('32', 'hashtag') ON CONFLICT (type_id) DO NOTHING;
+INSERT INTO type_dimension VALUES ('33', 'cliche') ON CONFLICT (type_id) DO NOTHING;

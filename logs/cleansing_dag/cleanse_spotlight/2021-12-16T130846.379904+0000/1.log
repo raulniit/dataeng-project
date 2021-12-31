@@ -1,0 +1,21 @@
+[2021-12-16 13:08:47,210] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_spotlight 2021-12-16T13:08:46.379904+00:00 [queued]>
+[2021-12-16 13:08:47,226] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_spotlight 2021-12-16T13:08:46.379904+00:00 [queued]>
+[2021-12-16 13:08:47,226] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-16 13:08:47,227] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-16 13:08:47,227] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-16 13:08:47,238] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): cleanse_spotlight> on 2021-12-16T13:08:46.379904+00:00
+[2021-12-16 13:08:47,243] {standard_task_runner.py:52} INFO - Started process 27613 to run task
+[2021-12-16 13:08:47,246] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'cleanse_spotlight', '2021-12-16T13:08:46.379904+00:00', '--job-id', '37', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmpr88xdmdg', '--error-file', '/tmp/tmpi_uglu8n']
+[2021-12-16 13:08:47,247] {standard_task_runner.py:77} INFO - Job 37: Subtask cleanse_spotlight
+[2021-12-16 13:08:47,281] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.cleanse_spotlight 2021-12-16T13:08:46.379904+00:00 [running]> on host f46d95c5a5d9
+[2021-12-16 13:08:47,318] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=cleanse_spotlight
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-16T13:08:46.379904+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-16T13:08:46.379904+00:00
+[2021-12-16 13:09:00,900] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-16 13:09:00,916] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=cleanse_spotlight, execution_date=20211216T130846, start_date=20211216T130847, end_date=20211216T130900
+[2021-12-16 13:09:00,953] {local_task_job.py:146} INFO - Task exited with return code 0

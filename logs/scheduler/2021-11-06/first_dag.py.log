@@ -1,0 +1,1134 @@
+[2021-11-06 11:50:51,021] {scheduler_job.py:182} INFO - Started process (PID=565) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:50:51,022] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:50:51,023] {logging_mixin.py:104} INFO - [2021-11-06 11:50:51,023] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:50:51,049] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:50:51,068] {logging_mixin.py:104} INFO - [2021-11-06 11:50:51,068] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:50:51,078] {logging_mixin.py:104} INFO - [2021-11-06 11:50:51,078] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:50:51,096] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.076 seconds
+[2021-11-06 11:51:21,136] {scheduler_job.py:182} INFO - Started process (PID=592) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:51:21,138] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:51:21,138] {logging_mixin.py:104} INFO - [2021-11-06 11:51:21,138] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:51:21,160] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:51:21,178] {logging_mixin.py:104} INFO - [2021-11-06 11:51:21,177] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:51:21,188] {logging_mixin.py:104} INFO - [2021-11-06 11:51:21,188] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:51:21,252] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.118 seconds
+[2021-11-06 11:51:51,300] {scheduler_job.py:182} INFO - Started process (PID=619) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:51:51,301] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:51:51,302] {logging_mixin.py:104} INFO - [2021-11-06 11:51:51,302] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:51:51,323] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:51:51,341] {logging_mixin.py:104} INFO - [2021-11-06 11:51:51,341] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:51:51,353] {logging_mixin.py:104} INFO - [2021-11-06 11:51:51,352] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:51:51,363] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 11:52:21,578] {scheduler_job.py:182} INFO - Started process (PID=646) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:52:21,579] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:52:21,579] {logging_mixin.py:104} INFO - [2021-11-06 11:52:21,579] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:52:21,604] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:52:21,623] {logging_mixin.py:104} INFO - [2021-11-06 11:52:21,623] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:52:21,635] {logging_mixin.py:104} INFO - [2021-11-06 11:52:21,635] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:52:21,645] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 11:52:51,720] {scheduler_job.py:182} INFO - Started process (PID=673) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:52:51,721] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:52:51,722] {logging_mixin.py:104} INFO - [2021-11-06 11:52:51,722] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:52:51,749] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:52:51,766] {logging_mixin.py:104} INFO - [2021-11-06 11:52:51,765] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:52:51,777] {logging_mixin.py:104} INFO - [2021-11-06 11:52:51,777] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:52:51,789] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 11:53:21,871] {scheduler_job.py:182} INFO - Started process (PID=700) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:53:21,872] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:53:21,874] {logging_mixin.py:104} INFO - [2021-11-06 11:53:21,874] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:53:21,897] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:53:21,914] {logging_mixin.py:104} INFO - [2021-11-06 11:53:21,914] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:53:21,929] {logging_mixin.py:104} INFO - [2021-11-06 11:53:21,929] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:53:21,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 11:53:52,180] {scheduler_job.py:182} INFO - Started process (PID=727) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:53:52,181] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:53:52,181] {logging_mixin.py:104} INFO - [2021-11-06 11:53:52,181] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:53:52,207] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:53:52,225] {logging_mixin.py:104} INFO - [2021-11-06 11:53:52,224] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:53:52,241] {logging_mixin.py:104} INFO - [2021-11-06 11:53:52,241] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:53:52,254] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.077 seconds
+[2021-11-06 11:54:22,412] {scheduler_job.py:182} INFO - Started process (PID=754) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:54:22,413] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:54:22,414] {logging_mixin.py:104} INFO - [2021-11-06 11:54:22,414] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:54:22,441] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:54:22,460] {logging_mixin.py:104} INFO - [2021-11-06 11:54:22,460] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:54:22,474] {logging_mixin.py:104} INFO - [2021-11-06 11:54:22,473] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:54:22,520] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.110 seconds
+[2021-11-06 11:54:52,705] {scheduler_job.py:182} INFO - Started process (PID=781) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:54:52,706] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:54:52,707] {logging_mixin.py:104} INFO - [2021-11-06 11:54:52,707] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:54:52,729] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:54:52,747] {logging_mixin.py:104} INFO - [2021-11-06 11:54:52,747] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:54:52,760] {logging_mixin.py:104} INFO - [2021-11-06 11:54:52,760] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:54:52,772] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 11:55:23,063] {scheduler_job.py:182} INFO - Started process (PID=808) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:55:23,067] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:55:23,068] {logging_mixin.py:104} INFO - [2021-11-06 11:55:23,068] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:55:23,090] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:55:23,109] {logging_mixin.py:104} INFO - [2021-11-06 11:55:23,108] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:55:23,121] {logging_mixin.py:104} INFO - [2021-11-06 11:55:23,121] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:55:23,172] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.111 seconds
+[2021-11-06 11:55:53,220] {scheduler_job.py:182} INFO - Started process (PID=835) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:55:53,222] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:55:53,223] {logging_mixin.py:104} INFO - [2021-11-06 11:55:53,223] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:55:53,245] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:55:53,264] {logging_mixin.py:104} INFO - [2021-11-06 11:55:53,264] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:55:53,276] {logging_mixin.py:104} INFO - [2021-11-06 11:55:53,276] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:55:53,287] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.068 seconds
+[2021-11-06 11:56:23,356] {scheduler_job.py:182} INFO - Started process (PID=862) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:56:23,357] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:56:23,358] {logging_mixin.py:104} INFO - [2021-11-06 11:56:23,358] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:56:23,380] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:56:23,397] {logging_mixin.py:104} INFO - [2021-11-06 11:56:23,397] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:56:23,410] {logging_mixin.py:104} INFO - [2021-11-06 11:56:23,410] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:56:23,419] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 11:56:53,519] {scheduler_job.py:182} INFO - Started process (PID=889) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:56:53,520] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:56:53,520] {logging_mixin.py:104} INFO - [2021-11-06 11:56:53,520] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:56:53,540] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:56:53,558] {logging_mixin.py:104} INFO - [2021-11-06 11:56:53,558] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:56:53,571] {logging_mixin.py:104} INFO - [2021-11-06 11:56:53,571] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:56:53,610] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.093 seconds
+[2021-11-06 11:57:23,653] {scheduler_job.py:182} INFO - Started process (PID=916) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:57:23,655] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:57:23,656] {logging_mixin.py:104} INFO - [2021-11-06 11:57:23,656] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:57:23,679] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:57:23,744] {logging_mixin.py:104} INFO - [2021-11-06 11:57:23,743] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:57:23,761] {logging_mixin.py:104} INFO - [2021-11-06 11:57:23,761] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:57:23,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.149 seconds
+[2021-11-06 11:57:53,833] {scheduler_job.py:182} INFO - Started process (PID=943) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:57:53,835] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:57:53,835] {logging_mixin.py:104} INFO - [2021-11-06 11:57:53,835] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:57:53,862] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:57:53,880] {logging_mixin.py:104} INFO - [2021-11-06 11:57:53,880] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:57:53,890] {logging_mixin.py:104} INFO - [2021-11-06 11:57:53,890] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:57:53,925] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.094 seconds
+[2021-11-06 11:58:23,981] {scheduler_job.py:182} INFO - Started process (PID=970) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:58:23,983] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:58:23,984] {logging_mixin.py:104} INFO - [2021-11-06 11:58:23,984] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:58:24,007] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:58:24,025] {logging_mixin.py:104} INFO - [2021-11-06 11:58:24,025] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:58:24,038] {logging_mixin.py:104} INFO - [2021-11-06 11:58:24,038] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:58:24,050] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 11:58:54,276] {scheduler_job.py:182} INFO - Started process (PID=997) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:58:54,278] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:58:54,278] {logging_mixin.py:104} INFO - [2021-11-06 11:58:54,278] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:58:54,300] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:58:54,316] {logging_mixin.py:104} INFO - [2021-11-06 11:58:54,316] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:58:54,327] {logging_mixin.py:104} INFO - [2021-11-06 11:58:54,326] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:58:54,358] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.084 seconds
+[2021-11-06 11:59:24,415] {scheduler_job.py:182} INFO - Started process (PID=1024) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:59:24,417] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:59:24,417] {logging_mixin.py:104} INFO - [2021-11-06 11:59:24,417] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:59:24,441] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:59:24,458] {logging_mixin.py:104} INFO - [2021-11-06 11:59:24,458] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:59:24,469] {logging_mixin.py:104} INFO - [2021-11-06 11:59:24,469] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:59:24,516] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.105 seconds
+[2021-11-06 11:59:54,700] {scheduler_job.py:182} INFO - Started process (PID=1051) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 11:59:54,701] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 11:59:54,701] {logging_mixin.py:104} INFO - [2021-11-06 11:59:54,701] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:59:54,724] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 11:59:54,740] {logging_mixin.py:104} INFO - [2021-11-06 11:59:54,740] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 11:59:54,751] {logging_mixin.py:104} INFO - [2021-11-06 11:59:54,751] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 11:59:54,761] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.063 seconds
+[2021-11-06 12:00:24,785] {scheduler_job.py:182} INFO - Started process (PID=1078) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:00:24,787] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:00:24,787] {logging_mixin.py:104} INFO - [2021-11-06 12:00:24,787] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:00:24,809] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:00:24,827] {logging_mixin.py:104} INFO - [2021-11-06 12:00:24,827] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:00:24,839] {logging_mixin.py:104} INFO - [2021-11-06 12:00:24,839] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:00:24,849] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.066 seconds
+[2021-11-06 12:00:55,114] {scheduler_job.py:182} INFO - Started process (PID=1105) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:00:55,115] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:00:55,116] {logging_mixin.py:104} INFO - [2021-11-06 12:00:55,116] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:00:55,137] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:00:55,153] {logging_mixin.py:104} INFO - [2021-11-06 12:00:55,153] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:00:55,165] {logging_mixin.py:104} INFO - [2021-11-06 12:00:55,165] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:00:55,177] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 12:01:25,266] {scheduler_job.py:182} INFO - Started process (PID=1132) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:01:25,267] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:01:25,268] {logging_mixin.py:104} INFO - [2021-11-06 12:01:25,268] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:01:25,292] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:01:25,363] {logging_mixin.py:104} INFO - [2021-11-06 12:01:25,363] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:01:25,381] {logging_mixin.py:104} INFO - [2021-11-06 12:01:25,381] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:01:25,395] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.132 seconds
+[2021-11-06 12:01:55,532] {scheduler_job.py:182} INFO - Started process (PID=1159) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:01:55,533] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:01:55,533] {logging_mixin.py:104} INFO - [2021-11-06 12:01:55,533] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:01:55,556] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:01:55,572] {logging_mixin.py:104} INFO - [2021-11-06 12:01:55,572] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:01:55,584] {logging_mixin.py:104} INFO - [2021-11-06 12:01:55,584] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:01:55,596] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.066 seconds
+[2021-11-06 12:02:25,645] {scheduler_job.py:182} INFO - Started process (PID=1186) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:02:25,646] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:02:25,647] {logging_mixin.py:104} INFO - [2021-11-06 12:02:25,647] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:02:25,669] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:02:25,684] {logging_mixin.py:104} INFO - [2021-11-06 12:02:25,684] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:02:25,696] {logging_mixin.py:104} INFO - [2021-11-06 12:02:25,695] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:02:25,707] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.064 seconds
+[2021-11-06 12:02:55,803] {scheduler_job.py:182} INFO - Started process (PID=1213) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:02:55,805] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:02:55,806] {logging_mixin.py:104} INFO - [2021-11-06 12:02:55,806] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:02:55,830] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:02:55,847] {logging_mixin.py:104} INFO - [2021-11-06 12:02:55,847] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:02:55,860] {logging_mixin.py:104} INFO - [2021-11-06 12:02:55,860] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:02:55,871] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 12:03:25,949] {scheduler_job.py:182} INFO - Started process (PID=1240) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:03:25,950] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:03:25,951] {logging_mixin.py:104} INFO - [2021-11-06 12:03:25,951] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:03:25,972] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:03:25,989] {logging_mixin.py:104} INFO - [2021-11-06 12:03:25,989] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:03:26,001] {logging_mixin.py:104} INFO - [2021-11-06 12:03:26,001] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:03:26,013] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.066 seconds
+[2021-11-06 12:03:56,588] {scheduler_job.py:182} INFO - Started process (PID=1267) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:03:56,589] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:03:56,590] {logging_mixin.py:104} INFO - [2021-11-06 12:03:56,590] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:03:56,637] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:03:56,666] {logging_mixin.py:104} INFO - [2021-11-06 12:03:56,665] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:03:56,690] {logging_mixin.py:104} INFO - [2021-11-06 12:03:56,690] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:03:56,707] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.124 seconds
+[2021-11-06 12:04:27,605] {scheduler_job.py:182} INFO - Started process (PID=1294) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:04:27,608] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:04:27,610] {logging_mixin.py:104} INFO - [2021-11-06 12:04:27,610] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:04:27,667] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:04:27,704] {logging_mixin.py:104} INFO - [2021-11-06 12:04:27,704] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:04:27,724] {logging_mixin.py:104} INFO - [2021-11-06 12:04:27,723] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:04:27,741] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.138 seconds
+[2021-11-06 12:04:58,536] {scheduler_job.py:182} INFO - Started process (PID=1321) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:04:58,538] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:04:58,540] {logging_mixin.py:104} INFO - [2021-11-06 12:04:58,540] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:04:58,620] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:04:58,676] {logging_mixin.py:104} INFO - [2021-11-06 12:04:58,675] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:04:58,708] {logging_mixin.py:104} INFO - [2021-11-06 12:04:58,708] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:04:58,768] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.237 seconds
+[2021-11-06 12:05:29,042] {scheduler_job.py:182} INFO - Started process (PID=1348) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:05:29,044] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:05:29,044] {logging_mixin.py:104} INFO - [2021-11-06 12:05:29,044] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:05:29,071] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:05:29,089] {logging_mixin.py:104} INFO - [2021-11-06 12:05:29,089] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:05:29,102] {logging_mixin.py:104} INFO - [2021-11-06 12:05:29,102] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:05:29,114] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.074 seconds
+[2021-11-06 12:05:59,316] {scheduler_job.py:182} INFO - Started process (PID=1375) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:05:59,318] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:05:59,320] {logging_mixin.py:104} INFO - [2021-11-06 12:05:59,320] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:05:59,391] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:05:59,439] {logging_mixin.py:104} INFO - [2021-11-06 12:05:59,439] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:05:59,479] {logging_mixin.py:104} INFO - [2021-11-06 12:05:59,478] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:05:59,500] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.190 seconds
+[2021-11-06 12:06:30,217] {scheduler_job.py:182} INFO - Started process (PID=1402) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:06:30,220] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:06:30,222] {logging_mixin.py:104} INFO - [2021-11-06 12:06:30,222] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:06:30,296] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:06:30,343] {logging_mixin.py:104} INFO - [2021-11-06 12:06:30,343] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:06:30,382] {logging_mixin.py:104} INFO - [2021-11-06 12:06:30,382] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:06:30,404] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.192 seconds
+[2021-11-06 12:07:01,100] {scheduler_job.py:182} INFO - Started process (PID=1429) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:07:01,103] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:07:01,105] {logging_mixin.py:104} INFO - [2021-11-06 12:07:01,105] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:07:01,179] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:07:01,222] {logging_mixin.py:104} INFO - [2021-11-06 12:07:01,222] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:07:01,254] {logging_mixin.py:104} INFO - [2021-11-06 12:07:01,254] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:07:01,297] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.203 seconds
+[2021-11-06 12:07:32,112] {scheduler_job.py:182} INFO - Started process (PID=1456) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:07:32,114] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:07:32,116] {logging_mixin.py:104} INFO - [2021-11-06 12:07:32,116] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:07:32,186] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:07:32,231] {logging_mixin.py:104} INFO - [2021-11-06 12:07:32,230] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:07:32,269] {logging_mixin.py:104} INFO - [2021-11-06 12:07:32,268] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:07:32,324] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.219 seconds
+[2021-11-06 12:08:02,444] {scheduler_job.py:182} INFO - Started process (PID=1483) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:08:02,448] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:08:02,450] {logging_mixin.py:104} INFO - [2021-11-06 12:08:02,450] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:08:02,524] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:08:02,576] {logging_mixin.py:104} INFO - [2021-11-06 12:08:02,576] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:08:02,621] {logging_mixin.py:104} INFO - [2021-11-06 12:08:02,621] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:08:02,667] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.227 seconds
+[2021-11-06 12:08:32,742] {scheduler_job.py:182} INFO - Started process (PID=1510) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:08:32,744] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:08:32,746] {logging_mixin.py:104} INFO - [2021-11-06 12:08:32,746] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:08:32,816] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:08:32,861] {logging_mixin.py:104} INFO - [2021-11-06 12:08:32,861] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:08:32,894] {logging_mixin.py:104} INFO - [2021-11-06 12:08:32,894] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:08:32,918] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.180 seconds
+[2021-11-06 12:09:03,759] {scheduler_job.py:182} INFO - Started process (PID=1537) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:09:03,763] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:09:03,764] {logging_mixin.py:104} INFO - [2021-11-06 12:09:03,764] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:09:03,842] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:09:03,889] {logging_mixin.py:104} INFO - [2021-11-06 12:09:03,888] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:09:03,923] {logging_mixin.py:104} INFO - [2021-11-06 12:09:03,922] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:09:03,996] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.242 seconds
+[2021-11-06 12:09:34,853] {scheduler_job.py:182} INFO - Started process (PID=1564) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:09:34,855] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:09:34,857] {logging_mixin.py:104} INFO - [2021-11-06 12:09:34,857] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:09:34,945] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:09:34,995] {logging_mixin.py:104} INFO - [2021-11-06 12:09:34,994] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:09:35,030] {logging_mixin.py:104} INFO - [2021-11-06 12:09:35,030] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:09:35,051] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.205 seconds
+[2021-11-06 12:10:05,202] {scheduler_job.py:182} INFO - Started process (PID=1591) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:10:05,204] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:10:05,206] {logging_mixin.py:104} INFO - [2021-11-06 12:10:05,206] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:10:05,281] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:10:05,328] {logging_mixin.py:104} INFO - [2021-11-06 12:10:05,327] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:10:05,362] {logging_mixin.py:104} INFO - [2021-11-06 12:10:05,362] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:10:05,431] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.235 seconds
+[2021-11-06 12:10:35,603] {scheduler_job.py:182} INFO - Started process (PID=1618) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:10:35,605] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:10:35,607] {logging_mixin.py:104} INFO - [2021-11-06 12:10:35,607] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:10:35,683] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:10:35,728] {logging_mixin.py:104} INFO - [2021-11-06 12:10:35,728] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:10:35,761] {logging_mixin.py:104} INFO - [2021-11-06 12:10:35,761] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:10:35,831] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.234 seconds
+[2021-11-06 12:11:05,930] {scheduler_job.py:182} INFO - Started process (PID=1645) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:11:05,933] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:11:05,935] {logging_mixin.py:104} INFO - [2021-11-06 12:11:05,935] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:11:06,009] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:11:06,056] {logging_mixin.py:104} INFO - [2021-11-06 12:11:06,055] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:11:06,088] {logging_mixin.py:104} INFO - [2021-11-06 12:11:06,088] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:11:06,123] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.199 seconds
+[2021-11-06 12:11:36,681] {scheduler_job.py:182} INFO - Started process (PID=1672) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:11:36,683] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:11:36,686] {logging_mixin.py:104} INFO - [2021-11-06 12:11:36,685] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:11:36,756] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:11:36,797] {logging_mixin.py:104} INFO - [2021-11-06 12:11:36,797] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:11:36,822] {logging_mixin.py:104} INFO - [2021-11-06 12:11:36,822] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:11:36,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.201 seconds
+[2021-11-06 12:12:07,084] {scheduler_job.py:182} INFO - Started process (PID=1699) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:12:07,087] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:12:07,089] {logging_mixin.py:104} INFO - [2021-11-06 12:12:07,089] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:12:07,172] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:12:07,223] {logging_mixin.py:104} INFO - [2021-11-06 12:12:07,223] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:12:07,259] {logging_mixin.py:104} INFO - [2021-11-06 12:12:07,259] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:12:07,326] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.248 seconds
+[2021-11-06 12:12:37,929] {scheduler_job.py:182} INFO - Started process (PID=1726) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:12:37,932] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:12:37,935] {logging_mixin.py:104} INFO - [2021-11-06 12:12:37,934] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:12:38,016] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:12:38,062] {logging_mixin.py:104} INFO - [2021-11-06 12:12:38,062] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:12:38,093] {logging_mixin.py:104} INFO - [2021-11-06 12:12:38,093] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:12:38,151] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.227 seconds
+[2021-11-06 12:13:08,753] {scheduler_job.py:182} INFO - Started process (PID=1753) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:13:08,759] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:13:08,761] {logging_mixin.py:104} INFO - [2021-11-06 12:13:08,760] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:13:08,845] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:13:08,897] {logging_mixin.py:104} INFO - [2021-11-06 12:13:08,897] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:13:08,923] {logging_mixin.py:104} INFO - [2021-11-06 12:13:08,923] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:13:08,974] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.229 seconds
+[2021-11-06 12:13:39,489] {scheduler_job.py:182} INFO - Started process (PID=1780) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:13:39,492] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:13:39,494] {logging_mixin.py:104} INFO - [2021-11-06 12:13:39,494] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:13:39,568] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:13:39,614] {logging_mixin.py:104} INFO - [2021-11-06 12:13:39,613] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:13:39,649] {logging_mixin.py:104} INFO - [2021-11-06 12:13:39,648] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:13:39,714] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.230 seconds
+[2021-11-06 12:14:10,342] {scheduler_job.py:182} INFO - Started process (PID=1807) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:14:10,345] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:14:10,348] {logging_mixin.py:104} INFO - [2021-11-06 12:14:10,348] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:14:10,448] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:14:10,514] {logging_mixin.py:104} INFO - [2021-11-06 12:14:10,514] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:14:10,558] {logging_mixin.py:104} INFO - [2021-11-06 12:14:10,558] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:14:10,580] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.245 seconds
+[2021-11-06 12:14:40,850] {scheduler_job.py:182} INFO - Started process (PID=1834) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:14:40,853] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:14:40,855] {logging_mixin.py:104} INFO - [2021-11-06 12:14:40,855] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:14:40,933] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:14:41,007] {logging_mixin.py:104} INFO - [2021-11-06 12:14:41,006] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:14:41,044] {logging_mixin.py:104} INFO - [2021-11-06 12:14:41,044] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:14:41,101] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.255 seconds
+[2021-11-06 12:15:11,378] {scheduler_job.py:182} INFO - Started process (PID=1861) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:15:11,379] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:15:11,381] {logging_mixin.py:104} INFO - [2021-11-06 12:15:11,381] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:15:11,438] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:15:11,482] {logging_mixin.py:104} INFO - [2021-11-06 12:15:11,482] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:15:11,516] {logging_mixin.py:104} INFO - [2021-11-06 12:15:11,516] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:15:11,539] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.164 seconds
+[2021-11-06 12:15:42,127] {scheduler_job.py:182} INFO - Started process (PID=1888) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:15:42,129] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:15:42,131] {logging_mixin.py:104} INFO - [2021-11-06 12:15:42,131] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:15:42,203] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:15:42,249] {logging_mixin.py:104} INFO - [2021-11-06 12:15:42,249] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:15:42,283] {logging_mixin.py:104} INFO - [2021-11-06 12:15:42,283] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:15:42,328] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.208 seconds
+[2021-11-06 12:16:13,122] {scheduler_job.py:182} INFO - Started process (PID=1915) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:16:13,126] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:16:13,129] {logging_mixin.py:104} INFO - [2021-11-06 12:16:13,128] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:16:13,210] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:16:13,267] {logging_mixin.py:104} INFO - [2021-11-06 12:16:13,267] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:16:13,312] {logging_mixin.py:104} INFO - [2021-11-06 12:16:13,312] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:16:13,377] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.260 seconds
+[2021-11-06 12:16:43,896] {scheduler_job.py:182} INFO - Started process (PID=1942) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:16:43,899] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:16:43,901] {logging_mixin.py:104} INFO - [2021-11-06 12:16:43,901] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:16:43,981] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:16:44,047] {logging_mixin.py:104} INFO - [2021-11-06 12:16:44,047] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:16:44,088] {logging_mixin.py:104} INFO - [2021-11-06 12:16:44,088] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:16:44,102] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.212 seconds
+[2021-11-06 12:17:14,182] {scheduler_job.py:182} INFO - Started process (PID=1969) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:17:14,185] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:17:14,187] {logging_mixin.py:104} INFO - [2021-11-06 12:17:14,186] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:17:14,266] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:17:14,314] {logging_mixin.py:104} INFO - [2021-11-06 12:17:14,314] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:17:14,352] {logging_mixin.py:104} INFO - [2021-11-06 12:17:14,352] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:17:14,393] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.218 seconds
+[2021-11-06 12:17:44,868] {scheduler_job.py:182} INFO - Started process (PID=1996) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:17:44,872] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:17:44,874] {logging_mixin.py:104} INFO - [2021-11-06 12:17:44,873] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:17:44,951] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:17:45,003] {logging_mixin.py:104} INFO - [2021-11-06 12:17:45,003] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:17:45,043] {logging_mixin.py:104} INFO - [2021-11-06 12:17:45,042] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:17:45,099] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.237 seconds
+[2021-11-06 12:18:15,620] {scheduler_job.py:182} INFO - Started process (PID=2023) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:18:15,623] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:18:15,625] {logging_mixin.py:104} INFO - [2021-11-06 12:18:15,624] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:18:15,693] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:18:15,739] {logging_mixin.py:104} INFO - [2021-11-06 12:18:15,738] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:18:15,780] {logging_mixin.py:104} INFO - [2021-11-06 12:18:15,779] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:18:15,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.187 seconds
+[2021-11-06 12:18:45,932] {scheduler_job.py:182} INFO - Started process (PID=2050) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:18:45,935] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:18:45,937] {logging_mixin.py:104} INFO - [2021-11-06 12:18:45,937] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:18:46,019] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:18:46,065] {logging_mixin.py:104} INFO - [2021-11-06 12:18:46,065] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:18:46,100] {logging_mixin.py:104} INFO - [2021-11-06 12:18:46,100] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:18:46,156] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.229 seconds
+[2021-11-06 12:19:16,514] {scheduler_job.py:182} INFO - Started process (PID=2077) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:19:16,518] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:19:16,521] {logging_mixin.py:104} INFO - [2021-11-06 12:19:16,520] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:19:16,608] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:19:16,659] {logging_mixin.py:104} INFO - [2021-11-06 12:19:16,658] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:19:16,698] {logging_mixin.py:104} INFO - [2021-11-06 12:19:16,698] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:19:16,719] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.212 seconds
+[2021-11-06 12:19:46,874] {scheduler_job.py:182} INFO - Started process (PID=2104) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:19:46,877] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:19:46,879] {logging_mixin.py:104} INFO - [2021-11-06 12:19:46,879] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:19:46,982] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:19:47,040] {logging_mixin.py:104} INFO - [2021-11-06 12:19:47,040] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:19:47,086] {logging_mixin.py:104} INFO - [2021-11-06 12:19:47,085] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:19:47,144] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.276 seconds
+[2021-11-06 12:20:17,262] {scheduler_job.py:182} INFO - Started process (PID=2131) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:20:17,265] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:20:17,267] {logging_mixin.py:104} INFO - [2021-11-06 12:20:17,267] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:20:17,370] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:20:17,495] {logging_mixin.py:104} INFO - [2021-11-06 12:20:17,495] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:20:17,547] {logging_mixin.py:104} INFO - [2021-11-06 12:20:17,547] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:20:17,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.313 seconds
+[2021-11-06 12:20:47,750] {scheduler_job.py:182} INFO - Started process (PID=2158) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:20:47,753] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:20:47,755] {logging_mixin.py:104} INFO - [2021-11-06 12:20:47,755] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:20:47,824] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:20:47,891] {logging_mixin.py:104} INFO - [2021-11-06 12:20:47,890] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:20:47,928] {logging_mixin.py:104} INFO - [2021-11-06 12:20:47,928] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:20:47,950] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.207 seconds
+[2021-11-06 12:21:18,241] {scheduler_job.py:182} INFO - Started process (PID=2185) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:21:18,245] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:21:18,247] {logging_mixin.py:104} INFO - [2021-11-06 12:21:18,247] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:21:18,326] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:21:18,378] {logging_mixin.py:104} INFO - [2021-11-06 12:21:18,378] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:21:18,417] {logging_mixin.py:104} INFO - [2021-11-06 12:21:18,416] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:21:18,483] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.248 seconds
+[2021-11-06 12:21:48,949] {scheduler_job.py:182} INFO - Started process (PID=2212) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:21:48,952] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:21:48,955] {logging_mixin.py:104} INFO - [2021-11-06 12:21:48,954] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:21:49,035] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:21:49,105] {logging_mixin.py:104} INFO - [2021-11-06 12:21:49,105] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:21:49,143] {logging_mixin.py:104} INFO - [2021-11-06 12:21:49,143] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:21:49,214] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.270 seconds
+[2021-11-06 12:22:19,391] {scheduler_job.py:182} INFO - Started process (PID=2239) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:22:19,394] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:22:19,397] {logging_mixin.py:104} INFO - [2021-11-06 12:22:19,396] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:22:19,476] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:22:19,532] {logging_mixin.py:104} INFO - [2021-11-06 12:22:19,531] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:22:19,570] {logging_mixin.py:104} INFO - [2021-11-06 12:22:19,570] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:22:19,595] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.213 seconds
+[2021-11-06 12:22:50,223] {scheduler_job.py:182} INFO - Started process (PID=2266) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:22:50,226] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:22:50,228] {logging_mixin.py:104} INFO - [2021-11-06 12:22:50,228] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:22:50,306] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:22:50,358] {logging_mixin.py:104} INFO - [2021-11-06 12:22:50,358] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:22:50,395] {logging_mixin.py:104} INFO - [2021-11-06 12:22:50,394] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:22:50,469] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.252 seconds
+[2021-11-06 12:23:21,156] {scheduler_job.py:182} INFO - Started process (PID=2293) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:23:21,160] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:23:21,161] {logging_mixin.py:104} INFO - [2021-11-06 12:23:21,161] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:23:21,240] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:23:21,291] {logging_mixin.py:104} INFO - [2021-11-06 12:23:21,291] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:23:21,333] {logging_mixin.py:104} INFO - [2021-11-06 12:23:21,332] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:23:21,387] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.237 seconds
+[2021-11-06 12:23:51,699] {scheduler_job.py:182} INFO - Started process (PID=2320) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:23:51,702] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:23:51,705] {logging_mixin.py:104} INFO - [2021-11-06 12:23:51,704] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:23:51,777] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:23:51,882] {logging_mixin.py:104} INFO - [2021-11-06 12:23:51,882] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:23:51,927] {logging_mixin.py:104} INFO - [2021-11-06 12:23:51,926] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:23:51,957] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.266 seconds
+[2021-11-06 12:24:22,464] {scheduler_job.py:182} INFO - Started process (PID=2347) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:24:22,467] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:24:22,470] {logging_mixin.py:104} INFO - [2021-11-06 12:24:22,470] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:24:22,552] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:24:22,605] {logging_mixin.py:104} INFO - [2021-11-06 12:24:22,604] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:24:22,641] {logging_mixin.py:104} INFO - [2021-11-06 12:24:22,641] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:24:22,700] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.243 seconds
+[2021-11-06 12:24:53,062] {scheduler_job.py:182} INFO - Started process (PID=2374) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:24:53,064] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:24:53,066] {logging_mixin.py:104} INFO - [2021-11-06 12:24:53,066] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:24:53,126] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:24:53,171] {logging_mixin.py:104} INFO - [2021-11-06 12:24:53,170] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:24:53,206] {logging_mixin.py:104} INFO - [2021-11-06 12:24:53,206] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:24:53,279] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.223 seconds
+[2021-11-06 12:25:23,884] {scheduler_job.py:182} INFO - Started process (PID=2401) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:25:23,886] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:25:23,888] {logging_mixin.py:104} INFO - [2021-11-06 12:25:23,888] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:25:23,970] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:25:24,022] {logging_mixin.py:104} INFO - [2021-11-06 12:25:24,021] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:25:24,058] {logging_mixin.py:104} INFO - [2021-11-06 12:25:24,057] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:25:24,109] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.231 seconds
+[2021-11-06 12:25:55,022] {scheduler_job.py:182} INFO - Started process (PID=2428) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:25:55,026] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:25:55,028] {logging_mixin.py:104} INFO - [2021-11-06 12:25:55,028] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:25:55,105] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:25:55,155] {logging_mixin.py:104} INFO - [2021-11-06 12:25:55,154] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:25:55,196] {logging_mixin.py:104} INFO - [2021-11-06 12:25:55,195] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:25:55,273] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.257 seconds
+[2021-11-06 12:26:25,492] {scheduler_job.py:182} INFO - Started process (PID=2455) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:26:25,496] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:26:25,498] {logging_mixin.py:104} INFO - [2021-11-06 12:26:25,498] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:26:25,575] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:26:25,625] {logging_mixin.py:104} INFO - [2021-11-06 12:26:25,625] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:26:25,660] {logging_mixin.py:104} INFO - [2021-11-06 12:26:25,660] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:26:25,704] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.218 seconds
+[2021-11-06 12:26:56,642] {scheduler_job.py:182} INFO - Started process (PID=2482) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:26:56,646] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:26:56,649] {logging_mixin.py:104} INFO - [2021-11-06 12:26:56,648] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:26:56,733] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:26:56,806] {logging_mixin.py:104} INFO - [2021-11-06 12:26:56,806] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:26:56,849] {logging_mixin.py:104} INFO - [2021-11-06 12:26:56,849] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:26:56,917] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.280 seconds
+[2021-11-06 12:27:27,112] {scheduler_job.py:182} INFO - Started process (PID=2509) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:27:27,115] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:27:27,119] {logging_mixin.py:104} INFO - [2021-11-06 12:27:27,118] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:27:27,207] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:27:27,255] {logging_mixin.py:104} INFO - [2021-11-06 12:27:27,255] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:27:27,290] {logging_mixin.py:104} INFO - [2021-11-06 12:27:27,290] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:27:27,349] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.244 seconds
+[2021-11-06 12:27:57,678] {scheduler_job.py:182} INFO - Started process (PID=2537) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:27:57,682] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:27:57,685] {logging_mixin.py:104} INFO - [2021-11-06 12:27:57,685] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:27:57,746] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:27:57,776] {logging_mixin.py:104} INFO - [2021-11-06 12:27:57,775] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:27:57,800] {logging_mixin.py:104} INFO - [2021-11-06 12:27:57,800] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:27:57,812] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.143 seconds
+[2021-11-06 12:28:27,885] {scheduler_job.py:182} INFO - Started process (PID=2564) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:28:27,888] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:28:27,890] {logging_mixin.py:104} INFO - [2021-11-06 12:28:27,890] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:28:27,960] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:28:28,008] {logging_mixin.py:104} INFO - [2021-11-06 12:28:28,008] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:28:28,033] {logging_mixin.py:104} INFO - [2021-11-06 12:28:28,033] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:28:28,067] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.189 seconds
+[2021-11-06 12:28:58,578] {scheduler_job.py:182} INFO - Started process (PID=2592) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:28:58,582] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:28:58,584] {logging_mixin.py:104} INFO - [2021-11-06 12:28:58,584] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:28:58,661] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:28:58,711] {logging_mixin.py:104} INFO - [2021-11-06 12:28:58,711] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:28:58,752] {logging_mixin.py:104} INFO - [2021-11-06 12:28:58,751] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:28:58,815] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.243 seconds
+[2021-11-06 12:29:29,172] {scheduler_job.py:182} INFO - Started process (PID=2619) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:29:29,175] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:29:29,177] {logging_mixin.py:104} INFO - [2021-11-06 12:29:29,177] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:29:29,250] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:29:29,299] {logging_mixin.py:104} INFO - [2021-11-06 12:29:29,299] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:29:29,333] {logging_mixin.py:104} INFO - [2021-11-06 12:29:29,332] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:29:29,355] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.188 seconds
+[2021-11-06 12:29:59,675] {scheduler_job.py:182} INFO - Started process (PID=2646) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:29:59,677] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:29:59,680] {logging_mixin.py:104} INFO - [2021-11-06 12:29:59,680] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:29:59,757] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:29:59,807] {logging_mixin.py:104} INFO - [2021-11-06 12:29:59,807] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:29:59,842] {logging_mixin.py:104} INFO - [2021-11-06 12:29:59,842] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:29:59,905] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.236 seconds
+[2021-11-06 12:30:30,323] {scheduler_job.py:182} INFO - Started process (PID=2673) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:30:30,325] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:30:30,328] {logging_mixin.py:104} INFO - [2021-11-06 12:30:30,327] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:30:30,399] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:30:30,445] {logging_mixin.py:104} INFO - [2021-11-06 12:30:30,445] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:30:30,480] {logging_mixin.py:104} INFO - [2021-11-06 12:30:30,480] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:30:30,523] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.206 seconds
+[2021-11-06 12:31:00,645] {scheduler_job.py:182} INFO - Started process (PID=2700) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:31:00,646] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:31:00,647] {logging_mixin.py:104} INFO - [2021-11-06 12:31:00,647] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:31:00,669] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:31:00,695] {logging_mixin.py:104} INFO - [2021-11-06 12:31:00,695] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:31:00,707] {logging_mixin.py:104} INFO - [2021-11-06 12:31:00,707] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:31:00,719] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.076 seconds
+[2021-11-06 12:31:30,775] {scheduler_job.py:182} INFO - Started process (PID=2727) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:31:30,776] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:31:30,777] {logging_mixin.py:104} INFO - [2021-11-06 12:31:30,776] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:31:30,802] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:31:30,821] {logging_mixin.py:104} INFO - [2021-11-06 12:31:30,821] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:31:30,836] {logging_mixin.py:104} INFO - [2021-11-06 12:31:30,836] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:31:30,847] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.075 seconds
+[2021-11-06 12:32:00,920] {scheduler_job.py:182} INFO - Started process (PID=2754) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:32:00,921] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:32:00,922] {logging_mixin.py:104} INFO - [2021-11-06 12:32:00,922] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:32:00,946] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:32:00,964] {logging_mixin.py:104} INFO - [2021-11-06 12:32:00,964] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:32:00,977] {logging_mixin.py:104} INFO - [2021-11-06 12:32:00,977] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:32:00,989] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.071 seconds
+[2021-11-06 12:32:31,095] {scheduler_job.py:182} INFO - Started process (PID=2781) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:32:31,096] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:32:31,097] {logging_mixin.py:104} INFO - [2021-11-06 12:32:31,097] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:32:31,128] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:32:31,158] {logging_mixin.py:104} INFO - [2021-11-06 12:32:31,158] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:32:31,178] {logging_mixin.py:104} INFO - [2021-11-06 12:32:31,178] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:32:31,191] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.098 seconds
+[2021-11-06 12:33:01,430] {scheduler_job.py:182} INFO - Started process (PID=2808) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:33:01,432] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:33:01,433] {logging_mixin.py:104} INFO - [2021-11-06 12:33:01,433] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:33:01,456] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:33:01,473] {logging_mixin.py:104} INFO - [2021-11-06 12:33:01,473] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:33:01,485] {logging_mixin.py:104} INFO - [2021-11-06 12:33:01,484] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:33:01,498] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 12:33:32,399] {scheduler_job.py:182} INFO - Started process (PID=2835) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:33:32,400] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:33:32,401] {logging_mixin.py:104} INFO - [2021-11-06 12:33:32,400] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:33:32,423] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:33:32,440] {logging_mixin.py:104} INFO - [2021-11-06 12:33:32,440] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:33:32,452] {logging_mixin.py:104} INFO - [2021-11-06 12:33:32,452] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:33:32,463] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.066 seconds
+[2021-11-06 12:34:02,696] {scheduler_job.py:182} INFO - Started process (PID=2862) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:34:02,697] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:34:02,697] {logging_mixin.py:104} INFO - [2021-11-06 12:34:02,697] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:34:02,720] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:34:02,738] {logging_mixin.py:104} INFO - [2021-11-06 12:34:02,738] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:34:02,751] {logging_mixin.py:104} INFO - [2021-11-06 12:34:02,750] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:34:02,762] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 12:34:32,895] {scheduler_job.py:182} INFO - Started process (PID=2889) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:34:32,896] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:34:32,896] {logging_mixin.py:104} INFO - [2021-11-06 12:34:32,896] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:34:32,919] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:34:32,934] {logging_mixin.py:104} INFO - [2021-11-06 12:34:32,934] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:34:32,947] {logging_mixin.py:104} INFO - [2021-11-06 12:34:32,947] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:34:32,959] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.066 seconds
+[2021-11-06 12:35:03,124] {scheduler_job.py:182} INFO - Started process (PID=2916) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:35:03,125] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:35:03,126] {logging_mixin.py:104} INFO - [2021-11-06 12:35:03,125] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:35:03,148] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:35:03,166] {logging_mixin.py:104} INFO - [2021-11-06 12:35:03,166] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:35:03,179] {logging_mixin.py:104} INFO - [2021-11-06 12:35:03,179] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:35:03,191] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 12:35:33,308] {scheduler_job.py:182} INFO - Started process (PID=2943) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:35:33,310] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:35:33,311] {logging_mixin.py:104} INFO - [2021-11-06 12:35:33,311] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:35:33,336] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:35:33,354] {logging_mixin.py:104} INFO - [2021-11-06 12:35:33,354] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:35:33,367] {logging_mixin.py:104} INFO - [2021-11-06 12:35:33,367] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:35:33,380] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.074 seconds
+[2021-11-06 12:36:03,470] {scheduler_job.py:182} INFO - Started process (PID=2970) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:36:03,472] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:36:03,473] {logging_mixin.py:104} INFO - [2021-11-06 12:36:03,473] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:36:03,494] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:36:03,513] {logging_mixin.py:104} INFO - [2021-11-06 12:36:03,513] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:36:03,525] {logging_mixin.py:104} INFO - [2021-11-06 12:36:03,525] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:36:03,537] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 12:36:33,619] {scheduler_job.py:182} INFO - Started process (PID=2997) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:36:33,620] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:36:33,621] {logging_mixin.py:104} INFO - [2021-11-06 12:36:33,621] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:36:33,643] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:36:33,661] {logging_mixin.py:104} INFO - [2021-11-06 12:36:33,661] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:36:33,673] {logging_mixin.py:104} INFO - [2021-11-06 12:36:33,673] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:36:33,685] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.068 seconds
+[2021-11-06 12:37:03,807] {scheduler_job.py:182} INFO - Started process (PID=3024) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:37:03,808] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:37:03,809] {logging_mixin.py:104} INFO - [2021-11-06 12:37:03,809] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:37:03,832] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:37:03,849] {logging_mixin.py:104} INFO - [2021-11-06 12:37:03,849] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:37:03,860] {logging_mixin.py:104} INFO - [2021-11-06 12:37:03,860] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:37:03,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:37:34,050] {scheduler_job.py:182} INFO - Started process (PID=3051) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:37:34,051] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:37:34,052] {logging_mixin.py:104} INFO - [2021-11-06 12:37:34,052] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:37:34,075] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:37:34,093] {logging_mixin.py:104} INFO - [2021-11-06 12:37:34,093] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:37:34,106] {logging_mixin.py:104} INFO - [2021-11-06 12:37:34,106] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:37:34,118] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 12:38:04,225] {scheduler_job.py:182} INFO - Started process (PID=3078) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:38:04,226] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:38:04,227] {logging_mixin.py:104} INFO - [2021-11-06 12:38:04,227] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:38:04,250] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:38:04,267] {logging_mixin.py:104} INFO - [2021-11-06 12:38:04,267] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:38:04,280] {logging_mixin.py:104} INFO - [2021-11-06 12:38:04,279] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:38:04,290] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:38:35,286] {scheduler_job.py:182} INFO - Started process (PID=3105) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:38:35,287] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:38:35,288] {logging_mixin.py:104} INFO - [2021-11-06 12:38:35,288] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:38:35,310] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:38:35,328] {logging_mixin.py:104} INFO - [2021-11-06 12:38:35,328] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:38:35,341] {logging_mixin.py:104} INFO - [2021-11-06 12:38:35,341] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:38:35,353] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 12:39:05,529] {scheduler_job.py:182} INFO - Started process (PID=3132) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:39:05,530] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:39:05,531] {logging_mixin.py:104} INFO - [2021-11-06 12:39:05,531] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:39:05,553] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:39:05,569] {logging_mixin.py:104} INFO - [2021-11-06 12:39:05,568] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:39:05,581] {logging_mixin.py:104} INFO - [2021-11-06 12:39:05,581] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:39:05,592] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 12:39:35,643] {scheduler_job.py:182} INFO - Started process (PID=3159) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:39:35,644] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:39:35,645] {logging_mixin.py:104} INFO - [2021-11-06 12:39:35,645] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:39:35,668] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:39:35,686] {logging_mixin.py:104} INFO - [2021-11-06 12:39:35,686] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:39:35,699] {logging_mixin.py:104} INFO - [2021-11-06 12:39:35,699] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:39:35,710] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 12:40:05,937] {scheduler_job.py:182} INFO - Started process (PID=3186) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:40:05,938] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:40:05,939] {logging_mixin.py:104} INFO - [2021-11-06 12:40:05,939] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:40:05,961] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:40:05,979] {logging_mixin.py:104} INFO - [2021-11-06 12:40:05,979] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:40:05,991] {logging_mixin.py:104} INFO - [2021-11-06 12:40:05,991] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:40:06,003] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.068 seconds
+[2021-11-06 12:40:36,066] {scheduler_job.py:182} INFO - Started process (PID=3214) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:40:36,067] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:40:36,068] {logging_mixin.py:104} INFO - [2021-11-06 12:40:36,068] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:40:36,090] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:40:36,107] {logging_mixin.py:104} INFO - [2021-11-06 12:40:36,107] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:40:36,119] {logging_mixin.py:104} INFO - [2021-11-06 12:40:36,119] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:40:36,131] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:41:06,274] {scheduler_job.py:182} INFO - Started process (PID=3241) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:41:06,276] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:41:06,277] {logging_mixin.py:104} INFO - [2021-11-06 12:41:06,277] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:41:06,297] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:41:06,314] {logging_mixin.py:104} INFO - [2021-11-06 12:41:06,314] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:41:06,326] {logging_mixin.py:104} INFO - [2021-11-06 12:41:06,326] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:41:06,340] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.068 seconds
+[2021-11-06 12:41:36,405] {scheduler_job.py:182} INFO - Started process (PID=3268) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:41:36,406] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:41:36,407] {logging_mixin.py:104} INFO - [2021-11-06 12:41:36,407] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:41:36,428] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:41:36,444] {logging_mixin.py:104} INFO - [2021-11-06 12:41:36,444] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:41:36,456] {logging_mixin.py:104} INFO - [2021-11-06 12:41:36,456] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:41:36,467] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.064 seconds
+[2021-11-06 12:42:06,626] {scheduler_job.py:182} INFO - Started process (PID=3295) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:42:06,628] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:42:06,628] {logging_mixin.py:104} INFO - [2021-11-06 12:42:06,628] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:42:06,649] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:42:06,665] {logging_mixin.py:104} INFO - [2021-11-06 12:42:06,665] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:42:06,678] {logging_mixin.py:104} INFO - [2021-11-06 12:42:06,678] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:42:06,690] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 12:42:36,781] {scheduler_job.py:182} INFO - Started process (PID=3322) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:42:36,784] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:42:36,784] {logging_mixin.py:104} INFO - [2021-11-06 12:42:36,784] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:42:36,806] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:42:36,825] {logging_mixin.py:104} INFO - [2021-11-06 12:42:36,825] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:42:36,837] {logging_mixin.py:104} INFO - [2021-11-06 12:42:36,837] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:42:36,850] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 12:43:06,913] {scheduler_job.py:182} INFO - Started process (PID=3349) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:43:06,915] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:43:06,916] {logging_mixin.py:104} INFO - [2021-11-06 12:43:06,915] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:43:06,937] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:43:06,954] {logging_mixin.py:104} INFO - [2021-11-06 12:43:06,954] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:43:06,967] {logging_mixin.py:104} INFO - [2021-11-06 12:43:06,967] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:43:06,978] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:43:37,078] {scheduler_job.py:182} INFO - Started process (PID=3377) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:43:37,079] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:43:37,080] {logging_mixin.py:104} INFO - [2021-11-06 12:43:37,080] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:43:37,104] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:43:37,123] {logging_mixin.py:104} INFO - [2021-11-06 12:43:37,123] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:43:37,137] {logging_mixin.py:104} INFO - [2021-11-06 12:43:37,137] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:43:37,148] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.072 seconds
+[2021-11-06 12:44:07,297] {scheduler_job.py:182} INFO - Started process (PID=3404) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:44:07,299] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:44:07,300] {logging_mixin.py:104} INFO - [2021-11-06 12:44:07,300] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:44:07,331] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:44:07,347] {logging_mixin.py:104} INFO - [2021-11-06 12:44:07,347] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:44:07,360] {logging_mixin.py:104} INFO - [2021-11-06 12:44:07,360] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:44:07,371] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.076 seconds
+[2021-11-06 12:44:37,484] {scheduler_job.py:182} INFO - Started process (PID=3431) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:44:37,486] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:44:37,487] {logging_mixin.py:104} INFO - [2021-11-06 12:44:37,487] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:44:37,509] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:44:37,526] {logging_mixin.py:104} INFO - [2021-11-06 12:44:37,526] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:44:37,539] {logging_mixin.py:104} INFO - [2021-11-06 12:44:37,539] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:44:37,551] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 12:45:07,656] {scheduler_job.py:182} INFO - Started process (PID=3458) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:45:07,658] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:45:07,659] {logging_mixin.py:104} INFO - [2021-11-06 12:45:07,659] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:45:07,681] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:45:07,700] {logging_mixin.py:104} INFO - [2021-11-06 12:45:07,700] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:45:07,715] {logging_mixin.py:104} INFO - [2021-11-06 12:45:07,715] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:45:07,728] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.074 seconds
+[2021-11-06 12:45:37,985] {scheduler_job.py:182} INFO - Started process (PID=3485) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:45:37,986] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:45:37,987] {logging_mixin.py:104} INFO - [2021-11-06 12:45:37,987] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:45:38,009] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:45:38,028] {logging_mixin.py:104} INFO - [2021-11-06 12:45:38,028] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:45:38,040] {logging_mixin.py:104} INFO - [2021-11-06 12:45:38,040] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:45:38,052] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 12:46:08,274] {scheduler_job.py:182} INFO - Started process (PID=3512) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:46:08,275] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:46:08,276] {logging_mixin.py:104} INFO - [2021-11-06 12:46:08,276] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:46:08,297] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:46:08,314] {logging_mixin.py:104} INFO - [2021-11-06 12:46:08,313] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:46:08,327] {logging_mixin.py:104} INFO - [2021-11-06 12:46:08,327] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:46:08,338] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:46:38,516] {scheduler_job.py:182} INFO - Started process (PID=3539) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:46:38,517] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:46:38,518] {logging_mixin.py:104} INFO - [2021-11-06 12:46:38,518] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:46:38,538] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:46:38,555] {logging_mixin.py:104} INFO - [2021-11-06 12:46:38,555] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:46:38,567] {logging_mixin.py:104} INFO - [2021-11-06 12:46:38,567] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:46:38,578] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.064 seconds
+[2021-11-06 12:47:08,883] {scheduler_job.py:182} INFO - Started process (PID=3566) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:47:08,885] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:47:08,886] {logging_mixin.py:104} INFO - [2021-11-06 12:47:08,886] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:47:08,909] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:47:08,930] {logging_mixin.py:104} INFO - [2021-11-06 12:47:08,930] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:47:08,944] {logging_mixin.py:104} INFO - [2021-11-06 12:47:08,944] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:47:08,955] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.075 seconds
+[2021-11-06 12:47:39,113] {scheduler_job.py:182} INFO - Started process (PID=3593) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:47:39,114] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:47:39,115] {logging_mixin.py:104} INFO - [2021-11-06 12:47:39,115] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:47:39,139] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:47:39,156] {logging_mixin.py:104} INFO - [2021-11-06 12:47:39,156] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:47:39,170] {logging_mixin.py:104} INFO - [2021-11-06 12:47:39,170] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:47:39,182] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.071 seconds
+[2021-11-06 12:48:09,411] {scheduler_job.py:182} INFO - Started process (PID=3620) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:48:09,413] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:48:09,414] {logging_mixin.py:104} INFO - [2021-11-06 12:48:09,414] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:48:09,435] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:48:09,474] {logging_mixin.py:104} INFO - [2021-11-06 12:48:09,474] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:48:09,491] {logging_mixin.py:104} INFO - [2021-11-06 12:48:09,491] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:48:09,502] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.092 seconds
+[2021-11-06 12:48:39,552] {scheduler_job.py:182} INFO - Started process (PID=3647) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:48:39,553] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:48:39,555] {logging_mixin.py:104} INFO - [2021-11-06 12:48:39,554] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:48:39,580] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:48:39,597] {logging_mixin.py:104} INFO - [2021-11-06 12:48:39,597] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:48:39,610] {logging_mixin.py:104} INFO - [2021-11-06 12:48:39,610] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:48:39,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 12:49:09,891] {scheduler_job.py:182} INFO - Started process (PID=3674) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:49:09,892] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:49:09,893] {logging_mixin.py:104} INFO - [2021-11-06 12:49:09,893] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:49:09,917] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:49:09,934] {logging_mixin.py:104} INFO - [2021-11-06 12:49:09,934] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:49:09,947] {logging_mixin.py:104} INFO - [2021-11-06 12:49:09,947] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:49:09,957] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.068 seconds
+[2021-11-06 12:49:40,204] {scheduler_job.py:182} INFO - Started process (PID=3701) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:49:40,205] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:49:40,207] {logging_mixin.py:104} INFO - [2021-11-06 12:49:40,207] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:49:40,231] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:49:40,247] {logging_mixin.py:104} INFO - [2021-11-06 12:49:40,247] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:49:40,260] {logging_mixin.py:104} INFO - [2021-11-06 12:49:40,260] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:49:40,270] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.068 seconds
+[2021-11-06 12:50:10,548] {scheduler_job.py:182} INFO - Started process (PID=3728) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:50:10,550] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:50:10,551] {logging_mixin.py:104} INFO - [2021-11-06 12:50:10,551] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:50:10,573] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:50:10,590] {logging_mixin.py:104} INFO - [2021-11-06 12:50:10,590] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:50:10,603] {logging_mixin.py:104} INFO - [2021-11-06 12:50:10,602] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:50:10,613] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:50:40,708] {scheduler_job.py:182} INFO - Started process (PID=3755) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:50:40,709] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:50:40,710] {logging_mixin.py:104} INFO - [2021-11-06 12:50:40,710] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:50:40,730] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:50:40,747] {logging_mixin.py:104} INFO - [2021-11-06 12:50:40,747] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:50:40,761] {logging_mixin.py:104} INFO - [2021-11-06 12:50:40,760] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:50:40,771] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 12:51:10,933] {scheduler_job.py:182} INFO - Started process (PID=3782) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:51:10,934] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:51:10,935] {logging_mixin.py:104} INFO - [2021-11-06 12:51:10,935] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:51:10,957] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:51:10,975] {logging_mixin.py:104} INFO - [2021-11-06 12:51:10,974] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:51:10,987] {logging_mixin.py:104} INFO - [2021-11-06 12:51:10,987] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:51:10,997] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:51:41,105] {scheduler_job.py:182} INFO - Started process (PID=3809) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:51:41,106] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:51:41,107] {logging_mixin.py:104} INFO - [2021-11-06 12:51:41,107] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:51:41,129] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:51:41,145] {logging_mixin.py:104} INFO - [2021-11-06 12:51:41,145] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:51:41,158] {logging_mixin.py:104} INFO - [2021-11-06 12:51:41,158] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:51:41,169] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.066 seconds
+[2021-11-06 12:52:11,405] {scheduler_job.py:182} INFO - Started process (PID=3836) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:52:11,406] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:52:11,407] {logging_mixin.py:104} INFO - [2021-11-06 12:52:11,407] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:52:11,431] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:52:11,449] {logging_mixin.py:104} INFO - [2021-11-06 12:52:11,448] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:52:11,461] {logging_mixin.py:104} INFO - [2021-11-06 12:52:11,461] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:52:11,471] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.068 seconds
+[2021-11-06 12:52:41,618] {scheduler_job.py:182} INFO - Started process (PID=3863) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:52:41,619] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:52:41,619] {logging_mixin.py:104} INFO - [2021-11-06 12:52:41,619] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:52:41,641] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:52:41,659] {logging_mixin.py:104} INFO - [2021-11-06 12:52:41,659] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:52:41,671] {logging_mixin.py:104} INFO - [2021-11-06 12:52:41,671] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:52:41,681] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 12:53:11,846] {scheduler_job.py:182} INFO - Started process (PID=3890) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:53:11,847] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:53:11,848] {logging_mixin.py:104} INFO - [2021-11-06 12:53:11,848] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:53:11,869] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:53:11,886] {logging_mixin.py:104} INFO - [2021-11-06 12:53:11,886] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:53:11,898] {logging_mixin.py:104} INFO - [2021-11-06 12:53:11,898] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:53:11,909] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 12:53:42,067] {scheduler_job.py:182} INFO - Started process (PID=3917) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:53:42,068] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:53:42,069] {logging_mixin.py:104} INFO - [2021-11-06 12:53:42,069] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:53:42,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:53:42,103] {logging_mixin.py:104} INFO - [2021-11-06 12:53:42,102] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:53:42,114] {logging_mixin.py:104} INFO - [2021-11-06 12:53:42,114] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:53:42,125] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.060 seconds
+[2021-11-06 12:54:12,349] {scheduler_job.py:182} INFO - Started process (PID=3944) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:54:12,350] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:54:12,351] {logging_mixin.py:104} INFO - [2021-11-06 12:54:12,351] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:54:12,373] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:54:12,392] {logging_mixin.py:104} INFO - [2021-11-06 12:54:12,391] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:54:12,404] {logging_mixin.py:104} INFO - [2021-11-06 12:54:12,404] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:54:12,415] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 12:54:42,533] {scheduler_job.py:182} INFO - Started process (PID=3971) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:54:42,535] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:54:42,535] {logging_mixin.py:104} INFO - [2021-11-06 12:54:42,535] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:54:42,560] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:54:42,579] {logging_mixin.py:104} INFO - [2021-11-06 12:54:42,579] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:54:42,593] {logging_mixin.py:104} INFO - [2021-11-06 12:54:42,593] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:54:42,604] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.073 seconds
+[2021-11-06 12:55:12,723] {scheduler_job.py:182} INFO - Started process (PID=3998) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:55:12,725] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:55:12,725] {logging_mixin.py:104} INFO - [2021-11-06 12:55:12,725] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:55:12,750] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:55:12,769] {logging_mixin.py:104} INFO - [2021-11-06 12:55:12,769] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:55:12,784] {logging_mixin.py:104} INFO - [2021-11-06 12:55:12,784] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:55:12,797] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.077 seconds
+[2021-11-06 12:55:43,063] {scheduler_job.py:182} INFO - Started process (PID=4025) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:55:43,064] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:55:43,065] {logging_mixin.py:104} INFO - [2021-11-06 12:55:43,065] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:55:43,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:55:43,105] {logging_mixin.py:104} INFO - [2021-11-06 12:55:43,105] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:55:43,117] {logging_mixin.py:104} INFO - [2021-11-06 12:55:43,117] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:55:43,128] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:56:13,208] {scheduler_job.py:182} INFO - Started process (PID=4052) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:56:13,210] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:56:13,210] {logging_mixin.py:104} INFO - [2021-11-06 12:56:13,210] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:56:13,233] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:56:13,251] {logging_mixin.py:104} INFO - [2021-11-06 12:56:13,251] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:56:13,262] {logging_mixin.py:104} INFO - [2021-11-06 12:56:13,262] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:56:13,273] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:56:43,509] {scheduler_job.py:182} INFO - Started process (PID=4079) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:56:43,510] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:56:43,511] {logging_mixin.py:104} INFO - [2021-11-06 12:56:43,511] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:56:43,532] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:56:43,593] {logging_mixin.py:104} INFO - [2021-11-06 12:56:43,593] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:56:43,608] {logging_mixin.py:104} INFO - [2021-11-06 12:56:43,608] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:56:43,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.113 seconds
+[2021-11-06 12:57:13,801] {scheduler_job.py:182} INFO - Started process (PID=4106) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:57:13,802] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:57:13,803] {logging_mixin.py:104} INFO - [2021-11-06 12:57:13,803] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:57:13,824] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:57:13,840] {logging_mixin.py:104} INFO - [2021-11-06 12:57:13,840] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:57:13,852] {logging_mixin.py:104} INFO - [2021-11-06 12:57:13,852] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:57:13,863] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.064 seconds
+[2021-11-06 12:57:43,887] {scheduler_job.py:182} INFO - Started process (PID=4133) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:57:43,888] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:57:43,889] {logging_mixin.py:104} INFO - [2021-11-06 12:57:43,889] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:57:43,911] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:57:43,928] {logging_mixin.py:104} INFO - [2021-11-06 12:57:43,928] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:57:43,941] {logging_mixin.py:104} INFO - [2021-11-06 12:57:43,941] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:57:43,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:58:14,155] {scheduler_job.py:182} INFO - Started process (PID=4160) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:58:14,157] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:58:14,158] {logging_mixin.py:104} INFO - [2021-11-06 12:58:14,158] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:58:14,179] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:58:14,197] {logging_mixin.py:104} INFO - [2021-11-06 12:58:14,196] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:58:14,212] {logging_mixin.py:104} INFO - [2021-11-06 12:58:14,211] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:58:14,224] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.071 seconds
+[2021-11-06 12:58:44,497] {scheduler_job.py:182} INFO - Started process (PID=4187) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:58:44,499] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:58:44,500] {logging_mixin.py:104} INFO - [2021-11-06 12:58:44,500] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:58:44,523] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:58:44,540] {logging_mixin.py:104} INFO - [2021-11-06 12:58:44,539] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:58:44,552] {logging_mixin.py:104} INFO - [2021-11-06 12:58:44,552] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:58:44,563] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.068 seconds
+[2021-11-06 12:59:14,607] {scheduler_job.py:182} INFO - Started process (PID=4214) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:59:14,608] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:59:14,609] {logging_mixin.py:104} INFO - [2021-11-06 12:59:14,609] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:59:14,632] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:59:14,648] {logging_mixin.py:104} INFO - [2021-11-06 12:59:14,648] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:59:14,660] {logging_mixin.py:104} INFO - [2021-11-06 12:59:14,660] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:59:14,672] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 12:59:44,888] {scheduler_job.py:182} INFO - Started process (PID=4241) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 12:59:44,890] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 12:59:44,890] {logging_mixin.py:104} INFO - [2021-11-06 12:59:44,890] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:59:44,917] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 12:59:44,934] {logging_mixin.py:104} INFO - [2021-11-06 12:59:44,934] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 12:59:44,948] {logging_mixin.py:104} INFO - [2021-11-06 12:59:44,948] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 12:59:44,959] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.073 seconds
+[2021-11-06 13:00:15,303] {scheduler_job.py:182} INFO - Started process (PID=4268) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:00:15,304] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:00:15,305] {logging_mixin.py:104} INFO - [2021-11-06 13:00:15,305] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:00:15,328] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:00:15,349] {logging_mixin.py:104} INFO - [2021-11-06 13:00:15,349] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:00:15,361] {logging_mixin.py:104} INFO - [2021-11-06 13:00:15,361] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:00:15,373] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.072 seconds
+[2021-11-06 13:00:45,581] {scheduler_job.py:182} INFO - Started process (PID=4295) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:00:45,582] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:00:45,582] {logging_mixin.py:104} INFO - [2021-11-06 13:00:45,582] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:00:45,603] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:00:45,619] {logging_mixin.py:104} INFO - [2021-11-06 13:00:45,619] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:00:45,632] {logging_mixin.py:104} INFO - [2021-11-06 13:00:45,632] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:00:45,643] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.064 seconds
+[2021-11-06 13:01:15,726] {scheduler_job.py:182} INFO - Started process (PID=4322) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:01:15,727] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:01:15,728] {logging_mixin.py:104} INFO - [2021-11-06 13:01:15,728] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:01:15,751] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:01:15,768] {logging_mixin.py:104} INFO - [2021-11-06 13:01:15,768] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:01:15,781] {logging_mixin.py:104} INFO - [2021-11-06 13:01:15,781] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:01:15,791] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 13:01:45,988] {scheduler_job.py:182} INFO - Started process (PID=4349) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:01:45,989] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:01:45,990] {logging_mixin.py:104} INFO - [2021-11-06 13:01:45,990] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:01:46,013] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:01:46,029] {logging_mixin.py:104} INFO - [2021-11-06 13:01:46,029] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:01:46,040] {logging_mixin.py:104} INFO - [2021-11-06 13:01:46,040] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:01:46,051] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 13:02:16,247] {scheduler_job.py:182} INFO - Started process (PID=4376) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:02:16,248] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:02:16,249] {logging_mixin.py:104} INFO - [2021-11-06 13:02:16,249] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:02:16,271] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:02:16,289] {logging_mixin.py:104} INFO - [2021-11-06 13:02:16,288] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:02:16,302] {logging_mixin.py:104} INFO - [2021-11-06 13:02:16,302] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:02:16,312] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 13:02:46,485] {scheduler_job.py:182} INFO - Started process (PID=4403) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:02:46,486] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:02:46,487] {logging_mixin.py:104} INFO - [2021-11-06 13:02:46,487] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:02:46,510] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:02:46,529] {logging_mixin.py:104} INFO - [2021-11-06 13:02:46,529] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:02:46,541] {logging_mixin.py:104} INFO - [2021-11-06 13:02:46,541] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:02:46,552] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.070 seconds
+[2021-11-06 13:03:16,670] {scheduler_job.py:182} INFO - Started process (PID=4430) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:03:16,671] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:03:16,673] {logging_mixin.py:104} INFO - [2021-11-06 13:03:16,673] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:03:16,698] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:03:16,716] {logging_mixin.py:104} INFO - [2021-11-06 13:03:16,716] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:03:16,729] {logging_mixin.py:104} INFO - [2021-11-06 13:03:16,729] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:03:16,741] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.073 seconds
+[2021-11-06 13:03:46,842] {scheduler_job.py:182} INFO - Started process (PID=4457) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:03:46,844] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:03:46,844] {logging_mixin.py:104} INFO - [2021-11-06 13:03:46,844] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:03:46,867] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:03:46,882] {logging_mixin.py:104} INFO - [2021-11-06 13:03:46,882] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:03:46,894] {logging_mixin.py:104} INFO - [2021-11-06 13:03:46,894] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:03:46,905] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 13:04:17,192] {scheduler_job.py:182} INFO - Started process (PID=4484) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:04:17,193] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:04:17,194] {logging_mixin.py:104} INFO - [2021-11-06 13:04:17,194] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:04:17,218] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:04:17,235] {logging_mixin.py:104} INFO - [2021-11-06 13:04:17,235] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:04:17,248] {logging_mixin.py:104} INFO - [2021-11-06 13:04:17,248] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:04:17,259] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 13:04:47,451] {scheduler_job.py:182} INFO - Started process (PID=4511) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:04:47,452] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:04:47,453] {logging_mixin.py:104} INFO - [2021-11-06 13:04:47,453] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:04:47,477] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:04:47,495] {logging_mixin.py:104} INFO - [2021-11-06 13:04:47,494] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:04:47,509] {logging_mixin.py:104} INFO - [2021-11-06 13:04:47,509] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:04:47,521] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.072 seconds
+[2021-11-06 13:05:17,731] {scheduler_job.py:182} INFO - Started process (PID=4538) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:05:17,733] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:05:17,734] {logging_mixin.py:104} INFO - [2021-11-06 13:05:17,733] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:05:17,755] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:05:17,771] {logging_mixin.py:104} INFO - [2021-11-06 13:05:17,771] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:05:17,782] {logging_mixin.py:104} INFO - [2021-11-06 13:05:17,782] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:05:17,793] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.064 seconds
+[2021-11-06 13:05:47,953] {scheduler_job.py:182} INFO - Started process (PID=4565) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:05:47,955] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:05:47,956] {logging_mixin.py:104} INFO - [2021-11-06 13:05:47,956] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:05:47,978] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:05:47,995] {logging_mixin.py:104} INFO - [2021-11-06 13:05:47,995] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:05:48,007] {logging_mixin.py:104} INFO - [2021-11-06 13:05:48,007] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:05:48,018] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 13:06:18,277] {scheduler_job.py:182} INFO - Started process (PID=4592) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:06:18,279] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:06:18,280] {logging_mixin.py:104} INFO - [2021-11-06 13:06:18,280] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:06:18,304] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:06:18,321] {logging_mixin.py:104} INFO - [2021-11-06 13:06:18,321] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:06:18,335] {logging_mixin.py:104} INFO - [2021-11-06 13:06:18,335] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:06:18,346] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.071 seconds
+[2021-11-06 13:06:48,519] {scheduler_job.py:182} INFO - Started process (PID=4619) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:06:48,520] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:06:48,520] {logging_mixin.py:104} INFO - [2021-11-06 13:06:48,520] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:06:48,543] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:06:48,559] {logging_mixin.py:104} INFO - [2021-11-06 13:06:48,559] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:06:48,571] {logging_mixin.py:104} INFO - [2021-11-06 13:06:48,571] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:06:48,582] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 13:07:18,737] {scheduler_job.py:182} INFO - Started process (PID=4646) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:07:18,738] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:07:18,739] {logging_mixin.py:104} INFO - [2021-11-06 13:07:18,738] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:07:18,759] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:07:18,776] {logging_mixin.py:104} INFO - [2021-11-06 13:07:18,776] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:07:18,787] {logging_mixin.py:104} INFO - [2021-11-06 13:07:18,787] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:07:18,798] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.063 seconds
+[2021-11-06 13:07:48,970] {scheduler_job.py:182} INFO - Started process (PID=4673) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:07:48,971] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:07:48,972] {logging_mixin.py:104} INFO - [2021-11-06 13:07:48,972] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:07:48,992] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:07:49,011] {logging_mixin.py:104} INFO - [2021-11-06 13:07:49,011] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:07:49,024] {logging_mixin.py:104} INFO - [2021-11-06 13:07:49,024] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:07:49,034] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.066 seconds
+[2021-11-06 13:08:19,187] {scheduler_job.py:182} INFO - Started process (PID=4700) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:08:19,188] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:08:19,189] {logging_mixin.py:104} INFO - [2021-11-06 13:08:19,189] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:08:19,211] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:08:19,226] {logging_mixin.py:104} INFO - [2021-11-06 13:08:19,226] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:08:19,240] {logging_mixin.py:104} INFO - [2021-11-06 13:08:19,240] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:08:19,251] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.066 seconds
+[2021-11-06 13:08:49,519] {scheduler_job.py:182} INFO - Started process (PID=4727) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:08:49,520] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:08:49,521] {logging_mixin.py:104} INFO - [2021-11-06 13:08:49,521] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:08:49,547] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:08:49,564] {logging_mixin.py:104} INFO - [2021-11-06 13:08:49,564] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:08:49,576] {logging_mixin.py:104} INFO - [2021-11-06 13:08:49,576] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:08:49,587] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.072 seconds
+[2021-11-06 13:09:19,607] {scheduler_job.py:182} INFO - Started process (PID=4754) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:09:19,608] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:09:19,609] {logging_mixin.py:104} INFO - [2021-11-06 13:09:19,609] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:09:19,631] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:09:19,648] {logging_mixin.py:104} INFO - [2021-11-06 13:09:19,648] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:09:19,660] {logging_mixin.py:104} INFO - [2021-11-06 13:09:19,660] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:09:19,671] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.065 seconds
+[2021-11-06 13:09:49,938] {scheduler_job.py:182} INFO - Started process (PID=4781) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:09:49,940] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:09:49,941] {logging_mixin.py:104} INFO - [2021-11-06 13:09:49,940] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:09:49,963] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:09:49,980] {logging_mixin.py:104} INFO - [2021-11-06 13:09:49,980] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:09:49,994] {logging_mixin.py:104} INFO - [2021-11-06 13:09:49,994] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:09:50,005] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.069 seconds
+[2021-11-06 13:10:20,253] {scheduler_job.py:182} INFO - Started process (PID=4808) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:10:20,254] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:10:20,255] {logging_mixin.py:104} INFO - [2021-11-06 13:10:20,255] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:10:20,277] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:10:20,296] {logging_mixin.py:104} INFO - [2021-11-06 13:10:20,296] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:10:20,309] {logging_mixin.py:104} INFO - [2021-11-06 13:10:20,309] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:10:20,321] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.071 seconds
+[2021-11-06 13:10:50,438] {scheduler_job.py:182} INFO - Started process (PID=4835) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:10:50,439] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:10:50,440] {logging_mixin.py:104} INFO - [2021-11-06 13:10:50,440] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:10:50,461] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:10:50,477] {logging_mixin.py:104} INFO - [2021-11-06 13:10:50,476] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:10:50,489] {logging_mixin.py:104} INFO - [2021-11-06 13:10:50,489] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:10:50,500] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.064 seconds
+[2021-11-06 13:11:20,563] {scheduler_job.py:182} INFO - Started process (PID=4862) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:11:20,564] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:11:20,565] {logging_mixin.py:104} INFO - [2021-11-06 13:11:20,565] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:11:20,585] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:11:20,601] {logging_mixin.py:104} INFO - [2021-11-06 13:11:20,601] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:11:20,613] {logging_mixin.py:104} INFO - [2021-11-06 13:11:20,613] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:11:20,624] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.063 seconds
+[2021-11-06 13:11:50,943] {scheduler_job.py:182} INFO - Started process (PID=4889) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:11:50,944] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:11:50,944] {logging_mixin.py:104} INFO - [2021-11-06 13:11:50,944] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:11:50,967] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:11:50,984] {logging_mixin.py:104} INFO - [2021-11-06 13:11:50,984] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:11:50,996] {logging_mixin.py:104} INFO - [2021-11-06 13:11:50,996] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:11:51,007] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.067 seconds
+[2021-11-06 13:12:21,175] {scheduler_job.py:182} INFO - Started process (PID=4916) to work on /opt/airflow/dags/first_dag.py
+[2021-11-06 13:12:21,176] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2021-11-06 13:12:21,177] {logging_mixin.py:104} INFO - [2021-11-06 13:12:21,177] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:12:21,199] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag_stub']) retrieved from /opt/airflow/dags/first_dag.py
+[2021-11-06 13:12:21,218] {logging_mixin.py:104} INFO - [2021-11-06 13:12:21,218] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-11-06 13:12:21,230] {logging_mixin.py:104} INFO - [2021-11-06 13:12:21,230] {dag.py:2273} INFO - Setting next_dagrun for first_dag_stub to 2021-11-06 00:00:00+00:00
+[2021-11-06 13:12:21,251] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/first_dag.py took 0.078 seconds

@@ -1,0 +1,21 @@
+[2021-12-29 13:56:59,655] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_kym 2021-12-28T13:56:58.025646+00:00 [queued]>
+[2021-12-29 13:56:59,673] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_kym 2021-12-28T13:56:58.025646+00:00 [queued]>
+[2021-12-29 13:56:59,673] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-29 13:56:59,674] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-12-29 13:56:59,674] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-29 13:56:59,685] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): cleanse_kym> on 2021-12-28T13:56:58.025646+00:00
+[2021-12-29 13:56:59,689] {standard_task_runner.py:52} INFO - Started process 16351 to run task
+[2021-12-29 13:56:59,695] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'cleansing_dag', 'cleanse_kym', '2021-12-28T13:56:58.025646+00:00', '--job-id', '392', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmpij6v9tnf', '--error-file', '/tmp/tmp2u1nnwcq']
+[2021-12-29 13:56:59,696] {standard_task_runner.py:77} INFO - Job 392: Subtask cleanse_kym
+[2021-12-29 13:56:59,744] {logging_mixin.py:109} INFO - Running <TaskInstance: cleansing_dag.cleanse_kym 2021-12-28T13:56:58.025646+00:00 [running]> on host 34521d0e1651
+[2021-12-29 13:56:59,800] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=cleanse_kym
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-28T13:56:58.025646+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-28T13:56:58.025646+00:00
+[2021-12-29 14:00:53,839] {python.py:151} INFO - Done. Returned value was: None
+[2021-12-29 14:00:53,906] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=cleanse_kym, execution_date=20211228T135658, start_date=20211229T135659, end_date=20211229T140053
+[2021-12-29 14:00:53,983] {local_task_job.py:151} INFO - Task exited with return code 0

@@ -1,0 +1,721 @@
+[2021-12-08 18:58:59,483] {scheduler_job.py:182} INFO - Started process (PID=79) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 18:58:59,484] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 18:58:59,485] {logging_mixin.py:104} INFO - [2021-12-08 18:58:59,485] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 18:58:59,829] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 18:58:59,850] {logging_mixin.py:104} INFO - [2021-12-08 18:58:59,849] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 18:58:59,868] {logging_mixin.py:104} INFO - [2021-12-08 18:58:59,868] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 18:58:59,899] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.418 seconds
+[2021-12-08 18:59:30,025] {scheduler_job.py:182} INFO - Started process (PID=83) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 18:59:30,026] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 18:59:30,026] {logging_mixin.py:104} INFO - [2021-12-08 18:59:30,026] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 18:59:30,308] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 18:59:30,324] {logging_mixin.py:104} INFO - [2021-12-08 18:59:30,323] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 18:59:30,336] {logging_mixin.py:104} INFO - [2021-12-08 18:59:30,336] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 18:59:30,387] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.364 seconds
+[2021-12-08 19:00:00,492] {scheduler_job.py:182} INFO - Started process (PID=87) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:00:00,493] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:00:00,494] {logging_mixin.py:104} INFO - [2021-12-08 19:00:00,494] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:00:00,753] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:00:00,772] {logging_mixin.py:104} INFO - [2021-12-08 19:00:00,771] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:00:00,783] {logging_mixin.py:104} INFO - [2021-12-08 19:00:00,783] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:00:00,796] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.307 seconds
+[2021-12-08 19:00:31,598] {scheduler_job.py:182} INFO - Started process (PID=90) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:00:31,599] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:00:31,600] {logging_mixin.py:104} INFO - [2021-12-08 19:00:31,599] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:00:31,898] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:00:31,914] {logging_mixin.py:104} INFO - [2021-12-08 19:00:31,914] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:00:31,927] {logging_mixin.py:104} INFO - [2021-12-08 19:00:31,926] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:00:31,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.343 seconds
+[2021-12-08 19:01:02,702] {scheduler_job.py:182} INFO - Started process (PID=93) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:01:02,704] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:01:02,704] {logging_mixin.py:104} INFO - [2021-12-08 19:01:02,704] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:01:02,966] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:01:02,982] {logging_mixin.py:104} INFO - [2021-12-08 19:01:02,981] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:01:02,994] {logging_mixin.py:104} INFO - [2021-12-08 19:01:02,994] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:01:03,011] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.311 seconds
+[2021-12-08 19:01:33,801] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:01:33,803] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:01:33,804] {logging_mixin.py:104} INFO - [2021-12-08 19:01:33,804] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:01:34,074] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:01:34,092] {logging_mixin.py:104} INFO - [2021-12-08 19:01:34,090] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:01:34,106] {logging_mixin.py:104} INFO - [2021-12-08 19:01:34,106] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:01:34,116] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.317 seconds
+[2021-12-08 19:02:04,901] {scheduler_job.py:182} INFO - Started process (PID=99) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:02:04,902] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:02:04,903] {logging_mixin.py:104} INFO - [2021-12-08 19:02:04,903] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:02:05,166] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:02:05,182] {logging_mixin.py:104} INFO - [2021-12-08 19:02:05,181] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:02:05,193] {logging_mixin.py:104} INFO - [2021-12-08 19:02:05,193] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:02:05,203] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.304 seconds
+[2021-12-08 19:02:35,999] {scheduler_job.py:182} INFO - Started process (PID=102) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:02:36,000] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:02:36,001] {logging_mixin.py:104} INFO - [2021-12-08 19:02:36,000] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:02:36,283] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:02:36,300] {logging_mixin.py:104} INFO - [2021-12-08 19:02:36,300] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:02:36,313] {logging_mixin.py:104} INFO - [2021-12-08 19:02:36,313] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:02:36,368] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.372 seconds
+[2021-12-08 19:03:07,096] {scheduler_job.py:182} INFO - Started process (PID=105) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:03:07,097] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:03:07,098] {logging_mixin.py:104} INFO - [2021-12-08 19:03:07,098] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:03:07,357] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:03:07,373] {logging_mixin.py:104} INFO - [2021-12-08 19:03:07,372] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:03:07,385] {logging_mixin.py:104} INFO - [2021-12-08 19:03:07,385] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:03:07,396] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.302 seconds
+[2021-12-08 19:03:38,198] {scheduler_job.py:182} INFO - Started process (PID=108) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:03:38,199] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:03:38,200] {logging_mixin.py:104} INFO - [2021-12-08 19:03:38,200] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:03:38,472] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:03:38,489] {logging_mixin.py:104} INFO - [2021-12-08 19:03:38,488] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:03:38,500] {logging_mixin.py:104} INFO - [2021-12-08 19:03:38,500] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:03:38,512] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.316 seconds
+[2021-12-08 19:04:08,788] {scheduler_job.py:182} INFO - Started process (PID=112) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:04:08,789] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:04:08,790] {logging_mixin.py:104} INFO - [2021-12-08 19:04:08,790] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:04:09,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:04:09,100] {logging_mixin.py:104} INFO - [2021-12-08 19:04:09,099] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:04:09,111] {logging_mixin.py:104} INFO - [2021-12-08 19:04:09,111] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:04:09,129] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.343 seconds
+[2021-12-08 19:04:39,207] {scheduler_job.py:182} INFO - Started process (PID=116) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:04:39,208] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:04:39,209] {logging_mixin.py:104} INFO - [2021-12-08 19:04:39,209] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:04:39,513] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:04:39,531] {logging_mixin.py:104} INFO - [2021-12-08 19:04:39,530] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:04:39,542] {logging_mixin.py:104} INFO - [2021-12-08 19:04:39,542] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:04:39,577] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.372 seconds
+[2021-12-08 19:05:09,651] {scheduler_job.py:182} INFO - Started process (PID=120) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:05:09,652] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:05:09,653] {logging_mixin.py:104} INFO - [2021-12-08 19:05:09,653] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:05:09,997] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:05:10,020] {logging_mixin.py:104} INFO - [2021-12-08 19:05:10,019] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:05:10,035] {logging_mixin.py:104} INFO - [2021-12-08 19:05:10,035] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:05:10,047] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.398 seconds
+[2021-12-08 19:05:40,119] {scheduler_job.py:182} INFO - Started process (PID=124) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:05:40,120] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:05:40,120] {logging_mixin.py:104} INFO - [2021-12-08 19:05:40,120] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:05:40,395] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:05:40,411] {logging_mixin.py:104} INFO - [2021-12-08 19:05:40,410] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:05:40,422] {logging_mixin.py:104} INFO - [2021-12-08 19:05:40,422] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:05:40,452] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.336 seconds
+[2021-12-08 19:06:10,524] {scheduler_job.py:182} INFO - Started process (PID=128) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:06:10,525] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:06:10,525] {logging_mixin.py:104} INFO - [2021-12-08 19:06:10,525] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:06:10,781] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:06:10,797] {logging_mixin.py:104} INFO - [2021-12-08 19:06:10,796] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:06:10,808] {logging_mixin.py:104} INFO - [2021-12-08 19:06:10,808] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:06:10,819] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.297 seconds
+[2021-12-08 19:06:40,910] {scheduler_job.py:182} INFO - Started process (PID=132) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:06:40,912] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:06:40,913] {logging_mixin.py:104} INFO - [2021-12-08 19:06:40,913] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:06:41,208] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:06:41,225] {logging_mixin.py:104} INFO - [2021-12-08 19:06:41,224] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:06:41,237] {logging_mixin.py:104} INFO - [2021-12-08 19:06:41,237] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:06:41,290] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.381 seconds
+[2021-12-08 19:07:11,365] {scheduler_job.py:182} INFO - Started process (PID=136) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:07:11,367] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:07:11,368] {logging_mixin.py:104} INFO - [2021-12-08 19:07:11,368] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:07:11,648] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:07:11,662] {logging_mixin.py:104} INFO - [2021-12-08 19:07:11,662] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:07:11,674] {logging_mixin.py:104} INFO - [2021-12-08 19:07:11,674] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:07:11,709] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.346 seconds
+[2021-12-08 19:07:41,782] {scheduler_job.py:182} INFO - Started process (PID=140) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:07:41,784] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:07:41,784] {logging_mixin.py:104} INFO - [2021-12-08 19:07:41,784] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:07:42,060] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:07:42,078] {logging_mixin.py:104} INFO - [2021-12-08 19:07:42,077] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:07:42,092] {logging_mixin.py:104} INFO - [2021-12-08 19:07:42,092] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:07:42,142] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.361 seconds
+[2021-12-08 19:08:12,217] {scheduler_job.py:182} INFO - Started process (PID=144) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:08:12,218] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:08:12,219] {logging_mixin.py:104} INFO - [2021-12-08 19:08:12,219] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:08:12,485] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:08:12,502] {logging_mixin.py:104} INFO - [2021-12-08 19:08:12,501] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:08:12,515] {logging_mixin.py:104} INFO - [2021-12-08 19:08:12,515] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:08:12,571] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.355 seconds
+[2021-12-08 19:08:42,650] {scheduler_job.py:182} INFO - Started process (PID=148) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:08:42,651] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:08:42,652] {logging_mixin.py:104} INFO - [2021-12-08 19:08:42,652] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:08:42,915] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:08:42,930] {logging_mixin.py:104} INFO - [2021-12-08 19:08:42,929] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:08:42,942] {logging_mixin.py:104} INFO - [2021-12-08 19:08:42,941] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:08:42,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.304 seconds
+[2021-12-08 19:09:13,156] {scheduler_job.py:182} INFO - Started process (PID=152) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:09:13,157] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:09:13,158] {logging_mixin.py:104} INFO - [2021-12-08 19:09:13,158] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:09:13,456] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:09:13,473] {logging_mixin.py:104} INFO - [2021-12-08 19:09:13,471] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:09:13,487] {logging_mixin.py:104} INFO - [2021-12-08 19:09:13,487] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:09:13,497] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.343 seconds
+[2021-12-08 19:09:43,575] {scheduler_job.py:182} INFO - Started process (PID=156) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:09:43,576] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:09:43,577] {logging_mixin.py:104} INFO - [2021-12-08 19:09:43,577] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:09:43,868] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:09:43,883] {logging_mixin.py:104} INFO - [2021-12-08 19:09:43,883] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:09:43,896] {logging_mixin.py:104} INFO - [2021-12-08 19:09:43,896] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:09:43,907] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.334 seconds
+[2021-12-08 19:10:13,980] {scheduler_job.py:182} INFO - Started process (PID=160) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:10:13,981] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:10:13,982] {logging_mixin.py:104} INFO - [2021-12-08 19:10:13,982] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:10:14,283] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:10:14,301] {logging_mixin.py:104} INFO - [2021-12-08 19:10:14,300] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:10:14,312] {logging_mixin.py:104} INFO - [2021-12-08 19:10:14,312] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:10:14,323] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.345 seconds
+[2021-12-08 19:10:44,411] {scheduler_job.py:182} INFO - Started process (PID=164) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:10:44,412] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:10:44,413] {logging_mixin.py:104} INFO - [2021-12-08 19:10:44,413] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:10:44,678] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:10:44,694] {logging_mixin.py:104} INFO - [2021-12-08 19:10:44,693] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:10:44,704] {logging_mixin.py:104} INFO - [2021-12-08 19:10:44,704] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:10:44,714] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.305 seconds
+[2021-12-08 19:11:14,846] {scheduler_job.py:182} INFO - Started process (PID=168) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:11:14,847] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:11:14,847] {logging_mixin.py:104} INFO - [2021-12-08 19:11:14,847] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:11:15,132] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:11:15,149] {logging_mixin.py:104} INFO - [2021-12-08 19:11:15,148] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:11:15,161] {logging_mixin.py:104} INFO - [2021-12-08 19:11:15,160] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:11:15,192] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.348 seconds
+[2021-12-08 19:11:45,275] {scheduler_job.py:182} INFO - Started process (PID=172) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:11:45,276] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:11:45,277] {logging_mixin.py:104} INFO - [2021-12-08 19:11:45,277] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:11:45,540] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:11:45,561] {logging_mixin.py:104} INFO - [2021-12-08 19:11:45,560] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:11:45,571] {logging_mixin.py:104} INFO - [2021-12-08 19:11:45,571] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:11:45,584] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.311 seconds
+[2021-12-08 19:12:15,699] {scheduler_job.py:182} INFO - Started process (PID=176) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:12:15,700] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:12:15,701] {logging_mixin.py:104} INFO - [2021-12-08 19:12:15,701] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:12:15,974] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:12:15,994] {logging_mixin.py:104} INFO - [2021-12-08 19:12:15,993] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:12:16,006] {logging_mixin.py:104} INFO - [2021-12-08 19:12:16,006] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:12:16,056] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.359 seconds
+[2021-12-08 19:12:46,136] {scheduler_job.py:182} INFO - Started process (PID=180) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:12:46,137] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:12:46,138] {logging_mixin.py:104} INFO - [2021-12-08 19:12:46,138] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:12:46,401] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:12:46,418] {logging_mixin.py:104} INFO - [2021-12-08 19:12:46,417] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:12:46,428] {logging_mixin.py:104} INFO - [2021-12-08 19:12:46,428] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:12:46,477] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.342 seconds
+[2021-12-08 19:13:16,555] {scheduler_job.py:182} INFO - Started process (PID=184) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:13:16,556] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:13:16,557] {logging_mixin.py:104} INFO - [2021-12-08 19:13:16,557] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:13:16,824] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:13:16,842] {logging_mixin.py:104} INFO - [2021-12-08 19:13:16,841] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:13:16,854] {logging_mixin.py:104} INFO - [2021-12-08 19:13:16,853] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:13:16,896] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.343 seconds
+[2021-12-08 19:13:46,975] {scheduler_job.py:182} INFO - Started process (PID=188) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:13:46,976] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:13:46,977] {logging_mixin.py:104} INFO - [2021-12-08 19:13:46,977] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:13:47,244] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:13:47,260] {logging_mixin.py:104} INFO - [2021-12-08 19:13:47,259] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:13:47,271] {logging_mixin.py:104} INFO - [2021-12-08 19:13:47,271] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:13:47,321] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.348 seconds
+[2021-12-08 19:14:17,398] {scheduler_job.py:182} INFO - Started process (PID=192) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:14:17,399] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:14:17,400] {logging_mixin.py:104} INFO - [2021-12-08 19:14:17,400] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:14:17,657] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:14:17,672] {logging_mixin.py:104} INFO - [2021-12-08 19:14:17,671] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:14:17,683] {logging_mixin.py:104} INFO - [2021-12-08 19:14:17,683] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:14:17,747] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.350 seconds
+[2021-12-08 19:14:47,825] {scheduler_job.py:182} INFO - Started process (PID=196) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:14:47,826] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:14:47,827] {logging_mixin.py:104} INFO - [2021-12-08 19:14:47,827] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:14:48,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:14:48,102] {logging_mixin.py:104} INFO - [2021-12-08 19:14:48,101] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:14:48,113] {logging_mixin.py:104} INFO - [2021-12-08 19:14:48,113] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:14:48,164] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.341 seconds
+[2021-12-08 19:15:18,240] {scheduler_job.py:182} INFO - Started process (PID=200) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:15:18,241] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:15:18,242] {logging_mixin.py:104} INFO - [2021-12-08 19:15:18,242] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:15:18,511] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:15:18,528] {logging_mixin.py:104} INFO - [2021-12-08 19:15:18,527] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:15:18,538] {logging_mixin.py:104} INFO - [2021-12-08 19:15:18,538] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:15:18,549] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.311 seconds
+[2021-12-08 19:15:48,628] {scheduler_job.py:182} INFO - Started process (PID=204) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:15:48,630] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:15:48,630] {logging_mixin.py:104} INFO - [2021-12-08 19:15:48,630] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:15:48,896] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:15:48,911] {logging_mixin.py:104} INFO - [2021-12-08 19:15:48,910] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:15:48,922] {logging_mixin.py:104} INFO - [2021-12-08 19:15:48,922] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:15:48,966] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.340 seconds
+[2021-12-08 19:16:19,041] {scheduler_job.py:182} INFO - Started process (PID=208) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:16:19,042] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:16:19,043] {logging_mixin.py:104} INFO - [2021-12-08 19:16:19,043] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:16:19,339] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:16:19,358] {logging_mixin.py:104} INFO - [2021-12-08 19:16:19,357] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:16:19,370] {logging_mixin.py:104} INFO - [2021-12-08 19:16:19,370] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:16:19,381] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.342 seconds
+[2021-12-08 19:16:49,453] {scheduler_job.py:182} INFO - Started process (PID=212) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:16:49,454] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:16:49,455] {logging_mixin.py:104} INFO - [2021-12-08 19:16:49,455] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:16:49,748] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:16:49,765] {logging_mixin.py:104} INFO - [2021-12-08 19:16:49,764] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:16:49,778] {logging_mixin.py:104} INFO - [2021-12-08 19:16:49,778] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:16:49,833] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.382 seconds
+[2021-12-08 19:17:19,907] {scheduler_job.py:182} INFO - Started process (PID=216) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:17:19,908] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:17:19,909] {logging_mixin.py:104} INFO - [2021-12-08 19:17:19,909] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:17:20,200] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:17:20,217] {logging_mixin.py:104} INFO - [2021-12-08 19:17:20,216] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:17:20,228] {logging_mixin.py:104} INFO - [2021-12-08 19:17:20,228] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:17:20,260] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.355 seconds
+[2021-12-08 19:17:50,343] {scheduler_job.py:182} INFO - Started process (PID=220) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:17:50,345] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:17:50,346] {logging_mixin.py:104} INFO - [2021-12-08 19:17:50,346] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:17:50,645] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:17:50,663] {logging_mixin.py:104} INFO - [2021-12-08 19:17:50,662] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:17:50,674] {logging_mixin.py:104} INFO - [2021-12-08 19:17:50,674] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:17:50,685] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.343 seconds
+[2021-12-08 19:18:20,762] {scheduler_job.py:182} INFO - Started process (PID=224) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:18:20,763] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:18:20,764] {logging_mixin.py:104} INFO - [2021-12-08 19:18:20,763] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:18:21,050] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:18:21,067] {logging_mixin.py:104} INFO - [2021-12-08 19:18:21,066] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:18:21,078] {logging_mixin.py:104} INFO - [2021-12-08 19:18:21,078] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:18:21,090] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.331 seconds
+[2021-12-08 19:18:51,161] {scheduler_job.py:182} INFO - Started process (PID=228) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:18:51,162] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:18:51,162] {logging_mixin.py:104} INFO - [2021-12-08 19:18:51,162] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:18:51,450] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:18:51,468] {logging_mixin.py:104} INFO - [2021-12-08 19:18:51,467] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:18:51,479] {logging_mixin.py:104} INFO - [2021-12-08 19:18:51,479] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:18:51,490] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.331 seconds
+[2021-12-08 19:19:21,697] {scheduler_job.py:182} INFO - Started process (PID=232) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:19:21,698] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:19:21,699] {logging_mixin.py:104} INFO - [2021-12-08 19:19:21,699] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:19:21,993] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:19:22,010] {logging_mixin.py:104} INFO - [2021-12-08 19:19:22,010] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:19:22,023] {logging_mixin.py:104} INFO - [2021-12-08 19:19:22,023] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:19:22,034] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.339 seconds
+[2021-12-08 19:19:52,114] {scheduler_job.py:182} INFO - Started process (PID=236) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:19:52,116] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:19:52,117] {logging_mixin.py:104} INFO - [2021-12-08 19:19:52,117] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:19:52,422] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:19:52,439] {logging_mixin.py:104} INFO - [2021-12-08 19:19:52,438] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:19:52,451] {logging_mixin.py:104} INFO - [2021-12-08 19:19:52,451] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:19:52,462] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.349 seconds
+[2021-12-08 19:20:22,555] {scheduler_job.py:182} INFO - Started process (PID=240) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:20:22,555] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:20:22,556] {logging_mixin.py:104} INFO - [2021-12-08 19:20:22,556] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:20:22,835] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:20:22,850] {logging_mixin.py:104} INFO - [2021-12-08 19:20:22,849] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:20:22,863] {logging_mixin.py:104} INFO - [2021-12-08 19:20:22,863] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:20:22,923] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.370 seconds
+[2021-12-08 19:20:53,007] {scheduler_job.py:182} INFO - Started process (PID=244) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:20:53,008] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:20:53,009] {logging_mixin.py:104} INFO - [2021-12-08 19:20:53,008] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:20:53,290] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:20:53,307] {logging_mixin.py:104} INFO - [2021-12-08 19:20:53,306] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:20:53,319] {logging_mixin.py:104} INFO - [2021-12-08 19:20:53,319] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:20:53,335] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.331 seconds
+[2021-12-08 19:21:23,408] {scheduler_job.py:182} INFO - Started process (PID=248) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:21:23,409] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:21:23,410] {logging_mixin.py:104} INFO - [2021-12-08 19:21:23,410] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:21:23,696] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:21:23,712] {logging_mixin.py:104} INFO - [2021-12-08 19:21:23,711] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:21:23,722] {logging_mixin.py:104} INFO - [2021-12-08 19:21:23,722] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:21:23,733] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.327 seconds
+[2021-12-08 19:21:53,805] {scheduler_job.py:182} INFO - Started process (PID=252) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:21:53,806] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:21:53,807] {logging_mixin.py:104} INFO - [2021-12-08 19:21:53,807] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:21:54,103] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:21:54,120] {logging_mixin.py:104} INFO - [2021-12-08 19:21:54,119] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:21:54,132] {logging_mixin.py:104} INFO - [2021-12-08 19:21:54,131] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:21:54,142] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.339 seconds
+[2021-12-08 19:22:24,218] {scheduler_job.py:182} INFO - Started process (PID=256) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:22:24,219] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:22:24,219] {logging_mixin.py:104} INFO - [2021-12-08 19:22:24,219] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:22:24,491] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:22:24,507] {logging_mixin.py:104} INFO - [2021-12-08 19:22:24,506] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:22:24,519] {logging_mixin.py:104} INFO - [2021-12-08 19:22:24,518] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:22:24,530] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.314 seconds
+[2021-12-08 19:22:54,609] {scheduler_job.py:182} INFO - Started process (PID=260) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:22:54,610] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:22:54,611] {logging_mixin.py:104} INFO - [2021-12-08 19:22:54,611] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:22:54,883] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:22:54,900] {logging_mixin.py:104} INFO - [2021-12-08 19:22:54,899] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:22:54,911] {logging_mixin.py:104} INFO - [2021-12-08 19:22:54,911] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:22:54,973] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.366 seconds
+[2021-12-08 19:23:25,049] {scheduler_job.py:182} INFO - Started process (PID=264) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:23:25,050] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:23:25,051] {logging_mixin.py:104} INFO - [2021-12-08 19:23:25,051] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:23:25,332] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:23:25,350] {logging_mixin.py:104} INFO - [2021-12-08 19:23:25,349] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:23:25,364] {logging_mixin.py:104} INFO - [2021-12-08 19:23:25,364] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:23:25,397] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.349 seconds
+[2021-12-08 19:23:55,481] {scheduler_job.py:182} INFO - Started process (PID=268) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:23:55,483] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:23:55,485] {logging_mixin.py:104} INFO - [2021-12-08 19:23:55,485] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:23:55,758] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:23:55,774] {logging_mixin.py:104} INFO - [2021-12-08 19:23:55,773] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:23:55,786] {logging_mixin.py:104} INFO - [2021-12-08 19:23:55,786] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:23:55,817] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.341 seconds
+[2021-12-08 19:24:25,945] {scheduler_job.py:182} INFO - Started process (PID=272) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:24:25,946] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:24:25,947] {logging_mixin.py:104} INFO - [2021-12-08 19:24:25,947] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:24:26,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:24:26,260] {logging_mixin.py:104} INFO - [2021-12-08 19:24:26,259] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:24:26,271] {logging_mixin.py:104} INFO - [2021-12-08 19:24:26,271] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:24:26,281] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.338 seconds
+[2021-12-08 19:24:56,364] {scheduler_job.py:182} INFO - Started process (PID=276) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:24:56,367] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:24:56,369] {logging_mixin.py:104} INFO - [2021-12-08 19:24:56,369] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:24:56,684] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:24:56,701] {logging_mixin.py:104} INFO - [2021-12-08 19:24:56,700] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:24:56,712] {logging_mixin.py:104} INFO - [2021-12-08 19:24:56,712] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:24:56,722] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.360 seconds
+[2021-12-08 19:25:26,795] {scheduler_job.py:182} INFO - Started process (PID=280) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:25:26,796] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:25:26,797] {logging_mixin.py:104} INFO - [2021-12-08 19:25:26,797] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:25:27,114] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:25:27,131] {logging_mixin.py:104} INFO - [2021-12-08 19:25:27,130] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:25:27,143] {logging_mixin.py:104} INFO - [2021-12-08 19:25:27,143] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:25:27,153] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.361 seconds
+[2021-12-08 19:25:57,239] {scheduler_job.py:182} INFO - Started process (PID=284) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:25:57,242] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:25:57,243] {logging_mixin.py:104} INFO - [2021-12-08 19:25:57,243] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:25:57,511] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:25:57,527] {logging_mixin.py:104} INFO - [2021-12-08 19:25:57,527] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:25:57,538] {logging_mixin.py:104} INFO - [2021-12-08 19:25:57,538] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:25:57,571] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.335 seconds
+[2021-12-08 19:26:27,657] {scheduler_job.py:182} INFO - Started process (PID=288) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:26:27,659] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:26:27,660] {logging_mixin.py:104} INFO - [2021-12-08 19:26:27,660] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:26:27,938] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:26:27,957] {logging_mixin.py:104} INFO - [2021-12-08 19:26:27,955] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:26:27,970] {logging_mixin.py:104} INFO - [2021-12-08 19:26:27,970] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:26:28,031] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.376 seconds
+[2021-12-08 19:26:58,110] {scheduler_job.py:182} INFO - Started process (PID=292) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:26:58,111] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:26:58,112] {logging_mixin.py:104} INFO - [2021-12-08 19:26:58,111] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:26:58,404] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:26:58,421] {logging_mixin.py:104} INFO - [2021-12-08 19:26:58,420] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:26:58,432] {logging_mixin.py:104} INFO - [2021-12-08 19:26:58,432] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:26:58,467] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.359 seconds
+[2021-12-08 19:27:28,542] {scheduler_job.py:182} INFO - Started process (PID=296) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:27:28,543] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:27:28,544] {logging_mixin.py:104} INFO - [2021-12-08 19:27:28,544] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:27:28,798] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:27:28,813] {logging_mixin.py:104} INFO - [2021-12-08 19:27:28,812] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:27:28,824] {logging_mixin.py:104} INFO - [2021-12-08 19:27:28,824] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:27:28,886] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.345 seconds
+[2021-12-08 19:27:58,968] {scheduler_job.py:182} INFO - Started process (PID=300) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:27:58,969] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:27:58,970] {logging_mixin.py:104} INFO - [2021-12-08 19:27:58,970] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:27:59,221] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:27:59,236] {logging_mixin.py:104} INFO - [2021-12-08 19:27:59,235] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:27:59,246] {logging_mixin.py:104} INFO - [2021-12-08 19:27:59,246] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:27:59,300] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.334 seconds
+[2021-12-08 19:28:29,382] {scheduler_job.py:182} INFO - Started process (PID=304) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:28:29,383] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:28:29,384] {logging_mixin.py:104} INFO - [2021-12-08 19:28:29,384] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:28:29,648] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:28:29,662] {logging_mixin.py:104} INFO - [2021-12-08 19:28:29,661] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:28:29,674] {logging_mixin.py:104} INFO - [2021-12-08 19:28:29,673] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:28:29,705] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.325 seconds
+[2021-12-08 19:28:59,790] {scheduler_job.py:182} INFO - Started process (PID=308) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:28:59,792] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:28:59,793] {logging_mixin.py:104} INFO - [2021-12-08 19:28:59,793] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:29:00,060] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:29:00,076] {logging_mixin.py:104} INFO - [2021-12-08 19:29:00,075] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:29:00,087] {logging_mixin.py:104} INFO - [2021-12-08 19:29:00,087] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:29:00,098] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.309 seconds
+[2021-12-08 19:29:30,365] {scheduler_job.py:182} INFO - Started process (PID=312) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:29:30,367] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:29:30,368] {logging_mixin.py:104} INFO - [2021-12-08 19:29:30,368] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:29:30,623] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:29:30,638] {logging_mixin.py:104} INFO - [2021-12-08 19:29:30,637] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:29:30,649] {logging_mixin.py:104} INFO - [2021-12-08 19:29:30,649] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:29:30,717] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.354 seconds
+[2021-12-08 19:30:00,800] {scheduler_job.py:182} INFO - Started process (PID=316) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:30:00,802] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:30:00,803] {logging_mixin.py:104} INFO - [2021-12-08 19:30:00,803] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:30:01,061] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:30:01,076] {logging_mixin.py:104} INFO - [2021-12-08 19:30:01,075] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:30:01,087] {logging_mixin.py:104} INFO - [2021-12-08 19:30:01,087] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:30:01,143] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.346 seconds
+[2021-12-08 19:30:31,224] {scheduler_job.py:182} INFO - Started process (PID=320) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:30:31,225] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:30:31,226] {logging_mixin.py:104} INFO - [2021-12-08 19:30:31,226] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:30:31,495] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:30:31,512] {logging_mixin.py:104} INFO - [2021-12-08 19:30:31,511] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:30:31,523] {logging_mixin.py:104} INFO - [2021-12-08 19:30:31,523] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:30:31,575] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.353 seconds
+[2021-12-08 19:31:01,646] {scheduler_job.py:182} INFO - Started process (PID=324) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:31:01,647] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:31:01,648] {logging_mixin.py:104} INFO - [2021-12-08 19:31:01,648] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:31:01,920] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:31:01,997] {logging_mixin.py:104} INFO - [2021-12-08 19:31:01,995] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:31:02,012] {logging_mixin.py:104} INFO - [2021-12-08 19:31:02,012] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:31:02,058] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.414 seconds
+[2021-12-08 19:31:32,132] {scheduler_job.py:182} INFO - Started process (PID=328) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:31:32,133] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:31:32,134] {logging_mixin.py:104} INFO - [2021-12-08 19:31:32,134] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:31:32,393] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:31:32,409] {logging_mixin.py:104} INFO - [2021-12-08 19:31:32,408] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:31:32,419] {logging_mixin.py:104} INFO - [2021-12-08 19:31:32,419] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:31:32,472] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.342 seconds
+[2021-12-08 19:32:02,550] {scheduler_job.py:182} INFO - Started process (PID=332) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:32:02,551] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:32:02,552] {logging_mixin.py:104} INFO - [2021-12-08 19:32:02,552] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:32:02,810] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:32:02,825] {logging_mixin.py:104} INFO - [2021-12-08 19:32:02,824] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:32:02,836] {logging_mixin.py:104} INFO - [2021-12-08 19:32:02,836] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:32:02,873] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.325 seconds
+[2021-12-08 19:32:32,954] {scheduler_job.py:182} INFO - Started process (PID=336) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:32:32,956] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:32:32,957] {logging_mixin.py:104} INFO - [2021-12-08 19:32:32,957] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:32:33,239] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:32:33,256] {logging_mixin.py:104} INFO - [2021-12-08 19:32:33,255] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:32:33,268] {logging_mixin.py:104} INFO - [2021-12-08 19:32:33,268] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:32:33,307] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.355 seconds
+[2021-12-08 19:33:03,382] {scheduler_job.py:182} INFO - Started process (PID=340) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:33:03,384] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:33:03,385] {logging_mixin.py:104} INFO - [2021-12-08 19:33:03,385] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:33:03,664] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:33:03,684] {logging_mixin.py:104} INFO - [2021-12-08 19:33:03,683] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:33:03,695] {logging_mixin.py:104} INFO - [2021-12-08 19:33:03,695] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:33:03,745] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.365 seconds
+[2021-12-08 19:33:33,819] {scheduler_job.py:182} INFO - Started process (PID=344) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:33:33,820] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:33:33,821] {logging_mixin.py:104} INFO - [2021-12-08 19:33:33,821] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:33:34,083] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:33:34,101] {logging_mixin.py:104} INFO - [2021-12-08 19:33:34,099] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:33:34,112] {logging_mixin.py:104} INFO - [2021-12-08 19:33:34,112] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:33:34,125] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.308 seconds
+[2021-12-08 19:34:04,325] {scheduler_job.py:182} INFO - Started process (PID=348) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:34:04,326] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:34:04,327] {logging_mixin.py:104} INFO - [2021-12-08 19:34:04,327] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:34:04,588] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:34:04,609] {logging_mixin.py:104} INFO - [2021-12-08 19:34:04,607] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:34:04,620] {logging_mixin.py:104} INFO - [2021-12-08 19:34:04,620] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:34:04,632] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.308 seconds
+[2021-12-08 19:34:34,712] {scheduler_job.py:182} INFO - Started process (PID=352) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:34:34,714] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:34:34,715] {logging_mixin.py:104} INFO - [2021-12-08 19:34:34,715] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:34:34,980] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:34:34,996] {logging_mixin.py:104} INFO - [2021-12-08 19:34:34,996] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:34:35,008] {logging_mixin.py:104} INFO - [2021-12-08 19:34:35,008] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:34:35,018] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.309 seconds
+[2021-12-08 19:35:05,098] {scheduler_job.py:182} INFO - Started process (PID=356) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:35:05,099] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:35:05,100] {logging_mixin.py:104} INFO - [2021-12-08 19:35:05,100] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:35:05,369] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:35:05,384] {logging_mixin.py:104} INFO - [2021-12-08 19:35:05,384] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:35:05,395] {logging_mixin.py:104} INFO - [2021-12-08 19:35:05,395] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:35:05,425] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.329 seconds
+[2021-12-08 19:35:35,505] {scheduler_job.py:182} INFO - Started process (PID=360) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:35:35,507] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:35:35,508] {logging_mixin.py:104} INFO - [2021-12-08 19:35:35,507] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:35:35,764] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:35:35,780] {logging_mixin.py:104} INFO - [2021-12-08 19:35:35,779] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:35:35,791] {logging_mixin.py:104} INFO - [2021-12-08 19:35:35,791] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:35:35,801] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.298 seconds
+[2021-12-08 19:36:05,886] {scheduler_job.py:182} INFO - Started process (PID=364) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:36:05,888] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:36:05,889] {logging_mixin.py:104} INFO - [2021-12-08 19:36:05,889] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:36:06,145] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:36:06,161] {logging_mixin.py:104} INFO - [2021-12-08 19:36:06,160] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:36:06,172] {logging_mixin.py:104} INFO - [2021-12-08 19:36:06,172] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:36:06,235] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.350 seconds
+[2021-12-08 19:36:36,311] {scheduler_job.py:182} INFO - Started process (PID=368) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:36:36,312] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:36:36,313] {logging_mixin.py:104} INFO - [2021-12-08 19:36:36,313] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:36:36,581] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:36:36,597] {logging_mixin.py:104} INFO - [2021-12-08 19:36:36,596] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:36:36,608] {logging_mixin.py:104} INFO - [2021-12-08 19:36:36,608] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:36:36,619] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.310 seconds
+[2021-12-08 19:37:06,701] {scheduler_job.py:182} INFO - Started process (PID=372) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:37:06,702] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:37:06,703] {logging_mixin.py:104} INFO - [2021-12-08 19:37:06,703] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:37:06,960] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:37:06,976] {logging_mixin.py:104} INFO - [2021-12-08 19:37:06,974] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:37:06,990] {logging_mixin.py:104} INFO - [2021-12-08 19:37:06,990] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:37:07,040] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.340 seconds
+[2021-12-08 19:37:37,140] {scheduler_job.py:182} INFO - Started process (PID=376) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:37:37,141] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:37:37,142] {logging_mixin.py:104} INFO - [2021-12-08 19:37:37,142] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:37:37,411] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:37:37,427] {logging_mixin.py:104} INFO - [2021-12-08 19:37:37,426] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:37:37,439] {logging_mixin.py:104} INFO - [2021-12-08 19:37:37,439] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:37:37,487] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.349 seconds
+[2021-12-08 19:38:07,558] {scheduler_job.py:182} INFO - Started process (PID=380) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:38:07,559] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:38:07,560] {logging_mixin.py:104} INFO - [2021-12-08 19:38:07,560] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:38:07,841] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:38:07,859] {logging_mixin.py:104} INFO - [2021-12-08 19:38:07,858] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:38:07,870] {logging_mixin.py:104} INFO - [2021-12-08 19:38:07,870] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:38:07,908] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.352 seconds
+[2021-12-08 19:38:37,987] {scheduler_job.py:182} INFO - Started process (PID=384) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:38:37,989] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:38:37,990] {logging_mixin.py:104} INFO - [2021-12-08 19:38:37,989] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:38:38,253] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:38:38,270] {logging_mixin.py:104} INFO - [2021-12-08 19:38:38,269] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:38:38,281] {logging_mixin.py:104} INFO - [2021-12-08 19:38:38,281] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:38:38,327] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.343 seconds
+[2021-12-08 19:39:08,516] {scheduler_job.py:182} INFO - Started process (PID=388) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:39:08,517] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:39:08,518] {logging_mixin.py:104} INFO - [2021-12-08 19:39:08,518] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:39:08,777] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:39:08,791] {logging_mixin.py:104} INFO - [2021-12-08 19:39:08,791] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:39:08,802] {logging_mixin.py:104} INFO - [2021-12-08 19:39:08,802] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:39:08,812] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.298 seconds
+[2021-12-08 19:39:38,886] {scheduler_job.py:182} INFO - Started process (PID=392) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:39:38,887] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:39:38,888] {logging_mixin.py:104} INFO - [2021-12-08 19:39:38,888] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:39:39,162] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:39:39,179] {logging_mixin.py:104} INFO - [2021-12-08 19:39:39,178] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:39:39,191] {logging_mixin.py:104} INFO - [2021-12-08 19:39:39,191] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:39:39,244] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.361 seconds
+[2021-12-08 19:40:09,321] {scheduler_job.py:182} INFO - Started process (PID=396) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:40:09,322] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:40:09,323] {logging_mixin.py:104} INFO - [2021-12-08 19:40:09,323] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:40:09,590] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:40:09,605] {logging_mixin.py:104} INFO - [2021-12-08 19:40:09,604] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:40:09,616] {logging_mixin.py:104} INFO - [2021-12-08 19:40:09,616] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:40:09,671] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.352 seconds
+[2021-12-08 19:40:39,741] {scheduler_job.py:182} INFO - Started process (PID=400) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:40:39,742] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:40:39,743] {logging_mixin.py:104} INFO - [2021-12-08 19:40:39,743] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:40:40,011] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:40:40,027] {logging_mixin.py:104} INFO - [2021-12-08 19:40:40,026] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:40:40,038] {logging_mixin.py:104} INFO - [2021-12-08 19:40:40,038] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:40:40,080] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.341 seconds
+[2021-12-08 19:41:10,154] {scheduler_job.py:182} INFO - Started process (PID=404) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:41:10,155] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:41:10,155] {logging_mixin.py:104} INFO - [2021-12-08 19:41:10,155] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:41:10,418] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:41:10,434] {logging_mixin.py:104} INFO - [2021-12-08 19:41:10,433] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:41:10,445] {logging_mixin.py:104} INFO - [2021-12-08 19:41:10,445] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:41:10,494] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.342 seconds
+[2021-12-08 19:41:40,573] {scheduler_job.py:182} INFO - Started process (PID=408) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:41:40,574] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:41:40,575] {logging_mixin.py:104} INFO - [2021-12-08 19:41:40,575] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:41:40,838] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:41:40,855] {logging_mixin.py:104} INFO - [2021-12-08 19:41:40,854] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:41:40,867] {logging_mixin.py:104} INFO - [2021-12-08 19:41:40,867] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:41:40,919] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.348 seconds
+[2021-12-08 19:42:11,021] {scheduler_job.py:182} INFO - Started process (PID=412) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:42:11,022] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:42:11,023] {logging_mixin.py:104} INFO - [2021-12-08 19:42:11,023] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:42:11,276] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:42:11,294] {logging_mixin.py:104} INFO - [2021-12-08 19:42:11,292] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:42:11,307] {logging_mixin.py:104} INFO - [2021-12-08 19:42:11,307] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:42:11,349] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.330 seconds
+[2021-12-08 19:42:41,423] {scheduler_job.py:182} INFO - Started process (PID=416) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:42:41,424] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:42:41,425] {logging_mixin.py:104} INFO - [2021-12-08 19:42:41,425] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:42:41,718] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:42:41,733] {logging_mixin.py:104} INFO - [2021-12-08 19:42:41,732] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:42:41,747] {logging_mixin.py:104} INFO - [2021-12-08 19:42:41,747] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:42:41,798] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.376 seconds
+[2021-12-08 19:43:11,899] {scheduler_job.py:182} INFO - Started process (PID=420) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:43:11,900] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:43:11,901] {logging_mixin.py:104} INFO - [2021-12-08 19:43:11,901] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:43:12,193] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:43:12,209] {logging_mixin.py:104} INFO - [2021-12-08 19:43:12,208] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:43:12,222] {logging_mixin.py:104} INFO - [2021-12-08 19:43:12,221] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:43:12,231] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.334 seconds
+[2021-12-08 19:43:42,313] {scheduler_job.py:182} INFO - Started process (PID=424) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:43:42,315] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:43:42,316] {logging_mixin.py:104} INFO - [2021-12-08 19:43:42,315] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:43:42,593] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:43:42,609] {logging_mixin.py:104} INFO - [2021-12-08 19:43:42,608] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:43:42,621] {logging_mixin.py:104} INFO - [2021-12-08 19:43:42,621] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:43:42,631] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.322 seconds
+[2021-12-08 19:44:12,834] {scheduler_job.py:182} INFO - Started process (PID=428) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:44:12,835] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:44:12,836] {logging_mixin.py:104} INFO - [2021-12-08 19:44:12,836] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:44:13,113] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:44:13,131] {logging_mixin.py:104} INFO - [2021-12-08 19:44:13,130] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:44:13,143] {logging_mixin.py:104} INFO - [2021-12-08 19:44:13,143] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:44:13,154] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.321 seconds
+[2021-12-08 19:44:43,232] {scheduler_job.py:182} INFO - Started process (PID=432) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:44:43,233] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:44:43,234] {logging_mixin.py:104} INFO - [2021-12-08 19:44:43,234] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:44:43,494] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:44:43,511] {logging_mixin.py:104} INFO - [2021-12-08 19:44:43,510] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:44:43,523] {logging_mixin.py:104} INFO - [2021-12-08 19:44:43,523] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:44:43,533] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.303 seconds
+[2021-12-08 19:45:13,614] {scheduler_job.py:182} INFO - Started process (PID=436) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:45:13,615] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:45:13,616] {logging_mixin.py:104} INFO - [2021-12-08 19:45:13,616] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:45:13,878] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:45:13,896] {logging_mixin.py:104} INFO - [2021-12-08 19:45:13,895] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:45:13,908] {logging_mixin.py:104} INFO - [2021-12-08 19:45:13,908] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:45:13,929] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.316 seconds
+[2021-12-08 19:45:44,006] {scheduler_job.py:182} INFO - Started process (PID=440) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:45:44,007] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:45:44,008] {logging_mixin.py:104} INFO - [2021-12-08 19:45:44,008] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:45:44,267] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:45:44,284] {logging_mixin.py:104} INFO - [2021-12-08 19:45:44,283] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:45:44,297] {logging_mixin.py:104} INFO - [2021-12-08 19:45:44,296] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:45:44,360] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.356 seconds
+[2021-12-08 19:46:14,462] {scheduler_job.py:182} INFO - Started process (PID=444) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:46:14,463] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:46:14,464] {logging_mixin.py:104} INFO - [2021-12-08 19:46:14,464] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:46:14,733] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:46:14,755] {logging_mixin.py:104} INFO - [2021-12-08 19:46:14,754] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:46:14,765] {logging_mixin.py:104} INFO - [2021-12-08 19:46:14,765] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:46:14,776] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.316 seconds
+[2021-12-08 19:46:44,855] {scheduler_job.py:182} INFO - Started process (PID=448) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:46:44,857] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:46:44,858] {logging_mixin.py:104} INFO - [2021-12-08 19:46:44,858] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:46:45,146] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:46:45,165] {logging_mixin.py:104} INFO - [2021-12-08 19:46:45,164] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:46:45,177] {logging_mixin.py:104} INFO - [2021-12-08 19:46:45,177] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:46:45,189] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.336 seconds
+[2021-12-08 19:47:15,283] {scheduler_job.py:182} INFO - Started process (PID=452) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:47:15,284] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:47:15,284] {logging_mixin.py:104} INFO - [2021-12-08 19:47:15,284] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:47:15,586] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:47:15,604] {logging_mixin.py:104} INFO - [2021-12-08 19:47:15,603] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:47:15,616] {logging_mixin.py:104} INFO - [2021-12-08 19:47:15,616] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:47:15,658] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.377 seconds
+[2021-12-08 19:47:45,743] {scheduler_job.py:182} INFO - Started process (PID=456) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:47:45,744] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:47:45,745] {logging_mixin.py:104} INFO - [2021-12-08 19:47:45,745] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:47:46,001] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:47:46,018] {logging_mixin.py:104} INFO - [2021-12-08 19:47:46,017] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:47:46,029] {logging_mixin.py:104} INFO - [2021-12-08 19:47:46,029] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:47:46,041] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.300 seconds
+[2021-12-08 19:48:16,125] {scheduler_job.py:182} INFO - Started process (PID=460) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:48:16,126] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:48:16,126] {logging_mixin.py:104} INFO - [2021-12-08 19:48:16,126] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:48:16,388] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:48:16,404] {logging_mixin.py:104} INFO - [2021-12-08 19:48:16,403] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:48:16,416] {logging_mixin.py:104} INFO - [2021-12-08 19:48:16,416] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:48:16,427] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.305 seconds
+[2021-12-08 19:48:46,509] {scheduler_job.py:182} INFO - Started process (PID=464) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:48:46,510] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:48:46,511] {logging_mixin.py:104} INFO - [2021-12-08 19:48:46,511] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:48:46,775] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:48:46,792] {logging_mixin.py:104} INFO - [2021-12-08 19:48:46,791] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:48:46,802] {logging_mixin.py:104} INFO - [2021-12-08 19:48:46,802] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:48:46,814] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.306 seconds
+[2021-12-08 19:49:16,999] {scheduler_job.py:182} INFO - Started process (PID=468) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:49:17,000] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:49:17,001] {logging_mixin.py:104} INFO - [2021-12-08 19:49:17,001] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:49:17,277] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:49:17,293] {logging_mixin.py:104} INFO - [2021-12-08 19:49:17,292] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:49:17,305] {logging_mixin.py:104} INFO - [2021-12-08 19:49:17,305] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:49:17,316] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.319 seconds
+[2021-12-08 19:49:47,395] {scheduler_job.py:182} INFO - Started process (PID=472) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:49:47,396] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:49:47,396] {logging_mixin.py:104} INFO - [2021-12-08 19:49:47,396] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:49:47,655] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:49:47,670] {logging_mixin.py:104} INFO - [2021-12-08 19:49:47,670] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:49:47,682] {logging_mixin.py:104} INFO - [2021-12-08 19:49:47,682] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:49:47,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.299 seconds
+[2021-12-08 19:50:17,780] {scheduler_job.py:182} INFO - Started process (PID=476) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:50:17,782] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:50:17,783] {logging_mixin.py:104} INFO - [2021-12-08 19:50:17,782] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:50:18,078] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:50:18,101] {logging_mixin.py:104} INFO - [2021-12-08 19:50:18,100] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:50:18,119] {logging_mixin.py:104} INFO - [2021-12-08 19:50:18,119] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:50:18,160] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.381 seconds
+[2021-12-08 19:50:48,207] {scheduler_job.py:182} INFO - Started process (PID=480) to work on /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:50:48,209] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_vision.py for tasks to queue
+[2021-12-08 19:50:48,210] {logging_mixin.py:104} INFO - [2021-12-08 19:50:48,210] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:50:48,470] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /opt/airflow/dags/kym_vision.py
+[2021-12-08 19:50:48,485] {logging_mixin.py:104} INFO - [2021-12-08 19:50:48,484] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-08 19:50:48,496] {logging_mixin.py:104} INFO - [2021-12-08 19:50:48,496] {dag.py:2273} INFO - Setting next_dagrun for first_dag to 2021-12-08 18:48:58.633060+00:00
+[2021-12-08 19:50:48,506] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_vision.py took 0.301 seconds

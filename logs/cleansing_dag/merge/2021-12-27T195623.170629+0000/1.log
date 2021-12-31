@@ -1,0 +1,21 @@
+[2021-12-28 19:59:16,280] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.merge 2021-12-27T19:56:23.170629+00:00 [queued]>
+[2021-12-28 19:59:16,297] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.merge 2021-12-27T19:56:23.170629+00:00 [queued]>
+[2021-12-28 19:59:16,297] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 19:59:16,298] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-12-28 19:59:16,299] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 19:59:16,310] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): merge> on 2021-12-27T19:56:23.170629+00:00
+[2021-12-28 19:59:16,315] {standard_task_runner.py:52} INFO - Started process 6940 to run task
+[2021-12-28 19:59:16,318] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'cleansing_dag', 'merge', '2021-12-27T19:56:23.170629+00:00', '--job-id', '246', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmpacrzubha', '--error-file', '/tmp/tmpnqunkgyv']
+[2021-12-28 19:59:16,319] {standard_task_runner.py:77} INFO - Job 246: Subtask merge
+[2021-12-28 19:59:16,357] {logging_mixin.py:109} INFO - Running <TaskInstance: cleansing_dag.merge 2021-12-27T19:56:23.170629+00:00 [running]> on host 62c7f391d30e
+[2021-12-28 19:59:16,411] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=merge
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-27T19:56:23.170629+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-27T19:56:23.170629+00:00
+[2021-12-28 19:59:16,731] {python.py:151} INFO - Done. Returned value was: None
+[2021-12-28 19:59:16,781] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=merge, execution_date=20211227T195623, start_date=20211228T195916, end_date=20211228T195916
+[2021-12-28 19:59:16,813] {local_task_job.py:151} INFO - Task exited with return code 0

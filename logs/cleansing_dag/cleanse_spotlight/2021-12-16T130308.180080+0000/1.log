@@ -1,0 +1,35 @@
+[2021-12-16 13:03:09,049] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_spotlight 2021-12-16T13:03:08.180080+00:00 [queued]>
+[2021-12-16 13:03:09,067] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse_spotlight 2021-12-16T13:03:08.180080+00:00 [queued]>
+[2021-12-16 13:03:09,067] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-16 13:03:09,068] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-16 13:03:09,068] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-16 13:03:09,078] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): cleanse_spotlight> on 2021-12-16T13:03:08.180080+00:00
+[2021-12-16 13:03:09,083] {standard_task_runner.py:52} INFO - Started process 16867 to run task
+[2021-12-16 13:03:09,086] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'cleanse_spotlight', '2021-12-16T13:03:08.180080+00:00', '--job-id', '34', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmp6pxvh6sf', '--error-file', '/tmp/tmpzvstz_hx']
+[2021-12-16 13:03:09,087] {standard_task_runner.py:77} INFO - Job 34: Subtask cleanse_spotlight
+[2021-12-16 13:03:09,130] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.cleanse_spotlight 2021-12-16T13:03:08.180080+00:00 [running]> on host f46d95c5a5d9
+[2021-12-16 13:03:09,174] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=cleanse_spotlight
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-16T13:03:08.180080+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-16T13:03:08.180080+00:00
+[2021-12-16 13:03:10,081] {taskinstance.py:1455} ERROR - 'NoneType' object has no attribute 'apply'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kym_cleansing.py", line 208, in cleanse_spotlight
+    df = df.apply(getTypes, axis=1)
+AttributeError: 'NoneType' object has no attribute 'apply'
+[2021-12-16 13:03:10,087] {taskinstance.py:1496} INFO - Marking task as UP_FOR_RETRY. dag_id=cleansing_dag, task_id=cleanse_spotlight, execution_date=20211216T130308, start_date=20211216T130309, end_date=20211216T130310
+[2021-12-16 13:03:10,141] {local_task_job.py:146} INFO - Task exited with return code 1

@@ -1,0 +1,546 @@
+[2021-12-13 17:08:03,509] {scheduler_job.py:182} INFO - Started process (PID=914) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:08:03,511] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:08:03,512] {logging_mixin.py:104} INFO - [2021-12-13 17:08:03,512] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:08:03,783] {logging_mixin.py:104} INFO - [2021-12-13 17:08:03,778] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:08:03,821] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:08:03,837] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.330 seconds
+[2021-12-13 17:08:33,952] {scheduler_job.py:182} INFO - Started process (PID=919) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:08:33,953] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:08:33,954] {logging_mixin.py:104} INFO - [2021-12-13 17:08:33,954] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:08:34,192] {logging_mixin.py:104} INFO - [2021-12-13 17:08:34,188] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:08:34,197] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:08:34,259] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.309 seconds
+[2021-12-13 17:09:04,346] {scheduler_job.py:182} INFO - Started process (PID=924) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:09:04,347] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:09:04,348] {logging_mixin.py:104} INFO - [2021-12-13 17:09:04,348] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:09:04,573] {logging_mixin.py:104} INFO - [2021-12-13 17:09:04,570] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:09:04,577] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:09:04,623] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.278 seconds
+[2021-12-13 17:09:34,727] {scheduler_job.py:182} INFO - Started process (PID=929) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:09:34,728] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:09:34,729] {logging_mixin.py:104} INFO - [2021-12-13 17:09:34,729] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:09:34,978] {logging_mixin.py:104} INFO - [2021-12-13 17:09:34,974] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:09:34,982] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:09:34,997] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.272 seconds
+[2021-12-13 17:10:05,423] {scheduler_job.py:182} INFO - Started process (PID=934) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:10:05,424] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:10:05,425] {logging_mixin.py:104} INFO - [2021-12-13 17:10:05,425] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:10:05,654] {logging_mixin.py:104} INFO - [2021-12-13 17:10:05,650] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:10:05,658] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:10:05,695] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.275 seconds
+[2021-12-13 17:10:35,857] {scheduler_job.py:182} INFO - Started process (PID=939) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:10:35,858] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:10:35,859] {logging_mixin.py:104} INFO - [2021-12-13 17:10:35,859] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:10:36,091] {logging_mixin.py:104} INFO - [2021-12-13 17:10:36,087] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:10:36,096] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:10:36,164] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.309 seconds
+[2021-12-13 17:11:06,534] {scheduler_job.py:182} INFO - Started process (PID=944) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:11:06,535] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:11:06,536] {logging_mixin.py:104} INFO - [2021-12-13 17:11:06,536] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:11:06,761] {logging_mixin.py:104} INFO - [2021-12-13 17:11:06,757] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:11:06,765] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:11:06,779] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.247 seconds
+[2021-12-13 17:11:36,981] {scheduler_job.py:182} INFO - Started process (PID=949) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:11:36,982] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:11:36,983] {logging_mixin.py:104} INFO - [2021-12-13 17:11:36,983] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:11:37,220] {logging_mixin.py:104} INFO - [2021-12-13 17:11:37,216] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:11:37,224] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:11:37,238] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.260 seconds
+[2021-12-13 17:12:07,329] {scheduler_job.py:182} INFO - Started process (PID=954) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:12:07,331] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:12:07,331] {logging_mixin.py:104} INFO - [2021-12-13 17:12:07,331] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:12:07,550] {logging_mixin.py:104} INFO - [2021-12-13 17:12:07,547] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:12:07,554] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:12:07,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.243 seconds
+[2021-12-13 17:12:37,662] {scheduler_job.py:182} INFO - Started process (PID=959) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:12:37,663] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:12:37,664] {logging_mixin.py:104} INFO - [2021-12-13 17:12:37,664] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:12:37,912] {logging_mixin.py:104} INFO - [2021-12-13 17:12:37,908] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:12:37,916] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:12:37,932] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.272 seconds
+[2021-12-13 17:13:08,044] {scheduler_job.py:182} INFO - Started process (PID=964) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:13:08,045] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:13:08,046] {logging_mixin.py:104} INFO - [2021-12-13 17:13:08,046] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:13:08,388] {logging_mixin.py:104} INFO - [2021-12-13 17:13:08,385] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:13:08,393] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:13:08,417] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.376 seconds
+[2021-12-13 17:13:38,802] {scheduler_job.py:182} INFO - Started process (PID=969) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:13:38,803] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:13:38,805] {logging_mixin.py:104} INFO - [2021-12-13 17:13:38,804] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:13:39,038] {logging_mixin.py:104} INFO - [2021-12-13 17:13:39,034] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:13:39,043] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:13:39,058] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.259 seconds
+[2021-12-13 17:14:09,232] {scheduler_job.py:182} INFO - Started process (PID=974) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:14:09,234] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:14:09,234] {logging_mixin.py:104} INFO - [2021-12-13 17:14:09,234] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:14:09,465] {logging_mixin.py:104} INFO - [2021-12-13 17:14:09,462] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:14:09,469] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:14:09,555] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.325 seconds
+[2021-12-13 17:14:39,857] {scheduler_job.py:182} INFO - Started process (PID=979) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:14:39,858] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:14:39,859] {logging_mixin.py:104} INFO - [2021-12-13 17:14:39,859] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:14:40,098] {logging_mixin.py:104} INFO - [2021-12-13 17:14:40,094] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:14:40,103] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:14:40,117] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.263 seconds
+[2021-12-13 17:15:10,374] {scheduler_job.py:182} INFO - Started process (PID=984) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:15:10,376] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:15:10,377] {logging_mixin.py:104} INFO - [2021-12-13 17:15:10,377] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:15:10,609] {logging_mixin.py:104} INFO - [2021-12-13 17:15:10,605] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:15:10,613] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:15:10,628] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.256 seconds
+[2021-12-13 17:15:40,952] {scheduler_job.py:182} INFO - Started process (PID=989) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:15:40,953] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:15:40,953] {logging_mixin.py:104} INFO - [2021-12-13 17:15:40,953] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:15:41,183] {logging_mixin.py:104} INFO - [2021-12-13 17:15:41,179] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:15:41,187] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:15:41,224] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.274 seconds
+[2021-12-13 17:16:11,444] {scheduler_job.py:182} INFO - Started process (PID=994) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:16:11,445] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:16:11,446] {logging_mixin.py:104} INFO - [2021-12-13 17:16:11,446] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:16:11,676] {logging_mixin.py:104} INFO - [2021-12-13 17:16:11,672] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:16:11,680] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:16:11,695] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.253 seconds
+[2021-12-13 17:16:42,011] {scheduler_job.py:182} INFO - Started process (PID=999) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:16:42,013] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:16:42,013] {logging_mixin.py:104} INFO - [2021-12-13 17:16:42,013] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:16:42,283] {logging_mixin.py:104} INFO - [2021-12-13 17:16:42,280] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:16:42,288] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:16:42,304] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.295 seconds
+[2021-12-13 17:17:12,509] {scheduler_job.py:182} INFO - Started process (PID=1004) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:17:12,510] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:17:12,511] {logging_mixin.py:104} INFO - [2021-12-13 17:17:12,511] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:17:12,740] {logging_mixin.py:104} INFO - [2021-12-13 17:17:12,736] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:17:12,744] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:17:12,760] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.253 seconds
+[2021-12-13 17:17:43,148] {scheduler_job.py:182} INFO - Started process (PID=1009) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:17:43,150] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:17:43,151] {logging_mixin.py:104} INFO - [2021-12-13 17:17:43,151] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:17:43,369] {logging_mixin.py:104} INFO - [2021-12-13 17:17:43,366] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:17:43,373] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:17:43,388] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.243 seconds
+[2021-12-13 17:18:13,686] {scheduler_job.py:182} INFO - Started process (PID=1014) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:18:13,687] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:18:13,689] {logging_mixin.py:104} INFO - [2021-12-13 17:18:13,689] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:18:13,914] {logging_mixin.py:104} INFO - [2021-12-13 17:18:13,910] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:18:13,918] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:18:13,954] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.270 seconds
+[2021-12-13 17:18:44,136] {scheduler_job.py:182} INFO - Started process (PID=1019) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:18:44,137] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:18:44,138] {logging_mixin.py:104} INFO - [2021-12-13 17:18:44,138] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:18:44,362] {logging_mixin.py:104} INFO - [2021-12-13 17:18:44,359] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:18:44,366] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:18:44,380] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.246 seconds
+[2021-12-13 17:19:14,755] {scheduler_job.py:182} INFO - Started process (PID=1024) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:19:14,756] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:19:14,757] {logging_mixin.py:104} INFO - [2021-12-13 17:19:14,757] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:19:14,974] {logging_mixin.py:104} INFO - [2021-12-13 17:19:14,970] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:19:14,978] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:19:14,991] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.238 seconds
+[2021-12-13 17:19:45,182] {scheduler_job.py:182} INFO - Started process (PID=1029) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:19:45,184] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:19:45,185] {logging_mixin.py:104} INFO - [2021-12-13 17:19:45,184] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:19:45,408] {logging_mixin.py:104} INFO - [2021-12-13 17:19:45,403] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:19:45,412] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:19:45,465] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.285 seconds
+[2021-12-13 17:20:15,755] {scheduler_job.py:182} INFO - Started process (PID=1034) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:20:15,756] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:20:15,757] {logging_mixin.py:104} INFO - [2021-12-13 17:20:15,757] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:20:15,982] {logging_mixin.py:104} INFO - [2021-12-13 17:20:15,977] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:20:15,986] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:20:16,055] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.301 seconds
+[2021-12-13 17:20:46,296] {scheduler_job.py:182} INFO - Started process (PID=1039) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:20:46,298] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:20:46,298] {logging_mixin.py:104} INFO - [2021-12-13 17:20:46,298] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:20:46,522] {logging_mixin.py:104} INFO - [2021-12-13 17:20:46,518] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:20:46,527] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:20:46,580] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.286 seconds
+[2021-12-13 17:21:16,889] {scheduler_job.py:182} INFO - Started process (PID=1044) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:21:16,890] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:21:16,891] {logging_mixin.py:104} INFO - [2021-12-13 17:21:16,891] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:21:17,117] {logging_mixin.py:104} INFO - [2021-12-13 17:21:17,112] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:21:17,121] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:21:17,137] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.251 seconds
+[2021-12-13 17:21:47,366] {scheduler_job.py:182} INFO - Started process (PID=1049) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:21:47,368] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:21:47,368] {logging_mixin.py:104} INFO - [2021-12-13 17:21:47,368] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:21:47,594] {logging_mixin.py:104} INFO - [2021-12-13 17:21:47,590] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:21:47,597] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:21:47,613] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.249 seconds
+[2021-12-13 17:22:17,962] {scheduler_job.py:182} INFO - Started process (PID=1054) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:22:17,964] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:22:17,965] {logging_mixin.py:104} INFO - [2021-12-13 17:22:17,965] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:22:18,187] {logging_mixin.py:104} INFO - [2021-12-13 17:22:18,182] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:22:18,192] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:22:18,234] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.273 seconds
+[2021-12-13 17:22:48,451] {scheduler_job.py:182} INFO - Started process (PID=1059) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:22:48,454] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:22:48,455] {logging_mixin.py:104} INFO - [2021-12-13 17:22:48,454] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:22:48,693] {logging_mixin.py:104} INFO - [2021-12-13 17:22:48,690] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:22:48,696] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:22:48,777] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.328 seconds
+[2021-12-13 17:23:19,192] {scheduler_job.py:182} INFO - Started process (PID=1064) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:23:19,194] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:23:19,195] {logging_mixin.py:104} INFO - [2021-12-13 17:23:19,195] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:23:19,418] {logging_mixin.py:104} INFO - [2021-12-13 17:23:19,415] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:23:19,422] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:23:19,437] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.247 seconds
+[2021-12-13 17:23:49,589] {scheduler_job.py:182} INFO - Started process (PID=1069) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:23:49,590] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:23:49,591] {logging_mixin.py:104} INFO - [2021-12-13 17:23:49,591] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:23:49,848] {logging_mixin.py:104} INFO - [2021-12-13 17:23:49,844] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:23:49,853] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:23:49,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.285 seconds
+[2021-12-13 17:24:20,279] {scheduler_job.py:182} INFO - Started process (PID=1074) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:24:20,280] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:24:20,280] {logging_mixin.py:104} INFO - [2021-12-13 17:24:20,280] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:24:20,502] {logging_mixin.py:104} INFO - [2021-12-13 17:24:20,498] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:24:20,506] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:24:20,520] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.243 seconds
+[2021-12-13 17:24:50,771] {scheduler_job.py:182} INFO - Started process (PID=1079) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:24:50,773] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:24:50,774] {logging_mixin.py:104} INFO - [2021-12-13 17:24:50,774] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:24:51,000] {logging_mixin.py:104} INFO - [2021-12-13 17:24:50,995] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:24:51,004] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:24:51,033] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.264 seconds
+[2021-12-13 17:25:21,319] {scheduler_job.py:182} INFO - Started process (PID=1084) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:25:21,321] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:25:21,321] {logging_mixin.py:104} INFO - [2021-12-13 17:25:21,321] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:25:21,540] {logging_mixin.py:104} INFO - [2021-12-13 17:25:21,536] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:25:21,544] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:25:21,598] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.281 seconds
+[2021-12-13 17:25:51,799] {scheduler_job.py:182} INFO - Started process (PID=1089) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:25:51,801] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:25:51,802] {logging_mixin.py:104} INFO - [2021-12-13 17:25:51,802] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:25:52,037] {logging_mixin.py:104} INFO - [2021-12-13 17:25:52,033] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:25:52,041] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:25:52,055] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.257 seconds
+[2021-12-13 17:26:22,396] {scheduler_job.py:182} INFO - Started process (PID=1094) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:26:22,397] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:26:22,398] {logging_mixin.py:104} INFO - [2021-12-13 17:26:22,398] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:26:22,624] {logging_mixin.py:104} INFO - [2021-12-13 17:26:22,620] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:26:22,628] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:26:22,677] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.282 seconds
+[2021-12-13 17:26:52,872] {scheduler_job.py:182} INFO - Started process (PID=1099) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:26:52,873] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:26:52,874] {logging_mixin.py:104} INFO - [2021-12-13 17:26:52,874] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:26:53,113] {logging_mixin.py:104} INFO - [2021-12-13 17:26:53,110] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:26:53,117] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:26:53,132] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.262 seconds
+[2021-12-13 17:27:23,562] {scheduler_job.py:182} INFO - Started process (PID=1104) to work on /opt/airflow/dags/test.py
+[2021-12-13 17:27:23,564] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2021-12-13 17:27:23,566] {logging_mixin.py:104} INFO - [2021-12-13 17:27:23,565] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2021-12-13 17:27:23,950] {logging_mixin.py:104} INFO - [2021-12-13 17:27:23,945] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    import fastparquet
+ModuleNotFoundError: No module named 'fastparquet'
+[2021-12-13 17:27:23,955] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2021-12-13 17:27:23,977] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test.py took 0.419 seconds

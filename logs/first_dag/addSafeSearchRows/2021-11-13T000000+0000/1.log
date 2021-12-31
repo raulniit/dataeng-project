@@ -1,0 +1,21 @@
+[2021-11-14 14:58:13,892] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-13T00:00:00+00:00 [queued]>
+[2021-11-14 14:58:13,910] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: first_dag.addSafeSearchRows 2021-11-13T00:00:00+00:00 [queued]>
+[2021-11-14 14:58:13,910] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-14 14:58:13,910] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-11-14 14:58:13,911] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-11-14 14:58:13,923] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): addSafeSearchRows> on 2021-11-13T00:00:00+00:00
+[2021-11-14 14:58:13,931] {standard_task_runner.py:52} INFO - Started process 53 to run task
+[2021-11-14 14:58:13,933] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'addSafeSearchRows', '2021-11-13T00:00:00+00:00', '--job-id', '19', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpkwa566ng', '--error-file', '/tmp/tmpoz3cvf9m']
+[2021-11-14 14:58:13,933] {standard_task_runner.py:77} INFO - Job 19: Subtask addSafeSearchRows
+[2021-11-14 14:58:13,970] {logging_mixin.py:104} INFO - Running <TaskInstance: first_dag.addSafeSearchRows 2021-11-13T00:00:00+00:00 [running]> on host f65740cbacf4
+[2021-11-14 14:58:14,008] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=addSafeSearchRows
+AIRFLOW_CTX_EXECUTION_DATE=2021-11-13T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-11-13T00:00:00+00:00
+[2021-11-14 15:01:27,791] {python.py:118} INFO - Done. Returned value was: None
+[2021-11-14 15:01:28,225] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=addSafeSearchRows, execution_date=20211113T000000, start_date=20211114T145813, end_date=20211114T150128
+[2021-11-14 15:01:28,576] {local_task_job.py:146} INFO - Task exited with return code 1

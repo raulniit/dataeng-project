@@ -1,0 +1,21 @@
+[2021-12-28 14:22:29,594] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.create_tag_dimension_query 2021-12-27T14:19:09.586609+00:00 [queued]>
+[2021-12-28 14:22:29,611] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.create_tag_dimension_query 2021-12-27T14:19:09.586609+00:00 [queued]>
+[2021-12-28 14:22:29,611] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 14:22:29,612] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-28 14:22:29,612] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 14:22:29,622] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): create_tag_dimension_query> on 2021-12-27T14:19:09.586609+00:00
+[2021-12-28 14:22:29,628] {standard_task_runner.py:52} INFO - Started process 7108 to run task
+[2021-12-28 14:22:29,631] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'create_tag_dimension_query', '2021-12-27T14:19:09.586609+00:00', '--job-id', '73', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmpp38pt40c', '--error-file', '/tmp/tmpjdev05ii']
+[2021-12-28 14:22:29,633] {standard_task_runner.py:77} INFO - Job 73: Subtask create_tag_dimension_query
+[2021-12-28 14:22:29,674] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.create_tag_dimension_query 2021-12-27T14:19:09.586609+00:00 [running]> on host 78fdbf5e507e
+[2021-12-28 14:22:29,711] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=create_tag_dimension_query
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-27T14:19:09.586609+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-27T14:19:09.586609+00:00
+[2021-12-28 14:22:30,885] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-28 14:22:30,897] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=create_tag_dimension_query, execution_date=20211227T141909, start_date=20211228T142229, end_date=20211228T142230
+[2021-12-28 14:22:30,929] {local_task_job.py:146} INFO - Task exited with return code 0

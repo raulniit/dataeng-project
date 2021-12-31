@@ -1,0 +1,21 @@
+[2021-12-28 09:45:41,600] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.create_fact_table_query 2021-12-27T09:42:40.890836+00:00 [queued]>
+[2021-12-28 09:45:41,618] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.create_fact_table_query 2021-12-27T09:42:40.890836+00:00 [queued]>
+[2021-12-28 09:45:41,619] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 09:45:41,619] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-28 09:45:41,619] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 09:45:41,630] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): create_fact_table_query> on 2021-12-27T09:42:40.890836+00:00
+[2021-12-28 09:45:41,635] {standard_task_runner.py:52} INFO - Started process 7060 to run task
+[2021-12-28 09:45:41,638] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'create_fact_table_query', '2021-12-27T09:42:40.890836+00:00', '--job-id', '59', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmpm1e4zcoz', '--error-file', '/tmp/tmp3j3frpnt']
+[2021-12-28 09:45:41,638] {standard_task_runner.py:77} INFO - Job 59: Subtask create_fact_table_query
+[2021-12-28 09:45:41,675] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.create_fact_table_query 2021-12-27T09:42:40.890836+00:00 [running]> on host 256d7b44c1c3
+[2021-12-28 09:45:41,711] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=create_fact_table_query
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-27T09:42:40.890836+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-27T09:42:40.890836+00:00
+[2021-12-28 09:45:44,169] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-28 09:45:44,180] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=create_fact_table_query, execution_date=20211227T094240, start_date=20211228T094541, end_date=20211228T094544
+[2021-12-28 09:45:44,221] {local_task_job.py:146} INFO - Task exited with return code 0

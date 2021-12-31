@@ -1,0 +1,35 @@
+[2021-12-13 14:20:53,150] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse 2021-12-12T14:20:43.809480+00:00 [queued]>
+[2021-12-13 14:20:53,162] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse 2021-12-12T14:20:43.809480+00:00 [queued]>
+[2021-12-13 14:20:53,163] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 14:20:53,163] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-13 14:20:53,164] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 14:20:53,182] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): cleanse> on 2021-12-12T14:20:43.809480+00:00
+[2021-12-13 14:20:53,186] {standard_task_runner.py:52} INFO - Started process 60 to run task
+[2021-12-13 14:20:53,189] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'cleanse', '2021-12-12T14:20:43.809480+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmp8dmw89p7', '--error-file', '/tmp/tmpcs78t0c3']
+[2021-12-13 14:20:53,191] {standard_task_runner.py:77} INFO - Job 5: Subtask cleanse
+[2021-12-13 14:20:53,228] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.cleanse 2021-12-12T14:20:43.809480+00:00 [running]> on host f70ffe93e168
+[2021-12-13 14:20:53,264] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=cleanse
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-12T14:20:43.809480+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-12T14:20:43.809480+00:00
+[2021-12-13 14:20:56,063] {taskinstance.py:1455} ERROR - type object 'datetime.time' has no attribute 'fromisoformat'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kym_cleansing.py", line 80, in cleanse
+    if date.fromtimestamp(meme['last_update_source']) > time.fromisoformat(
+AttributeError: type object 'datetime.time' has no attribute 'fromisoformat'
+[2021-12-13 14:20:56,067] {taskinstance.py:1503} INFO - Marking task as UP_FOR_RETRY. dag_id=cleansing_dag, task_id=cleanse, execution_date=20211212T142043, start_date=20211213T142053, end_date=20211213T142056
+[2021-12-13 14:20:56,135] {local_task_job.py:146} INFO - Task exited with return code 1

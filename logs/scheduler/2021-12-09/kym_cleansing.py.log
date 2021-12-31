@@ -1,0 +1,971 @@
+[2021-12-09 15:40:50,134] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:40:50,135] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:40:50,137] {logging_mixin.py:104} INFO - [2021-12-09 15:40:50,137] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:40:51,350] {logging_mixin.py:104} INFO - [2021-12-09 15:40:51,345] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 9, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+[2021-12-09 15:40:51,355] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:40:51,374] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 1.244 seconds
+[2021-12-09 15:41:21,472] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:41:21,473] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:41:21,473] {logging_mixin.py:104} INFO - [2021-12-09 15:41:21,473] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:41:21,745] {logging_mixin.py:104} INFO - [2021-12-09 15:41:21,740] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 9, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+[2021-12-09 15:41:21,749] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:41:21,765] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.295 seconds
+[2021-12-09 15:41:51,872] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:41:51,874] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:41:51,875] {logging_mixin.py:104} INFO - [2021-12-09 15:41:51,874] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:41:52,220] {logging_mixin.py:104} INFO - [2021-12-09 15:41:52,214] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 9, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+[2021-12-09 15:41:52,227] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:41:52,249] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.379 seconds
+[2021-12-09 15:42:22,392] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:42:22,394] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:42:22,395] {logging_mixin.py:104} INFO - [2021-12-09 15:42:22,394] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:42:22,702] {logging_mixin.py:104} INFO - [2021-12-09 15:42:22,694] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 9, in <module>
+    from pytrends.request import TrendReq
+ModuleNotFoundError: No module named 'pytrends'
+[2021-12-09 15:42:22,707] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:42:22,756] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.365 seconds
+[2021-12-09 15:42:52,848] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:42:52,849] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:42:52,850] {logging_mixin.py:104} INFO - [2021-12-09 15:42:52,850] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:42:53,145] {logging_mixin.py:104} INFO - [2021-12-09 15:42:53,141] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 85, in <module>
+    python_callable=addSafeSearchRows,
+NameError: name 'addSafeSearchRows' is not defined
+[2021-12-09 15:42:53,150] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:42:53,167] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.320 seconds
+[2021-12-09 15:43:23,269] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:43:23,270] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:43:23,271] {logging_mixin.py:104} INFO - [2021-12-09 15:43:23,271] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:43:23,542] {logging_mixin.py:104} INFO - [2021-12-09 15:43:23,537] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 85, in <module>
+    python_callable=addSafeSearchRows,
+NameError: name 'addSafeSearchRows' is not defined
+[2021-12-09 15:43:23,546] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:43:23,586] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.319 seconds
+[2021-12-09 15:43:53,658] {scheduler_job.py:182} INFO - Started process (PID=58) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:43:53,660] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:43:53,660] {logging_mixin.py:104} INFO - [2021-12-09 15:43:53,660] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:43:53,944] {logging_mixin.py:104} INFO - [2021-12-09 15:43:53,939] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 85, in <module>
+    python_callable=addSafeSearchRows,
+NameError: name 'addSafeSearchRows' is not defined
+[2021-12-09 15:43:53,949] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:43:53,966] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.309 seconds
+[2021-12-09 15:44:24,069] {scheduler_job.py:182} INFO - Started process (PID=62) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:44:24,071] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:44:24,071] {logging_mixin.py:104} INFO - [2021-12-09 15:44:24,071] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:44:24,087] {logging_mixin.py:104} INFO - [2021-12-09 15:44:24,086] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 58
+    memes =
+           ^
+SyntaxError: invalid syntax
+[2021-12-09 15:44:24,090] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:44:24,143] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.077 seconds
+[2021-12-09 15:44:54,241] {scheduler_job.py:182} INFO - Started process (PID=65) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:44:54,242] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:44:54,243] {logging_mixin.py:104} INFO - [2021-12-09 15:44:54,243] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:44:54,529] {logging_mixin.py:104} INFO - [2021-12-09 15:44:54,523] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 191, in <module>
+    python_callable=addSafeSearchRows,
+NameError: name 'addSafeSearchRows' is not defined
+[2021-12-09 15:44:54,533] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:44:54,587] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.348 seconds
+[2021-12-09 15:45:24,693] {scheduler_job.py:182} INFO - Started process (PID=69) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:45:24,694] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:45:24,695] {logging_mixin.py:104} INFO - [2021-12-09 15:45:24,695] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:45:24,951] {logging_mixin.py:104} INFO - [2021-12-09 15:45:24,946] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 191, in <module>
+    python_callable=addSafeSearchRows,
+NameError: name 'addSafeSearchRows' is not defined
+[2021-12-09 15:45:24,956] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:45:24,970] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.279 seconds
+[2021-12-09 15:45:55,187] {scheduler_job.py:182} INFO - Started process (PID=73) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:45:55,189] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:45:55,189] {logging_mixin.py:104} INFO - [2021-12-09 15:45:55,189] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:45:55,205] {logging_mixin.py:104} INFO - [2021-12-09 15:45:55,204] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 167
+    pd.
+      ^
+SyntaxError: invalid syntax
+[2021-12-09 15:45:55,208] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:45:55,273] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.087 seconds
+[2021-12-09 15:46:25,378] {scheduler_job.py:182} INFO - Started process (PID=76) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:46:25,380] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:46:25,380] {logging_mixin.py:104} INFO - [2021-12-09 15:46:25,380] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:46:25,398] {logging_mixin.py:104} INFO - [2021-12-09 15:46:25,397] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 167
+    pd.
+      ^
+SyntaxError: invalid syntax
+[2021-12-09 15:46:25,401] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:46:25,438] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.062 seconds
+[2021-12-09 15:46:55,537] {scheduler_job.py:182} INFO - Started process (PID=79) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:46:55,539] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:46:55,540] {logging_mixin.py:104} INFO - [2021-12-09 15:46:55,540] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:46:55,556] {logging_mixin.py:104} INFO - [2021-12-09 15:46:55,555] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 167
+    pd.
+      ^
+SyntaxError: invalid syntax
+[2021-12-09 15:46:55,559] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:46:55,579] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.044 seconds
+[2021-12-09 15:47:25,674] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:47:25,675] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:47:25,676] {logging_mixin.py:104} INFO - [2021-12-09 15:47:25,676] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:47:25,948] {logging_mixin.py:104} INFO - [2021-12-09 15:47:25,943] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 175, in <module>
+    'start_date': datetime.datetime(2021, 11, 13, 0, 0, 0),
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+[2021-12-09 15:47:25,952] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:47:25,966] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.294 seconds
+[2021-12-09 15:47:56,064] {scheduler_job.py:182} INFO - Started process (PID=86) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:47:56,065] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:47:56,066] {logging_mixin.py:104} INFO - [2021-12-09 15:47:56,066] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:47:56,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:47:56,346] {logging_mixin.py:104} INFO - [2021-12-09 15:47:56,345] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:47:56,359] {logging_mixin.py:104} INFO - [2021-12-09 15:47:56,359] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-08 15:47:56.359249+00:00
+[2021-12-09 15:47:56,382] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.320 seconds
+[2021-12-09 15:48:26,484] {scheduler_job.py:182} INFO - Started process (PID=90) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:48:26,486] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:48:26,486] {logging_mixin.py:104} INFO - [2021-12-09 15:48:26,486] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:48:26,745] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:48:26,764] {logging_mixin.py:104} INFO - [2021-12-09 15:48:26,763] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:48:26,774] {logging_mixin.py:104} INFO - [2021-12-09 15:48:26,774] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-08 15:48:26.774451+00:00
+[2021-12-09 15:48:26,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.305 seconds
+[2021-12-09 15:48:56,889] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:48:56,891] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:48:56,892] {logging_mixin.py:104} INFO - [2021-12-09 15:48:56,892] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:48:57,146] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:48:57,162] {logging_mixin.py:104} INFO - [2021-12-09 15:48:57,161] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:48:57,172] {logging_mixin.py:104} INFO - [2021-12-09 15:48:57,172] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-08 15:48:57.172079+00:00
+[2021-12-09 15:48:57,183] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.296 seconds
+[2021-12-09 15:49:27,289] {scheduler_job.py:182} INFO - Started process (PID=98) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:49:27,292] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:49:27,293] {logging_mixin.py:104} INFO - [2021-12-09 15:49:27,293] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:49:27,546] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:49:27,558] {logging_mixin.py:104} INFO - [2021-12-09 15:49:27,557] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:49:27,569] {logging_mixin.py:104} INFO - [2021-12-09 15:49:27,569] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-08 15:49:27.569171+00:00
+[2021-12-09 15:49:27,580] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.293 seconds
+[2021-12-09 15:49:57,682] {scheduler_job.py:182} INFO - Started process (PID=102) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:49:57,685] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:49:57,686] {logging_mixin.py:104} INFO - [2021-12-09 15:49:57,685] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:49:57,996] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:49:58,017] {logging_mixin.py:104} INFO - [2021-12-09 15:49:58,016] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:49:58,029] {logging_mixin.py:104} INFO - [2021-12-09 15:49:58,029] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:49:29.859966+00:00
+[2021-12-09 15:49:58,045] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.366 seconds
+[2021-12-09 15:50:28,133] {scheduler_job.py:182} INFO - Started process (PID=106) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:50:28,134] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:50:28,136] {logging_mixin.py:104} INFO - [2021-12-09 15:50:28,135] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:50:28,413] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:50:28,432] {logging_mixin.py:104} INFO - [2021-12-09 15:50:28,431] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:50:28,444] {logging_mixin.py:104} INFO - [2021-12-09 15:50:28,444] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:49:29.859966+00:00
+[2021-12-09 15:50:28,456] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.325 seconds
+[2021-12-09 15:50:58,743] {scheduler_job.py:182} INFO - Started process (PID=110) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:50:58,746] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:50:58,747] {logging_mixin.py:104} INFO - [2021-12-09 15:50:58,747] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:50:59,032] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:50:59,045] {logging_mixin.py:104} INFO - [2021-12-09 15:50:59,044] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:50:59,055] {logging_mixin.py:104} INFO - [2021-12-09 15:50:59,055] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:49:29.859966+00:00
+[2021-12-09 15:50:59,073] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.332 seconds
+[2021-12-09 15:51:29,118] {scheduler_job.py:182} INFO - Started process (PID=114) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:51:29,119] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:51:29,120] {logging_mixin.py:104} INFO - [2021-12-09 15:51:29,120] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:51:29,395] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:51:29,414] {logging_mixin.py:104} INFO - [2021-12-09 15:51:29,413] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:51:29,425] {logging_mixin.py:104} INFO - [2021-12-09 15:51:29,425] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:49:29.859966+00:00
+[2021-12-09 15:51:29,438] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.322 seconds
+[2021-12-09 15:51:59,546] {scheduler_job.py:182} INFO - Started process (PID=118) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:51:59,547] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:51:59,548] {logging_mixin.py:104} INFO - [2021-12-09 15:51:59,548] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:51:59,824] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:51:59,841] {logging_mixin.py:104} INFO - [2021-12-09 15:51:59,840] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:51:59,851] {logging_mixin.py:104} INFO - [2021-12-09 15:51:59,851] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:49:29.859966+00:00
+[2021-12-09 15:51:59,861] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.317 seconds
+[2021-12-09 15:52:29,973] {scheduler_job.py:182} INFO - Started process (PID=122) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:52:29,975] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:52:29,976] {logging_mixin.py:104} INFO - [2021-12-09 15:52:29,976] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:52:30,268] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:52:30,372] {logging_mixin.py:104} INFO - [2021-12-09 15:52:30,371] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:52:30,388] {logging_mixin.py:104} INFO - [2021-12-09 15:52:30,388] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:49:29.859966+00:00
+[2021-12-09 15:52:30,398] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.426 seconds
+[2021-12-09 15:53:01,063] {scheduler_job.py:182} INFO - Started process (PID=126) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:53:01,064] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:53:01,065] {logging_mixin.py:104} INFO - [2021-12-09 15:53:01,065] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:53:01,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:53:01,351] {logging_mixin.py:104} INFO - [2021-12-09 15:53:01,350] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:53:01,366] {logging_mixin.py:104} INFO - [2021-12-09 15:53:01,366] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:49:29.859966+00:00
+[2021-12-09 15:53:01,432] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.371 seconds
+[2021-12-09 15:53:31,563] {scheduler_job.py:182} INFO - Started process (PID=130) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:53:31,565] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:53:31,565] {logging_mixin.py:104} INFO - [2021-12-09 15:53:31,565] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:53:31,835] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:53:31,855] {logging_mixin.py:104} INFO - [2021-12-09 15:53:31,853] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:53:31,866] {logging_mixin.py:104} INFO - [2021-12-09 15:53:31,866] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-08 15:53:31.866049+00:00
+[2021-12-09 15:53:31,900] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.339 seconds
+[2021-12-09 15:54:02,000] {scheduler_job.py:182} INFO - Started process (PID=139) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:54:02,001] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:54:02,002] {logging_mixin.py:104} INFO - [2021-12-09 15:54:02,002] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:54:02,266] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:54:02,290] {logging_mixin.py:104} INFO - [2021-12-09 15:54:02,289] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:54:02,302] {logging_mixin.py:104} INFO - [2021-12-09 15:54:02,301] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:53:31.866049+00:00
+[2021-12-09 15:54:02,312] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.314 seconds
+[2021-12-09 15:54:32,415] {scheduler_job.py:182} INFO - Started process (PID=143) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:54:32,416] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:54:32,416] {logging_mixin.py:104} INFO - [2021-12-09 15:54:32,416] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:54:32,670] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:54:32,686] {logging_mixin.py:104} INFO - [2021-12-09 15:54:32,685] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:54:32,697] {logging_mixin.py:104} INFO - [2021-12-09 15:54:32,696] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:53:31.866049+00:00
+[2021-12-09 15:54:32,737] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.325 seconds
+[2021-12-09 15:55:02,844] {scheduler_job.py:182} INFO - Started process (PID=147) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:55:02,846] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:55:02,847] {logging_mixin.py:104} INFO - [2021-12-09 15:55:02,846] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:55:03,115] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:55:03,133] {logging_mixin.py:104} INFO - [2021-12-09 15:55:03,132] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:55:03,144] {logging_mixin.py:104} INFO - [2021-12-09 15:55:03,144] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:53:31.866049+00:00
+[2021-12-09 15:55:03,188] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.346 seconds
+[2021-12-09 15:55:33,293] {scheduler_job.py:182} INFO - Started process (PID=151) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:55:33,295] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:55:33,296] {logging_mixin.py:104} INFO - [2021-12-09 15:55:33,296] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:55:33,610] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:55:33,627] {logging_mixin.py:104} INFO - [2021-12-09 15:55:33,626] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:55:33,638] {logging_mixin.py:104} INFO - [2021-12-09 15:55:33,638] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-08 15:55:33.638440+00:00
+[2021-12-09 15:55:33,654] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.363 seconds
+[2021-12-09 15:56:03,883] {scheduler_job.py:182} INFO - Started process (PID=155) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:56:03,885] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:56:03,885] {logging_mixin.py:104} INFO - [2021-12-09 15:56:03,885] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:56:04,214] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:56:04,231] {logging_mixin.py:104} INFO - [2021-12-09 15:56:04,230] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:56:04,243] {logging_mixin.py:104} INFO - [2021-12-09 15:56:04,243] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-08 15:56:04.243356+00:00
+[2021-12-09 15:56:04,256] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.375 seconds
+[2021-12-09 15:56:34,292] {scheduler_job.py:182} INFO - Started process (PID=164) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:56:34,294] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:56:34,295] {logging_mixin.py:104} INFO - [2021-12-09 15:56:34,295] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:56:34,605] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:56:34,623] {logging_mixin.py:104} INFO - [2021-12-09 15:56:34,622] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:56:34,635] {logging_mixin.py:104} INFO - [2021-12-09 15:56:34,635] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:56:04.243356+00:00
+[2021-12-09 15:56:34,668] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.378 seconds
+[2021-12-09 15:57:04,722] {scheduler_job.py:182} INFO - Started process (PID=168) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:57:04,723] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:57:04,724] {logging_mixin.py:104} INFO - [2021-12-09 15:57:04,724] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:57:04,981] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:57:04,997] {logging_mixin.py:104} INFO - [2021-12-09 15:57:04,996] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:57:05,009] {logging_mixin.py:104} INFO - [2021-12-09 15:57:05,009] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:56:04.243356+00:00
+[2021-12-09 15:57:05,019] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.300 seconds
+[2021-12-09 15:57:35,127] {scheduler_job.py:182} INFO - Started process (PID=172) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:57:35,128] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:57:35,129] {logging_mixin.py:104} INFO - [2021-12-09 15:57:35,128] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:57:35,425] {logging_mixin.py:104} INFO - [2021-12-09 15:57:35,420] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 176, in <module>
+    'schedule_interval' : timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2021-12-09 15:57:35,430] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:57:35,446] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.321 seconds
+[2021-12-09 15:58:05,555] {scheduler_job.py:182} INFO - Started process (PID=176) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:58:05,556] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:58:05,557] {logging_mixin.py:104} INFO - [2021-12-09 15:58:05,557] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:58:05,846] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:58:05,863] {logging_mixin.py:104} INFO - [2021-12-09 15:58:05,862] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 15:58:05,876] {logging_mixin.py:104} INFO - [2021-12-09 15:58:05,876] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:56:04.243356+00:00
+[2021-12-09 15:58:05,940] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.387 seconds
+[2021-12-09 15:58:36,638] {scheduler_job.py:182} INFO - Started process (PID=180) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:58:36,639] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:58:36,640] {logging_mixin.py:104} INFO - [2021-12-09 15:58:36,640] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:58:36,932] {logging_mixin.py:104} INFO - [2021-12-09 15:58:36,927] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 176, in <module>
+    'schedule_interval' : datetime.timedelta(minutes=5),
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2021-12-09 15:58:36,936] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:58:36,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.317 seconds
+[2021-12-09 15:59:07,053] {scheduler_job.py:182} INFO - Started process (PID=184) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:59:07,054] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:59:07,054] {logging_mixin.py:104} INFO - [2021-12-09 15:59:07,054] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:59:07,338] {logging_mixin.py:104} INFO - [2021-12-09 15:59:07,334] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 176, in <module>
+    'schedule_interval' : datetime.timedelta(minutes=5),
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2021-12-09 15:59:07,342] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:59:07,355] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.304 seconds
+[2021-12-09 15:59:37,455] {scheduler_job.py:182} INFO - Started process (PID=188) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:59:37,457] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 15:59:37,458] {logging_mixin.py:104} INFO - [2021-12-09 15:59:37,458] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:59:37,730] {logging_mixin.py:104} INFO - [2021-12-09 15:59:37,724] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 176, in <module>
+    'schedule_interval' : datetime.timedelta(minutes=5),
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2021-12-09 15:59:37,734] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 15:59:37,750] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.297 seconds
+[2021-12-09 16:00:07,849] {scheduler_job.py:182} INFO - Started process (PID=192) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:00:07,850] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:00:07,851] {logging_mixin.py:104} INFO - [2021-12-09 16:00:07,851] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:00:08,114] {logging_mixin.py:104} INFO - [2021-12-09 16:00:08,109] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/kym_cleansing.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/kym_cleansing.py", line 176, in <module>
+    'schedule_interval' : datetime.timedelta(minutes=5),
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2021-12-09 16:00:08,119] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:00:08,133] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.287 seconds
+[2021-12-09 16:00:38,225] {scheduler_job.py:182} INFO - Started process (PID=196) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:00:38,226] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:00:38,227] {logging_mixin.py:104} INFO - [2021-12-09 16:00:38,227] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:00:38,545] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:00:38,561] {logging_mixin.py:104} INFO - [2021-12-09 16:00:38,560] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:00:38,573] {logging_mixin.py:104} INFO - [2021-12-09 16:00:38,572] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 15:56:04.243356+00:00
+[2021-12-09 16:00:38,594] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.371 seconds
+[2021-12-09 16:01:08,695] {scheduler_job.py:182} INFO - Started process (PID=205) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:01:08,697] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:01:08,697] {logging_mixin.py:104} INFO - [2021-12-09 16:01:08,697] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:01:09,017] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:01:09,034] {logging_mixin.py:104} INFO - [2021-12-09 16:01:09,033] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:01:09,047] {logging_mixin.py:104} INFO - [2021-12-09 16:01:09,047] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-08 16:01:09.047448+00:00
+[2021-12-09 16:01:09,365] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.672 seconds
+[2021-12-09 16:01:39,471] {scheduler_job.py:182} INFO - Started process (PID=214) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:01:39,472] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:01:39,473] {logging_mixin.py:104} INFO - [2021-12-09 16:01:39,473] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:01:39,724] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:01:39,741] {logging_mixin.py:104} INFO - [2021-12-09 16:01:39,740] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:01:39,754] {logging_mixin.py:104} INFO - [2021-12-09 16:01:39,754] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:01:09.047448+00:00
+[2021-12-09 16:01:39,815] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.346 seconds
+[2021-12-09 16:02:09,925] {scheduler_job.py:182} INFO - Started process (PID=218) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:02:09,926] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:02:09,927] {logging_mixin.py:104} INFO - [2021-12-09 16:02:09,927] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:02:10,185] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:02:10,200] {logging_mixin.py:104} INFO - [2021-12-09 16:02:10,200] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:02:10,212] {logging_mixin.py:104} INFO - [2021-12-09 16:02:10,212] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:01:09.047448+00:00
+[2021-12-09 16:02:10,246] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.323 seconds
+[2021-12-09 16:02:40,357] {scheduler_job.py:182} INFO - Started process (PID=222) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:02:40,358] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:02:40,359] {logging_mixin.py:104} INFO - [2021-12-09 16:02:40,359] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:02:40,611] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:02:40,626] {logging_mixin.py:104} INFO - [2021-12-09 16:02:40,625] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:02:40,638] {logging_mixin.py:104} INFO - [2021-12-09 16:02:40,638] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:01:09.047448+00:00
+[2021-12-09 16:02:40,650] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.295 seconds
+[2021-12-09 16:03:10,754] {scheduler_job.py:182} INFO - Started process (PID=226) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:03:10,756] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:03:10,757] {logging_mixin.py:104} INFO - [2021-12-09 16:03:10,757] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:03:11,014] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:03:11,032] {logging_mixin.py:104} INFO - [2021-12-09 16:03:11,031] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:03:11,044] {logging_mixin.py:104} INFO - [2021-12-09 16:03:11,044] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:01:09.047448+00:00
+[2021-12-09 16:03:11,086] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.334 seconds
+[2021-12-09 16:03:41,191] {scheduler_job.py:182} INFO - Started process (PID=230) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:03:41,192] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:03:41,193] {logging_mixin.py:104} INFO - [2021-12-09 16:03:41,193] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:03:41,457] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:03:41,474] {logging_mixin.py:104} INFO - [2021-12-09 16:03:41,473] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:03:41,486] {logging_mixin.py:104} INFO - [2021-12-09 16:03:41,486] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:01:09.047448+00:00
+[2021-12-09 16:03:41,540] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.351 seconds
+[2021-12-09 16:04:11,612] {scheduler_job.py:182} INFO - Started process (PID=234) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:04:11,613] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:04:11,614] {logging_mixin.py:104} INFO - [2021-12-09 16:04:11,614] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:04:11,920] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:04:11,938] {logging_mixin.py:104} INFO - [2021-12-09 16:04:11,937] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:04:11,950] {logging_mixin.py:104} INFO - [2021-12-09 16:04:11,950] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:01:09.047448+00:00
+[2021-12-09 16:04:12,013] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.402 seconds
+[2021-12-09 16:04:42,692] {scheduler_job.py:182} INFO - Started process (PID=238) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:04:42,694] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:04:42,695] {logging_mixin.py:104} INFO - [2021-12-09 16:04:42,695] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:04:42,966] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:04:42,986] {logging_mixin.py:104} INFO - [2021-12-09 16:04:42,985] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:04:42,997] {logging_mixin.py:104} INFO - [2021-12-09 16:04:42,997] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-08 16:04:42.997356+00:00
+[2021-12-09 16:04:43,015] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.325 seconds
+[2021-12-09 16:05:13,117] {scheduler_job.py:182} INFO - Started process (PID=247) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:05:13,118] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:05:13,119] {logging_mixin.py:104} INFO - [2021-12-09 16:05:13,119] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:05:13,392] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:05:13,410] {logging_mixin.py:104} INFO - [2021-12-09 16:05:13,409] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:05:13,423] {logging_mixin.py:104} INFO - [2021-12-09 16:05:13,423] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:05:13,435] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.320 seconds
+[2021-12-09 16:05:43,531] {scheduler_job.py:182} INFO - Started process (PID=251) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:05:43,532] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:05:43,533] {logging_mixin.py:104} INFO - [2021-12-09 16:05:43,533] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:05:43,816] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:05:43,834] {logging_mixin.py:104} INFO - [2021-12-09 16:05:43,833] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:05:43,847] {logging_mixin.py:104} INFO - [2021-12-09 16:05:43,847] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:05:43,874] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.345 seconds
+[2021-12-09 16:06:13,974] {scheduler_job.py:182} INFO - Started process (PID=255) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:06:13,975] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:06:13,976] {logging_mixin.py:104} INFO - [2021-12-09 16:06:13,976] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:06:14,332] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:06:14,353] {logging_mixin.py:104} INFO - [2021-12-09 16:06:14,351] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:06:14,368] {logging_mixin.py:104} INFO - [2021-12-09 16:06:14,368] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:06:14,379] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.406 seconds
+[2021-12-09 16:06:44,480] {scheduler_job.py:182} INFO - Started process (PID=259) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:06:44,481] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:06:44,482] {logging_mixin.py:104} INFO - [2021-12-09 16:06:44,481] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:06:44,738] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:06:44,755] {logging_mixin.py:104} INFO - [2021-12-09 16:06:44,754] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:06:44,766] {logging_mixin.py:104} INFO - [2021-12-09 16:06:44,766] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:06:44,775] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.298 seconds
+[2021-12-09 16:07:14,878] {scheduler_job.py:182} INFO - Started process (PID=263) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:07:14,879] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:07:14,880] {logging_mixin.py:104} INFO - [2021-12-09 16:07:14,880] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:07:15,138] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:07:15,155] {logging_mixin.py:104} INFO - [2021-12-09 16:07:15,154] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:07:15,166] {logging_mixin.py:104} INFO - [2021-12-09 16:07:15,166] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:07:15,221] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.345 seconds
+[2021-12-09 16:07:45,327] {scheduler_job.py:182} INFO - Started process (PID=267) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:07:45,328] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:07:45,329] {logging_mixin.py:104} INFO - [2021-12-09 16:07:45,329] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:07:45,600] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:07:45,617] {logging_mixin.py:104} INFO - [2021-12-09 16:07:45,616] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:07:45,630] {logging_mixin.py:104} INFO - [2021-12-09 16:07:45,630] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:07:45,641] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.316 seconds
+[2021-12-09 16:08:15,747] {scheduler_job.py:182} INFO - Started process (PID=271) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:08:15,748] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:08:15,749] {logging_mixin.py:104} INFO - [2021-12-09 16:08:15,749] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:08:16,012] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:08:16,029] {logging_mixin.py:104} INFO - [2021-12-09 16:08:16,028] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:08:16,041] {logging_mixin.py:104} INFO - [2021-12-09 16:08:16,041] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:08:16,082] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.337 seconds
+[2021-12-09 16:08:46,186] {scheduler_job.py:182} INFO - Started process (PID=275) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:08:46,188] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:08:46,189] {logging_mixin.py:104} INFO - [2021-12-09 16:08:46,189] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:08:46,451] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:08:46,469] {logging_mixin.py:104} INFO - [2021-12-09 16:08:46,468] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:08:46,480] {logging_mixin.py:104} INFO - [2021-12-09 16:08:46,480] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:08:46,490] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.306 seconds
+[2021-12-09 16:09:16,598] {scheduler_job.py:182} INFO - Started process (PID=279) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:09:16,600] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:09:16,601] {logging_mixin.py:104} INFO - [2021-12-09 16:09:16,601] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:09:16,901] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:09:16,916] {logging_mixin.py:104} INFO - [2021-12-09 16:09:16,915] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:09:16,927] {logging_mixin.py:104} INFO - [2021-12-09 16:09:16,927] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:09:16,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.342 seconds
+[2021-12-09 16:09:47,047] {scheduler_job.py:182} INFO - Started process (PID=283) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:09:47,048] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:09:47,049] {logging_mixin.py:104} INFO - [2021-12-09 16:09:47,048] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:09:47,364] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:09:47,379] {logging_mixin.py:104} INFO - [2021-12-09 16:09:47,378] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:09:47,390] {logging_mixin.py:104} INFO - [2021-12-09 16:09:47,390] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:09:47,402] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.357 seconds
+[2021-12-09 16:10:17,500] {scheduler_job.py:182} INFO - Started process (PID=287) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:10:17,502] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:10:17,503] {logging_mixin.py:104} INFO - [2021-12-09 16:10:17,503] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:10:17,860] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:10:17,880] {logging_mixin.py:104} INFO - [2021-12-09 16:10:17,879] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:10:17,896] {logging_mixin.py:104} INFO - [2021-12-09 16:10:17,896] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:10:17,911] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.413 seconds
+[2021-12-09 16:10:47,996] {scheduler_job.py:182} INFO - Started process (PID=291) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:10:47,997] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:10:47,998] {logging_mixin.py:104} INFO - [2021-12-09 16:10:47,998] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:10:48,328] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:10:48,344] {logging_mixin.py:104} INFO - [2021-12-09 16:10:48,343] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:10:48,356] {logging_mixin.py:104} INFO - [2021-12-09 16:10:48,356] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:10:48,367] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.374 seconds
+[2021-12-09 16:11:18,581] {scheduler_job.py:182} INFO - Started process (PID=295) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:11:18,583] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:11:18,584] {logging_mixin.py:104} INFO - [2021-12-09 16:11:18,583] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:11:18,892] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:11:18,908] {logging_mixin.py:104} INFO - [2021-12-09 16:11:18,907] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:11:18,921] {logging_mixin.py:104} INFO - [2021-12-09 16:11:18,921] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:11:18,960] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.381 seconds
+[2021-12-09 16:11:49,058] {scheduler_job.py:182} INFO - Started process (PID=299) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:11:49,059] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:11:49,060] {logging_mixin.py:104} INFO - [2021-12-09 16:11:49,060] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:11:49,349] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:11:49,368] {logging_mixin.py:104} INFO - [2021-12-09 16:11:49,366] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:11:49,379] {logging_mixin.py:104} INFO - [2021-12-09 16:11:49,379] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:11:49,434] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.378 seconds
+[2021-12-09 16:12:19,535] {scheduler_job.py:182} INFO - Started process (PID=303) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:12:19,536] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:12:19,537] {logging_mixin.py:104} INFO - [2021-12-09 16:12:19,537] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:12:19,837] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:12:19,855] {logging_mixin.py:104} INFO - [2021-12-09 16:12:19,854] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:12:19,867] {logging_mixin.py:104} INFO - [2021-12-09 16:12:19,867] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:12:19,925] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.392 seconds
+[2021-12-09 16:12:50,025] {scheduler_job.py:182} INFO - Started process (PID=307) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:12:50,026] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:12:50,027] {logging_mixin.py:104} INFO - [2021-12-09 16:12:50,027] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:12:50,362] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:12:50,378] {logging_mixin.py:104} INFO - [2021-12-09 16:12:50,378] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:12:50,391] {logging_mixin.py:104} INFO - [2021-12-09 16:12:50,391] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:12:50,431] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.409 seconds
+[2021-12-09 16:13:20,531] {scheduler_job.py:182} INFO - Started process (PID=311) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:13:20,532] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:13:20,533] {logging_mixin.py:104} INFO - [2021-12-09 16:13:20,533] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:13:20,842] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:13:20,862] {logging_mixin.py:104} INFO - [2021-12-09 16:13:20,861] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:13:20,875] {logging_mixin.py:104} INFO - [2021-12-09 16:13:20,874] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:13:20,898] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.369 seconds
+[2021-12-09 16:13:50,994] {scheduler_job.py:182} INFO - Started process (PID=315) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:13:50,996] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:13:50,996] {logging_mixin.py:104} INFO - [2021-12-09 16:13:50,996] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:13:51,321] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:13:51,371] {logging_mixin.py:104} INFO - [2021-12-09 16:13:51,370] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:13:51,394] {logging_mixin.py:104} INFO - [2021-12-09 16:13:51,394] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:13:51,408] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.416 seconds
+[2021-12-09 16:14:21,505] {scheduler_job.py:182} INFO - Started process (PID=319) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:14:21,506] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:14:21,507] {logging_mixin.py:104} INFO - [2021-12-09 16:14:21,507] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:14:21,806] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:14:21,825] {logging_mixin.py:104} INFO - [2021-12-09 16:14:21,824] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:14:21,837] {logging_mixin.py:104} INFO - [2021-12-09 16:14:21,837] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:14:21,847] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.345 seconds
+[2021-12-09 16:14:51,908] {scheduler_job.py:182} INFO - Started process (PID=323) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:14:51,910] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:14:51,911] {logging_mixin.py:104} INFO - [2021-12-09 16:14:51,911] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:14:52,214] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:14:52,231] {logging_mixin.py:104} INFO - [2021-12-09 16:14:52,230] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:14:52,244] {logging_mixin.py:104} INFO - [2021-12-09 16:14:52,244] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:14:52,254] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.348 seconds
+[2021-12-09 16:15:22,358] {scheduler_job.py:182} INFO - Started process (PID=327) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:15:22,359] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:15:22,360] {logging_mixin.py:104} INFO - [2021-12-09 16:15:22,360] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:15:22,696] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:15:22,714] {logging_mixin.py:104} INFO - [2021-12-09 16:15:22,713] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:15:22,726] {logging_mixin.py:104} INFO - [2021-12-09 16:15:22,726] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:15:22,743] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.387 seconds
+[2021-12-09 16:15:52,958] {scheduler_job.py:182} INFO - Started process (PID=331) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:15:52,959] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:15:52,960] {logging_mixin.py:104} INFO - [2021-12-09 16:15:52,960] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:15:53,257] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:15:53,274] {logging_mixin.py:104} INFO - [2021-12-09 16:15:53,273] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:15:53,286] {logging_mixin.py:104} INFO - [2021-12-09 16:15:53,286] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:15:53,326] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.370 seconds
+[2021-12-09 16:16:23,425] {scheduler_job.py:182} INFO - Started process (PID=335) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:16:23,427] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:16:23,428] {logging_mixin.py:104} INFO - [2021-12-09 16:16:23,428] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:16:23,724] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:16:23,742] {logging_mixin.py:104} INFO - [2021-12-09 16:16:23,741] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:16:23,755] {logging_mixin.py:104} INFO - [2021-12-09 16:16:23,755] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:16:23,766] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.347 seconds
+[2021-12-09 16:16:53,863] {scheduler_job.py:182} INFO - Started process (PID=339) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:16:53,864] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:16:53,865] {logging_mixin.py:104} INFO - [2021-12-09 16:16:53,865] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:16:54,179] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:16:54,196] {logging_mixin.py:104} INFO - [2021-12-09 16:16:54,195] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:16:54,207] {logging_mixin.py:104} INFO - [2021-12-09 16:16:54,207] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:16:54,242] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.381 seconds
+[2021-12-09 16:17:24,341] {scheduler_job.py:182} INFO - Started process (PID=343) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:17:24,343] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:17:24,344] {logging_mixin.py:104} INFO - [2021-12-09 16:17:24,344] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:17:24,646] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:17:24,662] {logging_mixin.py:104} INFO - [2021-12-09 16:17:24,662] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:17:24,674] {logging_mixin.py:104} INFO - [2021-12-09 16:17:24,674] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:17:24,727] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.389 seconds
+[2021-12-09 16:17:54,824] {scheduler_job.py:182} INFO - Started process (PID=347) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:17:54,825] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:17:54,826] {logging_mixin.py:104} INFO - [2021-12-09 16:17:54,826] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:17:55,127] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:17:55,145] {logging_mixin.py:104} INFO - [2021-12-09 16:17:55,143] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:17:55,156] {logging_mixin.py:104} INFO - [2021-12-09 16:17:55,156] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:17:55,166] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.344 seconds
+[2021-12-09 16:18:25,250] {scheduler_job.py:182} INFO - Started process (PID=351) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:18:25,251] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:18:25,252] {logging_mixin.py:104} INFO - [2021-12-09 16:18:25,252] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:18:25,589] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:18:25,607] {logging_mixin.py:104} INFO - [2021-12-09 16:18:25,606] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:18:25,620] {logging_mixin.py:104} INFO - [2021-12-09 16:18:25,620] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:18:25,642] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.394 seconds
+[2021-12-09 16:18:55,737] {scheduler_job.py:182} INFO - Started process (PID=355) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:18:55,738] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:18:55,739] {logging_mixin.py:104} INFO - [2021-12-09 16:18:55,739] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:18:56,028] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:18:56,045] {logging_mixin.py:104} INFO - [2021-12-09 16:18:56,044] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:18:56,056] {logging_mixin.py:104} INFO - [2021-12-09 16:18:56,056] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:18:56,104] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.369 seconds
+[2021-12-09 16:19:26,201] {scheduler_job.py:182} INFO - Started process (PID=359) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:19:26,202] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:19:26,203] {logging_mixin.py:104} INFO - [2021-12-09 16:19:26,203] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:19:26,507] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:19:26,526] {logging_mixin.py:104} INFO - [2021-12-09 16:19:26,525] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:19:26,538] {logging_mixin.py:104} INFO - [2021-12-09 16:19:26,537] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:19:26,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.371 seconds
+[2021-12-09 16:19:56,664] {scheduler_job.py:182} INFO - Started process (PID=363) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:19:56,665] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:19:56,666] {logging_mixin.py:104} INFO - [2021-12-09 16:19:56,666] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:19:56,983] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:19:57,005] {logging_mixin.py:104} INFO - [2021-12-09 16:19:57,004] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:19:57,017] {logging_mixin.py:104} INFO - [2021-12-09 16:19:57,017] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:19:57,028] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.366 seconds
+[2021-12-09 16:20:27,121] {scheduler_job.py:182} INFO - Started process (PID=367) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:20:27,123] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:20:27,124] {logging_mixin.py:104} INFO - [2021-12-09 16:20:27,124] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:20:27,416] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:20:27,432] {logging_mixin.py:104} INFO - [2021-12-09 16:20:27,431] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:20:27,444] {logging_mixin.py:104} INFO - [2021-12-09 16:20:27,444] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:20:27,495] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.376 seconds
+[2021-12-09 16:20:57,702] {scheduler_job.py:182} INFO - Started process (PID=371) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:20:57,703] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:20:57,704] {logging_mixin.py:104} INFO - [2021-12-09 16:20:57,704] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:20:57,982] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:20:57,998] {logging_mixin.py:104} INFO - [2021-12-09 16:20:57,997] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:20:58,010] {logging_mixin.py:104} INFO - [2021-12-09 16:20:58,010] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:20:58,075] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.375 seconds
+[2021-12-09 16:21:28,178] {scheduler_job.py:182} INFO - Started process (PID=375) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:21:28,180] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:21:28,180] {logging_mixin.py:104} INFO - [2021-12-09 16:21:28,180] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:21:28,497] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:21:28,515] {logging_mixin.py:104} INFO - [2021-12-09 16:21:28,514] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:21:28,527] {logging_mixin.py:104} INFO - [2021-12-09 16:21:28,527] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:21:28,586] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.409 seconds
+[2021-12-09 16:21:58,687] {scheduler_job.py:182} INFO - Started process (PID=379) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:21:58,688] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:21:58,689] {logging_mixin.py:104} INFO - [2021-12-09 16:21:58,689] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:21:59,047] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:21:59,066] {logging_mixin.py:104} INFO - [2021-12-09 16:21:59,065] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:21:59,078] {logging_mixin.py:104} INFO - [2021-12-09 16:21:59,078] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:21:59,115] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.430 seconds
+[2021-12-09 16:22:29,215] {scheduler_job.py:182} INFO - Started process (PID=383) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:22:29,216] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:22:29,217] {logging_mixin.py:104} INFO - [2021-12-09 16:22:29,217] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:22:29,544] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:22:29,563] {logging_mixin.py:104} INFO - [2021-12-09 16:22:29,561] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:22:29,574] {logging_mixin.py:104} INFO - [2021-12-09 16:22:29,574] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:22:29,585] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.372 seconds
+[2021-12-09 16:22:59,664] {scheduler_job.py:182} INFO - Started process (PID=387) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:22:59,665] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:22:59,666] {logging_mixin.py:104} INFO - [2021-12-09 16:22:59,666] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:22:59,952] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:22:59,972] {logging_mixin.py:104} INFO - [2021-12-09 16:22:59,970] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:22:59,983] {logging_mixin.py:104} INFO - [2021-12-09 16:22:59,983] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:22:59,994] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.332 seconds
+[2021-12-09 16:23:30,096] {scheduler_job.py:182} INFO - Started process (PID=391) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:23:30,098] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:23:30,099] {logging_mixin.py:104} INFO - [2021-12-09 16:23:30,099] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:23:30,374] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:23:30,391] {logging_mixin.py:104} INFO - [2021-12-09 16:23:30,390] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:23:30,403] {logging_mixin.py:104} INFO - [2021-12-09 16:23:30,403] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:23:30,416] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.322 seconds
+[2021-12-09 16:24:00,512] {scheduler_job.py:182} INFO - Started process (PID=395) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:24:00,514] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:24:00,514] {logging_mixin.py:104} INFO - [2021-12-09 16:24:00,514] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:24:00,792] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:24:00,808] {logging_mixin.py:104} INFO - [2021-12-09 16:24:00,807] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:24:00,820] {logging_mixin.py:104} INFO - [2021-12-09 16:24:00,819] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:24:00,830] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.320 seconds
+[2021-12-09 16:24:30,924] {scheduler_job.py:182} INFO - Started process (PID=399) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:24:30,926] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:24:30,927] {logging_mixin.py:104} INFO - [2021-12-09 16:24:30,927] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:24:31,211] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:24:31,228] {logging_mixin.py:104} INFO - [2021-12-09 16:24:31,227] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:24:31,239] {logging_mixin.py:104} INFO - [2021-12-09 16:24:31,239] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:24:31,288] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.366 seconds
+[2021-12-09 16:25:01,387] {scheduler_job.py:182} INFO - Started process (PID=403) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:25:01,388] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:25:01,389] {logging_mixin.py:104} INFO - [2021-12-09 16:25:01,388] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:25:01,671] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:25:01,689] {logging_mixin.py:104} INFO - [2021-12-09 16:25:01,688] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:25:01,702] {logging_mixin.py:104} INFO - [2021-12-09 16:25:01,702] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:25:01,713] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.329 seconds
+[2021-12-09 16:25:31,812] {scheduler_job.py:182} INFO - Started process (PID=407) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:25:31,813] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:25:31,814] {logging_mixin.py:104} INFO - [2021-12-09 16:25:31,814] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:25:32,124] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:25:32,142] {logging_mixin.py:104} INFO - [2021-12-09 16:25:32,141] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:25:32,154] {logging_mixin.py:104} INFO - [2021-12-09 16:25:32,154] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:25:32,165] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.355 seconds
+[2021-12-09 16:26:02,378] {scheduler_job.py:182} INFO - Started process (PID=411) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:26:02,380] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:26:02,380] {logging_mixin.py:104} INFO - [2021-12-09 16:26:02,380] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:26:02,709] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:26:02,723] {logging_mixin.py:104} INFO - [2021-12-09 16:26:02,722] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:26:02,734] {logging_mixin.py:104} INFO - [2021-12-09 16:26:02,734] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:26:02,747] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.371 seconds
+[2021-12-09 16:26:32,815] {scheduler_job.py:182} INFO - Started process (PID=415) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:26:32,816] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:26:32,817] {logging_mixin.py:104} INFO - [2021-12-09 16:26:32,817] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:26:33,124] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:26:33,142] {logging_mixin.py:104} INFO - [2021-12-09 16:26:33,141] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:26:33,154] {logging_mixin.py:104} INFO - [2021-12-09 16:26:33,154] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:26:33,164] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.351 seconds
+[2021-12-09 16:27:03,258] {scheduler_job.py:182} INFO - Started process (PID=419) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:27:03,259] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:27:03,260] {logging_mixin.py:104} INFO - [2021-12-09 16:27:03,260] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:27:03,541] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:27:03,558] {logging_mixin.py:104} INFO - [2021-12-09 16:27:03,557] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:27:03,569] {logging_mixin.py:104} INFO - [2021-12-09 16:27:03,569] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:27:03,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.365 seconds
+[2021-12-09 16:27:33,721] {scheduler_job.py:182} INFO - Started process (PID=423) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:27:33,722] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:27:33,723] {logging_mixin.py:104} INFO - [2021-12-09 16:27:33,723] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:27:34,036] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:27:34,056] {logging_mixin.py:104} INFO - [2021-12-09 16:27:34,055] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:27:34,071] {logging_mixin.py:104} INFO - [2021-12-09 16:27:34,071] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:27:34,092] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.373 seconds
+[2021-12-09 16:28:04,187] {scheduler_job.py:182} INFO - Started process (PID=427) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:28:04,189] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:28:04,190] {logging_mixin.py:104} INFO - [2021-12-09 16:28:04,190] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:28:04,514] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:28:04,535] {logging_mixin.py:104} INFO - [2021-12-09 16:28:04,534] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:28:04,547] {logging_mixin.py:104} INFO - [2021-12-09 16:28:04,547] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:28:04,561] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.375 seconds
+[2021-12-09 16:28:34,658] {scheduler_job.py:182} INFO - Started process (PID=431) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:28:34,660] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:28:34,661] {logging_mixin.py:104} INFO - [2021-12-09 16:28:34,660] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:28:34,973] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:28:34,990] {logging_mixin.py:104} INFO - [2021-12-09 16:28:34,989] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:28:35,003] {logging_mixin.py:104} INFO - [2021-12-09 16:28:35,003] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:28:35,012] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.357 seconds
+[2021-12-09 16:29:05,107] {scheduler_job.py:182} INFO - Started process (PID=435) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:29:05,108] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:29:05,109] {logging_mixin.py:104} INFO - [2021-12-09 16:29:05,108] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:29:05,396] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:29:05,413] {logging_mixin.py:104} INFO - [2021-12-09 16:29:05,411] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:29:05,426] {logging_mixin.py:104} INFO - [2021-12-09 16:29:05,426] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:29:05,437] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.333 seconds
+[2021-12-09 16:29:35,527] {scheduler_job.py:182} INFO - Started process (PID=439) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:29:35,528] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:29:35,529] {logging_mixin.py:104} INFO - [2021-12-09 16:29:35,529] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:29:35,810] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:29:35,826] {logging_mixin.py:104} INFO - [2021-12-09 16:29:35,825] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:29:35,837] {logging_mixin.py:104} INFO - [2021-12-09 16:29:35,837] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:29:35,905] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.380 seconds
+[2021-12-09 16:30:06,007] {scheduler_job.py:182} INFO - Started process (PID=443) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:30:06,008] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:30:06,009] {logging_mixin.py:104} INFO - [2021-12-09 16:30:06,009] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:30:06,280] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:30:06,295] {logging_mixin.py:104} INFO - [2021-12-09 16:30:06,294] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:30:06,308] {logging_mixin.py:104} INFO - [2021-12-09 16:30:06,308] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:30:06,349] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.344 seconds
+[2021-12-09 16:30:36,454] {scheduler_job.py:182} INFO - Started process (PID=447) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:30:36,455] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:30:36,456] {logging_mixin.py:104} INFO - [2021-12-09 16:30:36,456] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:30:36,729] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:30:36,750] {logging_mixin.py:104} INFO - [2021-12-09 16:30:36,749] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:30:36,761] {logging_mixin.py:104} INFO - [2021-12-09 16:30:36,761] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:30:36,771] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.319 seconds
+[2021-12-09 16:31:06,987] {scheduler_job.py:182} INFO - Started process (PID=451) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:31:06,988] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:31:06,989] {logging_mixin.py:104} INFO - [2021-12-09 16:31:06,989] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:31:07,282] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:31:07,298] {logging_mixin.py:104} INFO - [2021-12-09 16:31:07,297] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:31:07,311] {logging_mixin.py:104} INFO - [2021-12-09 16:31:07,311] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:31:07,360] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.376 seconds
+[2021-12-09 16:31:37,462] {scheduler_job.py:182} INFO - Started process (PID=455) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:31:37,463] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:31:37,464] {logging_mixin.py:104} INFO - [2021-12-09 16:31:37,464] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:31:37,745] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:31:37,763] {logging_mixin.py:104} INFO - [2021-12-09 16:31:37,762] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:31:37,776] {logging_mixin.py:104} INFO - [2021-12-09 16:31:37,776] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:31:37,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.353 seconds
+[2021-12-09 16:32:07,881] {scheduler_job.py:182} INFO - Started process (PID=459) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:32:07,882] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:32:07,883] {logging_mixin.py:104} INFO - [2021-12-09 16:32:07,883] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:32:08,200] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:32:08,217] {logging_mixin.py:104} INFO - [2021-12-09 16:32:08,216] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:32:08,229] {logging_mixin.py:104} INFO - [2021-12-09 16:32:08,228] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:32:08,239] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.359 seconds
+[2021-12-09 16:32:38,327] {scheduler_job.py:182} INFO - Started process (PID=463) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:32:38,328] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:32:38,329] {logging_mixin.py:104} INFO - [2021-12-09 16:32:38,329] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:32:38,610] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:32:38,628] {logging_mixin.py:104} INFO - [2021-12-09 16:32:38,627] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:32:38,640] {logging_mixin.py:104} INFO - [2021-12-09 16:32:38,640] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:32:38,651] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.326 seconds
+[2021-12-09 16:33:08,750] {scheduler_job.py:182} INFO - Started process (PID=467) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:33:08,752] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:33:08,752] {logging_mixin.py:104} INFO - [2021-12-09 16:33:08,752] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:33:09,041] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:33:09,057] {logging_mixin.py:104} INFO - [2021-12-09 16:33:09,056] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:33:09,069] {logging_mixin.py:104} INFO - [2021-12-09 16:33:09,069] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:33:09,106] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.357 seconds
+[2021-12-09 16:33:39,202] {scheduler_job.py:182} INFO - Started process (PID=471) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:33:39,203] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:33:39,205] {logging_mixin.py:104} INFO - [2021-12-09 16:33:39,204] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:33:39,511] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:33:39,528] {logging_mixin.py:104} INFO - [2021-12-09 16:33:39,527] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:33:39,540] {logging_mixin.py:104} INFO - [2021-12-09 16:33:39,540] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:33:39,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.370 seconds
+[2021-12-09 16:34:09,663] {scheduler_job.py:182} INFO - Started process (PID=475) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:34:09,664] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:34:09,665] {logging_mixin.py:104} INFO - [2021-12-09 16:34:09,665] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:34:09,963] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:34:09,981] {logging_mixin.py:104} INFO - [2021-12-09 16:34:09,979] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:34:09,994] {logging_mixin.py:104} INFO - [2021-12-09 16:34:09,994] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:34:10,027] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.366 seconds
+[2021-12-09 16:34:40,122] {scheduler_job.py:182} INFO - Started process (PID=479) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:34:40,123] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:34:40,124] {logging_mixin.py:104} INFO - [2021-12-09 16:34:40,124] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:34:40,437] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:34:40,455] {logging_mixin.py:104} INFO - [2021-12-09 16:34:40,453] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:34:40,469] {logging_mixin.py:104} INFO - [2021-12-09 16:34:40,469] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:34:40,478] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.359 seconds
+[2021-12-09 16:35:10,567] {scheduler_job.py:182} INFO - Started process (PID=483) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:35:10,568] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:35:10,569] {logging_mixin.py:104} INFO - [2021-12-09 16:35:10,569] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:35:10,842] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:35:10,859] {logging_mixin.py:104} INFO - [2021-12-09 16:35:10,858] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:35:10,871] {logging_mixin.py:104} INFO - [2021-12-09 16:35:10,871] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:35:10,929] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.364 seconds
+[2021-12-09 16:35:41,031] {scheduler_job.py:182} INFO - Started process (PID=487) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:35:41,032] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:35:41,033] {logging_mixin.py:104} INFO - [2021-12-09 16:35:41,033] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:35:41,338] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:35:41,355] {logging_mixin.py:104} INFO - [2021-12-09 16:35:41,353] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:35:41,366] {logging_mixin.py:104} INFO - [2021-12-09 16:35:41,366] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:35:41,411] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.383 seconds
+[2021-12-09 16:36:11,633] {scheduler_job.py:182} INFO - Started process (PID=491) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:36:11,635] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:36:11,635] {logging_mixin.py:104} INFO - [2021-12-09 16:36:11,635] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:36:11,976] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:36:11,994] {logging_mixin.py:104} INFO - [2021-12-09 16:36:11,993] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:36:12,011] {logging_mixin.py:104} INFO - [2021-12-09 16:36:12,011] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:36:12,022] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.391 seconds
+[2021-12-09 16:36:42,107] {scheduler_job.py:182} INFO - Started process (PID=495) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:36:42,109] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:36:42,110] {logging_mixin.py:104} INFO - [2021-12-09 16:36:42,110] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:36:42,422] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:36:42,442] {logging_mixin.py:104} INFO - [2021-12-09 16:36:42,441] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:36:42,458] {logging_mixin.py:104} INFO - [2021-12-09 16:36:42,458] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:36:42,469] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.364 seconds
+[2021-12-09 16:37:12,554] {scheduler_job.py:182} INFO - Started process (PID=499) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:37:12,555] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:37:12,556] {logging_mixin.py:104} INFO - [2021-12-09 16:37:12,555] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:37:12,883] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:37:12,901] {logging_mixin.py:104} INFO - [2021-12-09 16:37:12,900] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:37:12,914] {logging_mixin.py:104} INFO - [2021-12-09 16:37:12,914] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:37:12,924] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.373 seconds
+[2021-12-09 16:37:43,027] {scheduler_job.py:182} INFO - Started process (PID=503) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:37:43,029] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:37:43,030] {logging_mixin.py:104} INFO - [2021-12-09 16:37:43,030] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:37:43,364] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:37:43,384] {logging_mixin.py:104} INFO - [2021-12-09 16:37:43,383] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:37:43,398] {logging_mixin.py:104} INFO - [2021-12-09 16:37:43,397] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:37:43,409] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.385 seconds
+[2021-12-09 16:38:13,504] {scheduler_job.py:182} INFO - Started process (PID=507) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:38:13,506] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 16:38:13,506] {logging_mixin.py:104} INFO - [2021-12-09 16:38:13,506] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:38:13,797] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 16:38:13,815] {logging_mixin.py:104} INFO - [2021-12-09 16:38:13,814] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 16:38:13,825] {logging_mixin.py:104} INFO - [2021-12-09 16:38:13,825] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 16:38:13,839] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.337 seconds
+[2021-12-09 17:02:36,550] {scheduler_job.py:182} INFO - Started process (PID=511) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:02:36,552] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 17:02:36,554] {logging_mixin.py:104} INFO - [2021-12-09 17:02:36,554] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:02:37,325] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:02:37,362] {logging_mixin.py:104} INFO - [2021-12-09 17:02:37,360] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 17:02:37,383] {logging_mixin.py:104} INFO - [2021-12-09 17:02:37,383] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 17:02:37,398] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.856 seconds
+[2021-12-09 17:03:07,532] {scheduler_job.py:182} INFO - Started process (PID=515) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:03:07,533] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 17:03:07,534] {logging_mixin.py:104} INFO - [2021-12-09 17:03:07,534] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:03:07,977] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:03:08,002] {logging_mixin.py:104} INFO - [2021-12-09 17:03:08,000] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 17:03:08,018] {logging_mixin.py:104} INFO - [2021-12-09 17:03:08,018] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 17:03:08,031] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.502 seconds
+[2021-12-09 17:03:38,177] {scheduler_job.py:182} INFO - Started process (PID=519) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:03:38,180] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 17:03:38,182] {logging_mixin.py:104} INFO - [2021-12-09 17:03:38,182] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:03:38,722] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:03:38,748] {logging_mixin.py:104} INFO - [2021-12-09 17:03:38,747] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 17:03:38,764] {logging_mixin.py:104} INFO - [2021-12-09 17:03:38,764] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 17:03:38,778] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.610 seconds
+[2021-12-09 17:04:08,941] {scheduler_job.py:182} INFO - Started process (PID=523) to work on /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:04:08,944] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/kym_cleansing.py for tasks to queue
+[2021-12-09 17:04:08,947] {logging_mixin.py:104} INFO - [2021-12-09 17:04:08,946] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:04:09,546] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['cleansing_dag']) retrieved from /opt/airflow/dags/kym_cleansing.py
+[2021-12-09 17:04:09,585] {logging_mixin.py:104} INFO - [2021-12-09 17:04:09,583] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-09 17:04:09,605] {logging_mixin.py:104} INFO - [2021-12-09 17:04:09,604] {dag.py:2273} INFO - Setting next_dagrun for cleansing_dag to 2021-12-09 16:04:42.997356+00:00
+[2021-12-09 17:04:09,627] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/kym_cleansing.py took 0.692 seconds

@@ -1,0 +1,22 @@
+[2021-12-13 14:58:19,866] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse 2021-12-13T14:58:18.553312+00:00 [queued]>
+[2021-12-13 14:58:19,881] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.cleanse 2021-12-13T14:58:18.553312+00:00 [queued]>
+[2021-12-13 14:58:19,881] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 14:58:19,881] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-13 14:58:19,882] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-13 14:58:19,892] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): cleanse> on 2021-12-13T14:58:18.553312+00:00
+[2021-12-13 14:58:19,897] {standard_task_runner.py:52} INFO - Started process 7295 to run task
+[2021-12-13 14:58:19,900] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'cleanse', '2021-12-13T14:58:18.553312+00:00', '--job-id', '26', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmp5yb__2qv', '--error-file', '/tmp/tmplt4bjlzz']
+[2021-12-13 14:58:19,901] {standard_task_runner.py:77} INFO - Job 26: Subtask cleanse
+[2021-12-13 14:58:19,945] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.cleanse 2021-12-13T14:58:18.553312+00:00 [running]> on host c2664a5050de
+[2021-12-13 14:58:19,984] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=cleanse
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-13T14:58:18.553312+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-13T14:58:18.553312+00:00
+[2021-12-13 15:00:11,336] {python.py:118} INFO - Done. Returned value was: None
+[2021-12-13 15:00:11,346] {taskinstance.py:1159} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=cleanse, execution_date=20211213T145818, start_date=20211213T145819, end_date=20211213T150011
+[2021-12-13 15:00:11,416] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-12-13 15:00:11,435] {local_task_job.py:146} INFO - Task exited with return code 0

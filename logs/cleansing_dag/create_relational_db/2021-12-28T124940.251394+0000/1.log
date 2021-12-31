@@ -1,0 +1,74 @@
+[2021-12-29 12:52:22,207] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.create_relational_db 2021-12-28T12:49:40.251394+00:00 [queued]>
+[2021-12-29 12:52:22,223] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.create_relational_db 2021-12-28T12:49:40.251394+00:00 [queued]>
+[2021-12-29 12:52:22,224] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-29 12:52:22,224] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-12-29 12:52:22,225] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-29 12:52:22,234] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): create_relational_db> on 2021-12-28T12:49:40.251394+00:00
+[2021-12-29 12:52:22,239] {standard_task_runner.py:52} INFO - Started process 27660 to run task
+[2021-12-29 12:52:22,241] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'cleansing_dag', 'create_relational_db', '2021-12-28T12:49:40.251394+00:00', '--job-id', '349', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmp2myk9iaz', '--error-file', '/tmp/tmpke6vlvef']
+[2021-12-29 12:52:22,242] {standard_task_runner.py:77} INFO - Job 349: Subtask create_relational_db
+[2021-12-29 12:52:22,278] {logging_mixin.py:109} INFO - Running <TaskInstance: cleansing_dag.create_relational_db 2021-12-28T12:49:40.251394+00:00 [running]> on host 34521d0e1651
+[2021-12-29 12:52:22,325] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=create_relational_db
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-28T12:49:40.251394+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-28T12:49:40.251394+00:00
+[2021-12-29 12:52:22,426] {logging_mixin.py:109} WARNING - /opt/***/dags/kym_cleansing.py:231 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2021-12-29 12:52:22,429] {logging_mixin.py:109} WARNING - /opt/***/dags/kym_cleansing.py:232 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2021-12-29 12:52:22,435] {logging_mixin.py:109} WARNING - /opt/***/dags/kym_cleansing.py:235 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2021-12-29 12:52:22,724] {taskinstance.py:1462} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1164, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1282, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1312, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/kym_cleansing.py", line 300, in create_relational_db
+    date_dimension.to_parquet("/opt/airflow/dags/date_dimension.parquet")
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 207, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 2677, in to_parquet
+    return to_parquet(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 416, in to_parquet
+    impl.write(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/parquet.py", line 173, in write
+    table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
+  File "pyarrow/table.pxi", line 1553, in pyarrow.lib.Table.from_pandas
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyarrow/pandas_compat.py", line 607, in dataframe_to_arrays
+    arrays[i] = maybe_fut.result()
+  File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 437, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.8/concurrent/futures/_base.py", line 389, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyarrow/pandas_compat.py", line 581, in convert_column
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/pyarrow/pandas_compat.py", line 575, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 302, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 83, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 97, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: ("Could not convert '2008-12-10' with type str: tried to convert to int", 'Conversion failed for column added_to_kym with type object')
+[2021-12-29 12:52:22,730] {taskinstance.py:1505} INFO - Marking task as UP_FOR_RETRY. dag_id=cleansing_dag, task_id=create_relational_db, execution_date=20211228T124940, start_date=20211229T125222, end_date=20211229T125222
+[2021-12-29 12:52:22,776] {local_task_job.py:151} INFO - Task exited with return code 1

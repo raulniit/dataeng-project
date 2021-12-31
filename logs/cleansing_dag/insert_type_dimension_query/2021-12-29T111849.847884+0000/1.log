@@ -1,0 +1,96 @@
+[2021-12-30 11:21:59,775] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.insert_type_dimension_query 2021-12-29T11:18:49.847884+00:00 [queued]>
+[2021-12-30 11:21:59,788] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: cleansing_dag.insert_type_dimension_query 2021-12-29T11:18:49.847884+00:00 [queued]>
+[2021-12-30 11:21:59,788] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-30 11:21:59,789] {taskinstance.py:1095} INFO - Starting attempt 1 of 2
+[2021-12-30 11:21:59,789] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-30 11:21:59,804] {taskinstance.py:1114} INFO - Executing <Task(PostgresOperator): insert_type_dimension_query> on 2021-12-29T11:18:49.847884+00:00
+[2021-12-30 11:21:59,809] {standard_task_runner.py:52} INFO - Started process 13940 to run task
+[2021-12-30 11:21:59,812] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'cleansing_dag', 'insert_type_dimension_query', '2021-12-29T11:18:49.847884+00:00', '--job-id', '565', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmp3w82f1qx', '--error-file', '/tmp/tmpqum0q616']
+[2021-12-30 11:21:59,813] {standard_task_runner.py:77} INFO - Job 565: Subtask insert_type_dimension_query
+[2021-12-30 11:21:59,851] {logging_mixin.py:109} INFO - Running <TaskInstance: cleansing_dag.insert_type_dimension_query 2021-12-29T11:18:49.847884+00:00 [running]> on host 06785b5b86ec
+[2021-12-30 11:21:59,909] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=insert_type_dimension_query
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-29T11:18:49.847884+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-29T11:18:49.847884+00:00
+[2021-12-30 11:21:59,910] {postgres.py:68} INFO - Executing: CREATE TABLE IF NOT EXISTS type_dimension (
+type_id INT PRIMARY KEY,
+meme_type TEXT);INSERT INTO type_dimension VALUES ('0', 'No type');
+INSERT INTO type_dimension VALUES ('1', 'snowclone');
+INSERT INTO type_dimension VALUES ('2', 'pop-culture-reference');
+INSERT INTO type_dimension VALUES ('3', 'song');
+INSERT INTO type_dimension VALUES ('4', 'viral-video');
+INSERT INTO type_dimension VALUES ('5', 'dance');
+INSERT INTO type_dimension VALUES ('6', 'catchphrase');
+INSERT INTO type_dimension VALUES ('7', 'image-macro');
+INSERT INTO type_dimension VALUES ('8', 'slang');
+INSERT INTO type_dimension VALUES ('9', 'participatory-media');
+INSERT INTO type_dimension VALUES ('10', 'shock-media');
+INSERT INTO type_dimension VALUES ('11', 'visual-effect');
+INSERT INTO type_dimension VALUES ('12', 'parody');
+INSERT INTO type_dimension VALUES ('13', 'remix');
+INSERT INTO type_dimension VALUES ('14', 'character');
+INSERT INTO type_dimension VALUES ('15', 'hoax');
+INSERT INTO type_dimension VALUES ('16', 'advertisement');
+INSERT INTO type_dimension VALUES ('17', 'reaction');
+INSERT INTO type_dimension VALUES ('18', 'copypasta');
+INSERT INTO type_dimension VALUES ('19', 'social-game');
+INSERT INTO type_dimension VALUES ('20', 'axiom');
+INSERT INTO type_dimension VALUES ('21', 'optical-illusion');
+INSERT INTO type_dimension VALUES ('22', 'photoshop');
+INSERT INTO type_dimension VALUES ('23', 'emoticon');
+INSERT INTO type_dimension VALUES ('24', 'animal');
+INSERT INTO type_dimension VALUES ('25', 'creepypasta');
+INSERT INTO type_dimension VALUES ('26', 'sound-effect');
+INSERT INTO type_dimension VALUES ('27', 'lip-dub');
+INSERT INTO type_dimension VALUES ('28', 'fan-labor');
+INSERT INTO type_dimension VALUES ('29', 'fan-art');
+INSERT INTO type_dimension VALUES ('30', 'conspiracy-theory');
+INSERT INTO type_dimension VALUES ('31', 'viral-debate');
+INSERT INTO type_dimension VALUES ('32', 'hashtag');
+INSERT INTO type_dimension VALUES ('33', 'cliche');
+[2021-12-30 11:21:59,921] {base.py:70} INFO - Using connection to: id: postgres_default. Host: postgres, Port: 5432, Schema: postgres, Login: ***, Password: ***, extra: {}
+[2021-12-30 11:21:59,925] {dbapi.py:204} INFO - Running statement: CREATE TABLE IF NOT EXISTS type_dimension (
+type_id INT PRIMARY KEY,
+meme_type TEXT);INSERT INTO type_dimension VALUES ('0', 'No type');
+INSERT INTO type_dimension VALUES ('1', 'snowclone');
+INSERT INTO type_dimension VALUES ('2', 'pop-culture-reference');
+INSERT INTO type_dimension VALUES ('3', 'song');
+INSERT INTO type_dimension VALUES ('4', 'viral-video');
+INSERT INTO type_dimension VALUES ('5', 'dance');
+INSERT INTO type_dimension VALUES ('6', 'catchphrase');
+INSERT INTO type_dimension VALUES ('7', 'image-macro');
+INSERT INTO type_dimension VALUES ('8', 'slang');
+INSERT INTO type_dimension VALUES ('9', 'participatory-media');
+INSERT INTO type_dimension VALUES ('10', 'shock-media');
+INSERT INTO type_dimension VALUES ('11', 'visual-effect');
+INSERT INTO type_dimension VALUES ('12', 'parody');
+INSERT INTO type_dimension VALUES ('13', 'remix');
+INSERT INTO type_dimension VALUES ('14', 'character');
+INSERT INTO type_dimension VALUES ('15', 'hoax');
+INSERT INTO type_dimension VALUES ('16', 'advertisement');
+INSERT INTO type_dimension VALUES ('17', 'reaction');
+INSERT INTO type_dimension VALUES ('18', 'copypasta');
+INSERT INTO type_dimension VALUES ('19', 'social-game');
+INSERT INTO type_dimension VALUES ('20', 'axiom');
+INSERT INTO type_dimension VALUES ('21', 'optical-illusion');
+INSERT INTO type_dimension VALUES ('22', 'photoshop');
+INSERT INTO type_dimension VALUES ('23', 'emoticon');
+INSERT INTO type_dimension VALUES ('24', 'animal');
+INSERT INTO type_dimension VALUES ('25', 'creepypasta');
+INSERT INTO type_dimension VALUES ('26', 'sound-effect');
+INSERT INTO type_dimension VALUES ('27', 'lip-dub');
+INSERT INTO type_dimension VALUES ('28', 'fan-labor');
+INSERT INTO type_dimension VALUES ('29', 'fan-art');
+INSERT INTO type_dimension VALUES ('30', 'conspiracy-theory');
+INSERT INTO type_dimension VALUES ('31', 'viral-debate');
+INSERT INTO type_dimension VALUES ('32', 'hashtag');
+INSERT INTO type_dimension VALUES ('33', 'cliche');, parameters: None
+[2021-12-30 11:21:59,938] {dbapi.py:212} INFO - Rows affected: 1
+[2021-12-30 11:21:59,939] {postgres.py:72} INFO - NOTICE:  relation "type_dimension" already exists, skipping
+
+[2021-12-30 11:21:59,952] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=cleansing_dag, task_id=insert_type_dimension_query, execution_date=20211229T111849, start_date=20211230T112159, end_date=20211230T112159
+[2021-12-30 11:21:59,984] {local_task_job.py:151} INFO - Task exited with return code 0

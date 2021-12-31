@@ -1,0 +1,76 @@
+[2021-12-28 14:53:34,542] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.insert_type_dimension_query 2021-12-27T14:40:38.307959+00:00 [queued]>
+[2021-12-28 14:53:34,566] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: cleansing_dag.insert_type_dimension_query 2021-12-27T14:40:38.307959+00:00 [queued]>
+[2021-12-28 14:53:34,567] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 14:53:34,568] {taskinstance.py:1043} INFO - Starting attempt 2 of 2
+[2021-12-28 14:53:34,568] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-28 14:53:34,584] {taskinstance.py:1063} INFO - Executing <Task(PostgresOperator): insert_type_dimension_query> on 2021-12-27T14:40:38.307959+00:00
+[2021-12-28 14:53:34,591] {standard_task_runner.py:52} INFO - Started process 14436 to run task
+[2021-12-28 14:53:34,595] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'cleansing_dag', 'insert_type_dimension_query', '2021-12-27T14:40:38.307959+00:00', '--job-id', '99', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/kym_cleansing.py', '--cfg-path', '/tmp/tmp68xz4ek2', '--error-file', '/tmp/tmp0hzi0cdf']
+[2021-12-28 14:53:34,596] {standard_task_runner.py:77} INFO - Job 99: Subtask insert_type_dimension_query
+[2021-12-28 14:53:34,658] {logging_mixin.py:104} INFO - Running <TaskInstance: cleansing_dag.insert_type_dimension_query 2021-12-27T14:40:38.307959+00:00 [running]> on host 78fdbf5e507e
+[2021-12-28 14:53:34,707] {taskinstance.py:1255} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=cleansing_dag
+AIRFLOW_CTX_TASK_ID=insert_type_dimension_query
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-27T14:40:38.307959+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-27T14:40:38.307959+00:00
+[2021-12-28 14:53:34,708] {postgres.py:69} INFO - Executing: CREATE TABLE IF NOT EXISTS type_dimension (
+type_id INT NOT NULL,
+meme_type VARCHAR());
+INSERT INTO type_dimension VALUES ('0', 'pop-culture-reference');
+INSERT INTO type_dimension VALUES ('1', 'song');
+INSERT INTO type_dimension VALUES ('2', 'viral-video');
+INSERT INTO type_dimension VALUES ('3', 'dance');
+INSERT INTO type_dimension VALUES ('4', 'No type');
+INSERT INTO type_dimension VALUES ('5', 'catchphrase');
+INSERT INTO type_dimension VALUES ('6', 'image-macro');
+INSERT INTO type_dimension VALUES ('7', 'slang');
+INSERT INTO type_dimension VALUES ('8', 'participatory-media');
+INSERT INTO type_dimension VALUES ('9', 'shock-media');
+INSERT INTO type_dimension VALUES ('10', 'visual-effect');
+INSERT INTO type_dimension VALUES ('11', 'parody');
+INSERT INTO type_dimension VALUES ('12', 'remix');
+INSERT INTO type_dimension VALUES ('13', 'character');
+INSERT INTO type_dimension VALUES ('14', 'hoax');
+INSERT INTO type_dimension VALUES ('15', 'advertisement');
+INSERT INTO type_dimension VALUES ('16', 'snowclone');
+INSERT INTO type_dimension VALUES ('17', 'reaction');
+INSERT INTO type_dimension VALUES ('18', 'copypasta');
+INSERT INTO type_dimension VALUES ('19', 'social-game');
+INSERT INTO type_dimension VALUES ('20', 'axiom');
+INSERT INTO type_dimension VALUES ('21', 'optical-illusion');
+INSERT INTO type_dimension VALUES ('22', 'photoshop');
+INSERT INTO type_dimension VALUES ('23', 'emoticon');
+INSERT INTO type_dimension VALUES ('24', 'animal');
+INSERT INTO type_dimension VALUES ('25', 'creepypasta');
+INSERT INTO type_dimension VALUES ('26', 'sound-effect');
+INSERT INTO type_dimension VALUES ('27', 'lip-dub');
+INSERT INTO type_dimension VALUES ('28', 'fan-labor');
+INSERT INTO type_dimension VALUES ('29', 'fan-art');
+INSERT INTO type_dimension VALUES ('30', 'conspiracy-theory');
+INSERT INTO type_dimension VALUES ('31', 'viral-debate');
+INSERT INTO type_dimension VALUES ('32', 'hashtag');
+INSERT INTO type_dimension VALUES ('33', 'cliche');
+[2021-12-28 14:53:34,727] {taskinstance.py:1455} ERROR - The conn_id `postgres_default` isn't defined
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/operators/postgres.py", line 71, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/dbapi.py", line 173, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 83, in get_conn
+    conn = self.connection or self.get_connection(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 63, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 354, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_default` isn't defined
+[2021-12-28 14:53:34,729] {taskinstance.py:1496} INFO - Marking task as FAILED. dag_id=cleansing_dag, task_id=insert_type_dimension_query, execution_date=20211227T144038, start_date=20211228T145334, end_date=20211228T145334
+[2021-12-28 14:53:34,767] {local_task_job.py:146} INFO - Task exited with return code 1
